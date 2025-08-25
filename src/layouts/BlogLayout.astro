@@ -1,0 +1,27 @@
+---
+import "../styles/main.css";
+const { title = "Блог" } = Astro.props;
+---
+
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="topbar">
+      <nav>
+        <a href="/">Главная</a>
+        <a href="/guides/guides">Гайды</a>
+        <a href="/blog/blog">Блог</a>
+      </nav>
+    </header>
+
+    <main class="blog">
+      <article class="blog-post">
+        <slot />
+      </article>
+    </main>
+  </body>
+</html>

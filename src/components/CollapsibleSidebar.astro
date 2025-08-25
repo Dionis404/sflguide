@@ -1,0 +1,346 @@
+---
+interface Props {
+  currentPath?: string;
+}
+
+interface PageInfo {
+  url: string;
+  title: string;
+  filename: string;
+}
+
+const { currentPath = '' } = Astro.props;
+
+// Получаем все страницы из папки guides
+const allPages = await Astro.glob('../pages/guides/**/*.md');
+
+// Группируем страницы по папкам
+const pagesByFolder = new Map<string, PageInfo[]>();
+const rootPages: PageInfo[] = [];
+
+allPages.forEach((page) => {
+  if (!page.url) return;
+  
+  const pathParts = page.url.split('/').filter(Boolean);
+  const title = page.frontmatter?.title || pathParts[pathParts.length - 1]?.replace(/\.md$/, '') || '';
+  
+  if (pathParts.length === 2) {
+    // Файлы в корне guides (например, /guides/fraction.md)
+    rootPages.push({ url: page.url, title, filename: pathParts[1] });
+  } else if (pathParts.length >= 3) {
+    // Файлы в подпапках (например, /guides/lifehack/intro.md)
+    const folderName = pathParts[1];
+    if (!pagesByFolder.has(folderName)) {
+      pagesByFolder.set(folderName, []);
+    }
+    pagesByFolder.get(folderName)?.push({ url: page.url, title, filename: pathParts[pathParts.length - 1] });
+  }
+});
+
+// Сортируем страницы
+rootPages.sort((a: PageInfo, b: PageInfo) => a.title.localeCompare(b.title, 'ru'));
+pagesByFolder.forEach((pages: PageInfo[]) => {
+  pages.sort((a: PageInfo, b: PageInfo) => a.title.localeCompare(b.title, 'ru'));
+});
+
+// Определяем названия разделов
+const sectionNames: Record<string, string> = {
+  'main': 'Основные гайды',
+  'lifehack': 'Лайфхаки',
+  'temporary': 'Гайды по ивентам'
+};
+---
+
+<aside class="collapsible-sidebar">
+  <div class="sidebar-inner">
+    <div class="nav-container">
+      <h3>Навигация</h3>
+      
+      <!-- Основные пункты меню -->
+      <ul class="nav-list">
+        <li class="nav-item">
+          
+        </li>
+        
+        <!-- Отдельные файлы в корне guides -->
+        {rootPages.filter(page => page.filename !== 'guides.md').map((page) => (
+          <li class="nav-item">
+            <a href={page.url} class={currentPath === page.url ? 'active' : ''}>
+              {page.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+
+      <!-- Сворачиваемые разделы -->
+      {Array.from(pagesByFolder.entries()).map(([folderName, pages]) => {
+        // Проверяем, содержит ли этот раздел активную страницу
+        const hasActivePage = pages.some(page => currentPath === page.url);
+        const isCollapsed = !hasActivePage;
+        const iconSymbol = hasActivePage ? '▼' : '▶';
+        
+        return (
+          <div class="collapsible-section">
+            <button class="section-toggle" data-folder={folderName}>
+              <span class="section-title">{sectionNames[folderName] || folderName}</span>
+              <span class="toggle-icon">{iconSymbol}</span>
+            </button>
+            <ul class={`section-content${isCollapsed ? ' collapsed' : ''}`} data-section={folderName}>
+              {pages.map((page) => (
+                <li class="nav-item sub-item">
+                  <a href={page.url} class={currentPath === page.url ? 'active' : ''}>
+                    {page.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        );
+      })}
+
+      <!-- Дополнительный раздел "Полезное" -->
+      <div class="collapsible-section">
+        <button class="section-toggle" data-folder="useful">
+          <span class="section-title">Полезное</span>
+          <span class="toggle-icon">▶</span>
+        </button>
+        <ul class="section-content collapsed" data-section="useful">
+          <li class="nav-item sub-item">
+            <a href="/blog/blog">База данных</a>
+          </li>
+          <li class="nav-item sub-item">
+            <a href="/blog/blog">Полезные ссылки</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="ad-box">
+      <img src="/image/ad.png" alt="Реклама" style="width: 100%; height: auto; display: block;" />
+    </div>
+  </div>
+</aside>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggleButtons = document.querySelectorAll('.section-toggle') as NodeListOf<HTMLButtonElement>;
+    
+    // Диагностическое логирование для отладки проблемы с белым фоном
+    function logPageDimensions() {
+      const pageWrapper = document.querySelector('.page-wrapper');
+      const contentArea = document.querySelector('.content-area');
+      const body = document.body;
+      
+      console.log('=== ДИАГНОСТИКА РАЗМЕРОВ СТРАНИЦЫ ===');
+      console.log('Viewport height:', window.innerHeight);
+      console.log('Document height:', document.documentElement.scrollHeight);
+      console.log('Body height:', body.scrollHeight);
+      if (pageWrapper) {
+        console.log('Page wrapper height:', pageWrapper.scrollHeight);
+      }
+      if (contentArea) {
+        console.log('Content area height:', contentArea.scrollHeight);
+      }
+      console.log('=====================================');
+    }
+    
+    toggleButtons.forEach((button: HTMLButtonElement) => {
+      button.addEventListener('click', function(this: HTMLButtonElement) {
+        const folderName = this.getAttribute('data-folder');
+        const content = document.querySelector(`[data-section="${folderName}"]`) as HTMLElement;
+        const icon = this.querySelector('.toggle-icon') as HTMLElement;
+        
+        if (content && icon) {
+          const isCollapsed = content.classList.contains('collapsed');
+          
+          if (isCollapsed) {
+            content.classList.remove('collapsed');
+            icon.textContent = '▼';
+            console.log(`Раскрыт раздел: ${folderName}`);
+          } else {
+            content.classList.add('collapsed');
+            icon.textContent = '▶';
+            console.log(`Свернут раздел: ${folderName}`);
+          }
+          
+          // Логируем размеры после изменения
+          setTimeout(logPageDimensions, 100);
+        }
+      });
+    });
+
+    // Логируем начальные размеры
+    logPageDimensions();
+
+    // Логика автоматического разворачивания активного раздела выполняется на сервере
+  });
+</script>
+
+<style>
+  .collapsible-sidebar {
+    border-right: 4px solid #fff;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    background-color: rgb(194, 133, 105);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+  }
+
+  .sidebar-inner {
+    position: sticky;
+    top: 0;
+  }
+
+  .nav-container {
+    border: 4px solid transparent;
+    border-image: url("/borders/light_border.png") 20% / 1 / 0 stretch;
+    border-style: solid;
+    border-width: 5.25px;
+    image-rendering: pixelated;
+    border-radius: 13.125px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #e4a672;
+  }
+
+  .collapsible-sidebar h3 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #000;
+    font-size: 14px;
+  }
+
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+  }
+
+  .nav-item {
+    margin-bottom: 4px;
+  }
+
+  .nav-item a {
+    display: block;
+    padding: 8px 12px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-item a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #000;
+  }
+
+  .nav-item a.active {
+    background-color: #e4a672;
+    color: #fff;
+  }
+
+  .collapsible-section {
+    margin-bottom: 8px;
+  }
+
+  .section-toggle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: none;
+    border-radius: 4px;
+    color: #000;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  .section-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+
+  .section-title {
+    flex: 1;
+    text-align: left;
+  }
+
+  .toggle-icon {
+    font-size: 10px;
+    transition: transform 0.2s;
+  }
+
+  .section-content {
+    list-style: none;
+    padding: 0;
+    margin: 4px 0 0 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    max-height: 500px;
+  }
+
+  .section-content.collapsed {
+    max-height: 0;
+  }
+
+  .sub-item {
+    margin-left: 16px;
+    margin-bottom: 2px;
+  }
+
+  .sub-item a {
+    padding: 6px 10px;
+    font-size: 11px;
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+
+  .sub-item a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+
+  .ad-box {
+    margin-top: auto;
+    background: rgba(255,255,255,0.08);
+    color: #000;
+    padding: 12px;
+    border: 4px solid transparent;
+    border-image: url("/borders/light_border.png") 20% / 1 / 0 stretch;
+    border-style: solid;
+    border-width: 5.25px;
+    image-rendering: pixelated;
+    border-radius: 13.125px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  /* Адаптивные стили для мобильных устройств */
+  @media (max-width: 768px) {
+    .collapsible-sidebar {
+      border-right: none;
+      border-bottom: 4px solid #fff;
+      padding: 10px;
+    }
+    
+    .nav-item a {
+      padding: 6px 10px;
+      font-size: 11px;
+    }
+    
+    .section-toggle {
+      padding: 6px 10px;
+      font-size: 11px;
+    }
+    
+    .sub-item a {
+      padding: 4px 8px;
+      font-size: 10px;
+    }
+  }
+</style>

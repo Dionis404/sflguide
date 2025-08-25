@@ -1,0 +1,41 @@
+---
+import "../styles/main.css";
+import GitBookNav from "../components/GitBookNav.astro";
+import CollapsibleSidebar from "../components/CollapsibleSidebar.astro";
+const { title = "Гайды", headings = [] } = Astro.props;
+
+// Получаем текущий путь для передачи в CollapsibleSidebar
+const currentPath = Astro.url.pathname;
+---
+
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header class="topbar">
+        <nav>
+          <a href="/">Goblin guides</a>
+          <a href="/blog/blog">База данных</a>
+          <a href="/blog/blog">Полезные ссылки</a>
+        </nav>
+      </header>
+
+      <div class="content-area">
+        <CollapsibleSidebar currentPath={currentPath} />
+
+        <main class="main-content">
+          
+          <slot />
+        </main>
+        
+        {headings && headings.length > 0 && (
+          <GitBookNav headings={headings} />
+        )}
+      </div>
+    </div>
+  </body>
+</html>

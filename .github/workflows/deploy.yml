@@ -9,7 +9,7 @@ permissions:
   packages: write
 
 env:
-  IMAGE_NAME: ghcr.io/${{ github.repository_owner,, }}/sflguide:latest
+  IMAGE_NAME: ghcr.io/dionis404/sflguide:latest
 
 jobs:
   build-and-push:

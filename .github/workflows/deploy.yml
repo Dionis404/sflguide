@@ -43,11 +43,21 @@ jobs:
           host: ${{ secrets.SERVER_IP }}
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
+          envs: IMAGE_NAME
           script: |
             set -euo pipefail
             mkdir -p /opt/sflguide
             cd /opt/sflguide
-            docker pull ${{ env.IMAGE_NAME }}
+            docker pull $IMAGE_NAME
+            cat > docker-compose.yml <<EOF
+            version: '3.8'
+            services:
+              sflguide:
+                image: $IMAGE_NAME
+                ports:
+                  - "4321:4321"
+                restart: unless-stopped
+            EOF
             docker compose down || true
             docker compose up -d --remove-orphans
             docker image prune -f || true

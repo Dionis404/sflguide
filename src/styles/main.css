@@ -1,11 +1,11 @@
-body {
-  margin: 0;
-  font-family: 'Press Start 2P', cursive;
-  color: #000000;
-  /* Добавляем фон для всех страниц, кроме главной */
-  background-color: rgb(194, 133, 105);
-  min-height: 100vh; /* Минимальная высота 100vh, но может быть больше */
-}
+ body {
+   margin: 0;
+   font-family: 'Roboto', 'Press Start 2P', cursive;
+   color: #000000;
+   /* Добавляем фон для всех страниц, кроме главной */
+   background-color: #c28569;
+   min-height: 100vh; /* Минимальная высота 100vh, но может быть больше */
+ }
 
 body.home-page {
   background: #1b1b1b url('/background/main.png') repeat;
@@ -42,7 +42,7 @@ body.home-page {
   padding: 8px 16px;
   text-decoration: none;
   color: #ffffff;
-  background: rgb(194, 133, 105);
+  background: #c28569;
   border: 4px solid transparent;
   border-image: url("/borders/dark_border.png") 20% / 1 / 0 stretch;
   border-style: solid;
@@ -50,16 +50,18 @@ body.home-page {
   image-rendering: pixelated;
   border-radius: 13.125px;
   margin: 5px;
-}
-
-.topbar a:hover {
-  color: #ffee33;
-  background: rgb(194, 133, 105);
+  font-family: 'Press Start 2P', cursive;
 }
 
 .topbar a.active {
   border-image: url("/borders/light_border.png") 20% / 1 / 0 stretch;
 }
+
+.topbar a:hover {
+  color: #ffee33;
+  background: #c28569;
+}
+
 
 /* Основная зона */
 .content-area {
@@ -67,7 +69,7 @@ body.home-page {
   grid-template-columns: 260px minmax(0, 1fr) 300px; /* Левая колонка + контент + правая колонка */
   gap: 0;
   flex: 1;
-  background-color: rgb(194, 133, 105);
+  background-color: #c28569;
   min-height: 0; /* позволяем внутреннему скроллу */
 }
 
@@ -125,42 +127,23 @@ body.home-page {
   font-size: 12px;
 }
 
-/* Правая панель (навигация в стиле GitBook) */
-.gitbook-sidebar {
-  border-left: 4px solid #fff;
-  padding: 16px;
-  background-color: rgba(0, 0, 0, 0.05);
-}
-
-.gitbook-sidebar h3 {
-  margin-top: 0;
-  color: #000;
-}
-
-.gitbook-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-.gitbook-nav li {
-  margin-bottom: 8px;
-}
-
-.gitbook-nav a {
-  text-decoration: none;
-  color: #333;
-}
-
-.gitbook-nav a:hover {
-  color: #e4a672;
-}
+/* Правая панель Содержание страницы - стили перенесены в ContentNavigation.astro */
 
 /* Основной контент */
 .main-content {
-  background: rgba(255,255,255,0.05);
+  background: #e4a672;
   padding: 20px;
   overflow-y: auto;
   min-height: 0; /* чтобы контент прокручивался внутри центральной колонки */
+  border: 4px solid transparent;
+  border-image: url("/borders/light_border.png") 20% / 1 / 0 stretch;
+  border-style: solid;
+  border-width: 5.25px;
+  image-rendering: pixelated;
+  border-radius: 13.125px;
+  margin: 15px 30px 25px;
+  max-width: calc(100% - 20px);
+  box-sizing: border-box;
 }
 
 /* Адаптивные стили для мобильных устройств */
@@ -173,6 +156,7 @@ body.home-page {
     display: block;
     margin: 5px 0;
     font-size: 14px;
+    font-family: 'Press Start 2P', cursive;
   }
   
   .content-area {
@@ -188,24 +172,34 @@ body.home-page {
   
   .main-content {
     padding: 15px;
+    margin: 5px;
+    max-width: calc(100% - 10px);
   }
   
   body {
     font-size: 14px;
   }
   
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Press Start 2P', cursive;
+  }
+
   h1 {
     font-size: 20px;
   }
-  
+
   h2 {
     font-size: 18px;
   }
-  
+
   h3 {
     font-size: 16px;
   }
-  
+
+  p, li, td, th {
+    font-family: 'Roboto', sans-serif;
+  }
+
   p {
     font-size: 14px;
   }
@@ -219,6 +213,7 @@ body.home-page {
   .topbar a {
     font-size: 12px;
     margin: 3px 0;
+    font-family: 'Press Start 2P', cursive;
   }
   
   .sidebar {
@@ -227,24 +222,34 @@ body.home-page {
   
   .main-content {
     padding: 10px;
+    margin: 3px;
+    max-width: calc(100% - 6px);
   }
   
   body {
     font-size: 12px;
   }
   
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Press Start 2P', cursive;
+  }
+
   h1 {
     font-size: 18px;
   }
-  
+
   h2 {
     font-size: 16px;
   }
-  
+
   h3 {
     font-size: 14px;
   }
-  
+
+  p, li, td, th {
+    font-family: 'Roboto', sans-serif;
+  }
+
   p {
     font-size: 12px;
   }

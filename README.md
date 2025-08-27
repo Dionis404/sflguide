@@ -1,46 +1,77 @@
-# Astro Starter Kit: Basics
+# Goblin Guides - Гайды по Sunflower Land
 
-```sh
-npm create astro@latest -- --template basics
+Проект с гайдами по игре Sunflower Land с пиксель-арт оформлением.
+
+## 🚀 О проекте
+
+Этот сайт содержит:
+- Гайды по основным механикам игры
+- Лайфхаки и советы
+- Информацию о фракциях, монетах и других аспектах
+- Блог с новостями и обновлениями
+
+## 🛠 Технологии
+
+- **Astro** - статический генератор сайтов
+- **TypeScript** - типизированный JavaScript
+- **CSS** - пиксель-арт стилизация
+
+## 📁 Структура проекта
+
 ```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
 /
 ├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
+│   ├── background/
+│   ├── borders/
+│   ├── button/
+│   ├── icon/
+│   └── image/
+├── src/
+│   ├── components/
+│   │   ├── Welcome.astro
+│   │   ├── ContentNavigation.astro
+│   │   ├── CollapsibleSidebar.astro
+│   │   └── TableOfContents.astro
+│   ├── layouts/
+│   │   ├── HomeLayout.astro
+│   │   ├── BlogLayout.astro
+│   │   └── GuidesLayout.astro
+│   ├── pages/
+│   │   ├── index.astro
+│   │   ├── blog/
+│   │   └── guides/
+│   └── styles/
+│       └── main.css
 └── package.json
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
+## 🧞 Команды
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `npm install`             | Установка зависимостей                           |
+| `npm run dev`             | Запуск сервера разработки на `localhost:4321`    |
+| `npm run build`           | Сборка проекта в `./dist/`                       |
+| `npm run preview`         | Предпросмотр сборки                             |
+| `npm run astro ...`       | Команды Astro CLI                                |
 
-## 👀 Want to learn more?
+## 🎨 Дизайн
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Сайт оформлен в пиксель-арт стиле с использованием:
+- Кастомных границ и кнопок
+- Фон с повторяющимся изображением
+- Шрифт Press Start 2P
+- Адаптивный дизайн для мобильных устройств
+
+## 📝 Разделы
+
+- **Главная** - приветственная страница с навигацией
+- **Гайды** - основные руководства по игре
+- **Блог** - новости и обновления
+- **База данных** - справочная информация
+- **Полезные ссылки** - внешние ресурсы
+
+## 👀 Дополнительно
+
+- [Документация Astro](https://docs.astro.build)
+- [Sunflower Land](https://sunflower-land.com)

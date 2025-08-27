@@ -8,8 +8,8 @@ const { currentPage = '', headings = [] } = Astro.props;
 const items = (headings || []).filter((h) => h.depth <= 3);
 ---
 
-<aside class="gitbook-sidebar">
-  <nav class="gitbook-nav">
+<aside class="content-nav-sidebar">
+  <nav class="content-nav">
     <div class="nav-header">
       <h3>Содержание</h3>
     </div>
@@ -30,7 +30,7 @@ const items = (headings || []).filter((h) => h.depth <= 3);
 </aside>
 
 <style>
-  .gitbook-sidebar {
+  .content-nav-sidebar {
     position: sticky; /* Используем sticky вместо fixed */
     top: 0; /* Прилипает к верху при скролле */
     height: 100vh; /* Высота на весь экран */
@@ -38,7 +38,7 @@ const items = (headings || []).filter((h) => h.depth <= 3);
     border-image: url("/borders/light_border.png") 20% / 1 / 0 stretch;
     background-color: rgba(0, 0, 0, 0.05);
     padding: 16px;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
   }
 
@@ -47,6 +47,7 @@ const items = (headings || []).filter((h) => h.depth <= 3);
     margin-bottom: 16px;
     color: #000;
     font-size: 14px;
+    font-family: 'Press Start 2P', cursive;
   }
 
   .nav-list {
@@ -109,7 +110,7 @@ const items = (headings || []).filter((h) => h.depth <= 3);
 
   /* Адаптивные стили для мобильных устройств */
   @media (max-width: 768px) {
-    .gitbook-sidebar {
+    .content-nav-sidebar {
       width: 100%;
       height: auto;
       border-left: none;
@@ -121,11 +122,13 @@ const items = (headings || []).filter((h) => h.depth <= 3);
     .nav-header h3 {
       font-size: 12px;
       margin-bottom: 12px;
+      font-family: 'Press Start 2P', cursive;
     }
     
     .nav-item a {
       padding: 4px 6px;
       font-size: 10px;
+      font-family: 'Roboto', sans-serif;
     }
     
     .nav-item.depth-1 {

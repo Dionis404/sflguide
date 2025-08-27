@@ -5,12 +5,30 @@
     <img src="/image/GoblinGuides.png" alt="Goblin Guides" />
     
     <div class="welcome-links">
-      <a href="/guides/guides" class="welcome-button">Гайды</a>
-      <a href="/blog/blog" class="welcome-button">Блог</a>
-      <a href="/blog/blog" class="welcome-button">Группа в ТГ</a>
-      <a href="/blog/blog" class="welcome-button">База данных</a>
-      <a href="/blog/blog" class="welcome-button">Полезные ссылки</a>
-      <a href="/blog/blog" class="welcome-button">Поддержкать проект</a>
+      <a href="/guides/guides" class="welcome-button">
+        <img src="/icon/guide.webp" alt="icon" class="menu-icon" />
+        Гайды
+      </a>
+      <a href="https://teletype.in/@urg" class="welcome-button">
+        <img src="/icon/guide.webp" alt="icon" class="menu-icon" />
+        Блог
+      </a>
+      <a href="https://t.me/sunflowerland_ru" class="welcome-button">
+        <img src="/icon/guide.webp" alt="icon" class="menu-icon" />
+        Группа в ТГ
+      </a>
+      <a href="/database" class="welcome-button">
+        <img src="/icon/guide.webp" alt="icon" class="menu-icon" />
+        База данных
+      </a>
+      <a href="/links" class="welcome-button">
+        <img src="/icon/guide.webp" alt="icon" class="menu-icon" />
+        Полезные ссылки
+      </a>
+      <a href="/donate" class="welcome-button">
+        <img src="/icon/guide.webp" alt="icon" class="menu-icon" />
+        Поддержкать проект
+      </a>
     </div>
   </div>
 </div>
@@ -22,7 +40,7 @@
     align-items: center;
     height: 100vh;
     background: #1b1b1b75;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto', sans-serif;
     color: #fff;
   }
 
@@ -40,7 +58,7 @@
     font-family: 'Press Start 2P', cursive;
   }
 
-  img {
+  .welcome-content > img {
     max-width: 70%;
     height: auto;
     display: block;
@@ -60,9 +78,12 @@
   }
 
   .welcome-button {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
     padding: 12px 24px;
-    background: rgb(30, 109, 213);
+    background: #1e6dd5;
     border: 4px solid transparent;
     border-image: url("/borders/blue_border.png") 20% / 1 / 0 stretch;
     border-style: solid;
@@ -75,9 +96,18 @@
     font-size: 14px;
   }
 
+  .menu-icon {
+    height: 1.5em;
+    width: auto;
+    image-rendering: pixelated;
+    vertical-align: middle;
+    margin: 0;
+    display: inline;
+  }
+
   .welcome-button:hover {
     color: #ffee33;
-    background: rgb(30, 122, 182);
+    background: #1e7ab6;
   }
 
   /* Адаптивные стили для мобильных устройств */
@@ -106,6 +136,12 @@
     .welcome-button {
       font-size: 12px;
       padding: 10px 20px;
+      gap: 4px;
+    }
+
+    .menu-icon {
+      height: 1.5em;
+      width: auto;
     }
   }
 
@@ -131,6 +167,12 @@
     .welcome-button {
       font-size: 10px;
       padding: 8px 16px;
+      gap: 3px;
+    }
+
+    .menu-icon {
+      height: 1.5em;
+      width: auto;
     }
   }
 </style>

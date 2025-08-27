@@ -8,6 +8,16 @@ const { title = "Блог" } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
+    <meta name="description" content="Блог и полезная информация по игре Sunflower Land">
+    <meta name="keywords" content="Sunflower Land, блог, новости, гайды">
+    <meta name="author" content="Goblin Guides">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Open Graph -->
+    <meta property="og:title" content="{title}" />
+    <meta property="og:description" content="Блог и полезная информация по игре Sunflower Land" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/image/GoblinGuides.png" />
   </head>
   <body>
     <header class="topbar">

@@ -106,10 +106,10 @@ const sectionNames: Record<string, string> = {
         </button>
         <ul class="section-content collapsed" data-section="useful">
           <li class="nav-item sub-item">
-            <a href="/blog/blog">База данных</a>
+            <a href="/database">База данных</a>
           </li>
           <li class="nav-item sub-item">
-            <a href="/blog/blog">Полезные ссылки</a>
+            <a href="/links">Полезные ссылки</a>
           </li>
         </ul>
       </div>
@@ -178,13 +178,13 @@ const sectionNames: Record<string, string> = {
 
 <style>
   .collapsible-sidebar {
-    border-right: 4px solid #fff;
+    border-right: 4px solid #c28569;
     padding: 8px;
     display: flex;
     flex-direction: column;
     min-height: 0;
-    background-color: rgb(194, 133, 105);
-    font-family: 'Press Start 2P', cursive;
+    background-color: #c28569;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
   }
 
@@ -210,6 +210,7 @@ const sectionNames: Record<string, string> = {
     margin-bottom: 16px;
     color: #000;
     font-size: 14px;
+    font-family: 'Press Start 2P', cursive;
   }
 
   .nav-list {
@@ -230,6 +231,7 @@ const sectionNames: Record<string, string> = {
     border-radius: 4px;
     transition: background-color 0.2s;
     background-color: rgba(255, 255, 255, 0.1);
+    font-family: 'Roboto', sans-serif;
   }
 
   .nav-item a:hover {
@@ -256,10 +258,14 @@ const sectionNames: Record<string, string> = {
     border: none;
     border-radius: 4px;
     color: #000;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     cursor: pointer;
     transition: background-color 0.2s;
+  }
+
+  .section-toggle .section-title {
+    font-family: 'Roboto', sans-serif;
   }
 
   .section-toggle:hover {
@@ -298,6 +304,7 @@ const sectionNames: Record<string, string> = {
     padding: 6px 10px;
     font-size: 11px;
     background-color: rgba(255, 255, 255, 0.05);
+    font-family: 'Roboto', sans-serif;
   }
 
   .sub-item a:hover {
@@ -331,11 +338,17 @@ const sectionNames: Record<string, string> = {
     .nav-item a {
       padding: 6px 10px;
       font-size: 11px;
+      font-family: 'Roboto', sans-serif;
     }
     
     .section-toggle {
-      padding: 6px 10px;
-      font-size: 11px;
+        padding: 6px 10px;
+        font-size: 11px;
+        font-family: 'Roboto', sans-serif;
+    }
+ 
+    .section-toggle .section-title {
+        font-family: 'Roboto', sans-serif;
     }
     
     .sub-item a {

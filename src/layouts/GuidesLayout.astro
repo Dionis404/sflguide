@@ -1,6 +1,6 @@
 ---
 import "../styles/main.css";
-import GitBookNav from "../components/GitBookNav.astro";
+import ContentNavigation from "../components/ContentNavigation.astro";
 import CollapsibleSidebar from "../components/CollapsibleSidebar.astro";
 const { title = "Гайды", headings = [] } = Astro.props;
 
@@ -13,14 +13,24 @@ const currentPath = Astro.url.pathname;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
+    <meta name="description" content="Подробные гайды по игре Sunflower Land - фракции, монеты, лайфхаки и стратегии">
+    <meta name="keywords" content="Sunflower Land, гайды, фракции, монеты, лайфхаки, стратегии">
+    <meta name="author" content="Goblin Guides">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Open Graph -->
+    <meta property="og:title" content="{title}" />
+    <meta property="og:description" content="Подробные гайды по игре Sunflower Land" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/image/GoblinGuides.png" />
   </head>
   <body>
     <div class="page-wrapper">
       <header class="topbar">
         <nav>
           <a href="/">Goblin guides</a>
-          <a href="/blog/blog">База данных</a>
-          <a href="/blog/blog">Полезные ссылки</a>
+          <a href="/database">База данных</a>
+          <a href="/links">Полезные ссылки</a>
         </nav>
       </header>
 
@@ -33,7 +43,7 @@ const currentPath = Astro.url.pathname;
         </main>
         
         {headings && headings.length > 0 && (
-          <GitBookNav headings={headings} />
+          <ContentNavigation headings={headings} />
         )}
       </div>
     </div>

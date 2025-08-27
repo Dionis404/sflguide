@@ -15,13 +15,12 @@ title: "Полезные ссылки"
 
 ## Сообщество
 
-- [Русскоязычное сообщество в Telegram](https://t.me/sunflowerland_ru)
-- [Блог разработчиков](https://teletype.in/@urg)
+- [Русскоязычное сообщество в Telegram](https://t.me/URGSFL)
+- [Блог](https://teletype.in/@urg)
 
 ## Инструменты
 
-- [Калькулятор ресурсов](https://sunflower-land-calculator.com)
-- [Трекер достижений](https://sunflower-land-tracker.com)
+
 
 ## Другое
 

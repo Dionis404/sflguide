@@ -63,7 +63,7 @@ const sectionNames: Record<string, string> = {
         </li>
         
         <!-- Отдельные файлы в корне guides -->
-        {rootPages.filter(page => page.filename !== 'guides.md').map((page) => (
+        {rootPages.map((page) => (
           <li class="nav-item">
             <a href={page.url} class={currentPath === page.url ? 'active' : ''}>
               {page.title}
@@ -73,27 +73,32 @@ const sectionNames: Record<string, string> = {
       </ul>
 
       <!-- Сворачиваемые разделы -->
-      {Array.from(pagesByFolder.entries()).map(([folderName, pages]) => {
+      {['main', 'lifehack', 'temporary'].map(folderName => {
+        const pages = pagesByFolder.get(folderName);
+        if (!pages) return null;
+
         // Проверяем, содержит ли этот раздел активную страницу
         const hasActivePage = pages.some(page => currentPath === page.url);
         const isCollapsed = !hasActivePage;
         const iconSymbol = hasActivePage ? '▼' : '▶';
-        
+
         return (
           <div class="collapsible-section">
             <button class="section-toggle" data-folder={folderName}>
               <span class="section-title">{sectionNames[folderName] || folderName}</span>
               <span class="toggle-icon">{iconSymbol}</span>
             </button>
-            <ul class={`section-content${isCollapsed ? ' collapsed' : ''}`} data-section={folderName}>
-              {pages.map((page) => (
-                <li class="nav-item sub-item">
-                  <a href={page.url} class={currentPath === page.url ? 'active' : ''}>
-                    {page.title}
-                  </a>
-                </li>
-              ))}
-            </ul>
+            <div class={`section-content${isCollapsed ? ' collapsed' : ''}`} data-section={folderName}>
+              <ul class="sub-items-container">
+                {pages.map((page) => (
+                  <li class="nav-item sub-item">
+                    <a href={page.url} class={currentPath === page.url ? 'active' : ''}>
+                      {page.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         );
       })}
@@ -104,14 +109,16 @@ const sectionNames: Record<string, string> = {
           <span class="section-title">Полезное</span>
           <span class="toggle-icon">▶</span>
         </button>
-        <ul class="section-content collapsed" data-section="useful">
-          <li class="nav-item sub-item">
-            <a href="/database">База данных</a>
-          </li>
-          <li class="nav-item sub-item">
-            <a href="/links">Полезные ссылки</a>
-          </li>
-        </ul>
+        <div class="section-content collapsed" data-section="useful">
+          <ul class="sub-items-container">
+            <li class="nav-item sub-item">
+              <a href="/database">База данных</a>
+            </li>
+            <li class="nav-item sub-item">
+              <a href="/links">Полезные ссылки</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -149,20 +156,50 @@ const sectionNames: Record<string, string> = {
         const folderName = this.getAttribute('data-folder');
         const content = document.querySelector(`[data-section="${folderName}"]`) as HTMLElement;
         const icon = this.querySelector('.toggle-icon') as HTMLElement;
-        
+
         if (content && icon) {
           const isCollapsed = content.classList.contains('collapsed');
-          
+
+          // Закрываем все другие открытые разделы мгновенно
+          const allContents = document.querySelectorAll('.section-content') as NodeListOf<HTMLElement>;
+          allContents.forEach((otherContent: HTMLElement) => {
+            if (otherContent !== content && !otherContent.classList.contains('collapsed')) {
+              // Временно отключаем transition для мгновенного закрытия
+              otherContent.style.transition = 'none';
+              otherContent.classList.add('collapsed');
+              // Возвращаем transition после закрытия
+              setTimeout(() => {
+                otherContent.style.transition = '';
+              }, 10);
+
+              const otherButton = document.querySelector(`[data-folder="${otherContent.getAttribute('data-section')}"]`) as HTMLElement;
+              if (otherButton) {
+                const otherIcon = otherButton.querySelector('.toggle-icon') as HTMLElement;
+                if (otherIcon) {
+                  otherIcon.textContent = '▶';
+                }
+              }
+              console.log(`Автоматически свернут раздел: ${otherContent.getAttribute('data-section')}`);
+            }
+          });
+
+          // Переключаем текущий раздел
           if (isCollapsed) {
             content.classList.remove('collapsed');
             icon.textContent = '▼';
             console.log(`Раскрыт раздел: ${folderName}`);
           } else {
+            // Временно отключаем transition для мгновенного закрытия
+            content.style.transition = 'none';
             content.classList.add('collapsed');
+            // Возвращаем transition после закрытия
+            setTimeout(() => {
+              content.style.transition = '';
+            }, 10);
             icon.textContent = '▶';
             console.log(`Свернут раздел: ${folderName}`);
           }
-          
+
           // Логируем размеры после изменения
           setTimeout(logPageDimensions, 100);
         }
@@ -228,19 +265,24 @@ const sectionNames: Record<string, string> = {
     padding: 8px 12px;
     color: #000;
     text-decoration: none;
-    border-radius: 4px;
+    border: 4px solid transparent;
+    border-image: url("/borders/gray_border.png") 20% / 1 / 0 stretch;
+    border-style: solid;
+    border-width: 5.25px;
+    image-rendering: pixelated;
+    border-radius: 13.125px;
     transition: background-color 0.2s;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #c0cbdc;
     font-family: 'Roboto', sans-serif;
   }
 
   .nav-item a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #d4dbe8;
     color: #000;
   }
 
   .nav-item a.active {
-    background-color: #e4a672;
+    background-color: #a8b5c7;
     color: #fff;
   }
 
@@ -254,9 +296,14 @@ const sectionNames: Record<string, string> = {
     justify-content: space-between;
     align-items: center;
     padding: 8px 12px;
-    background-color: rgba(255, 255, 255, 0.15);
-    border: none;
-    border-radius: 4px;
+    background-color: #c0cbdc;
+    border: 4px solid transparent;
+    border-image: url("/borders/gray_border.png") 20% / 1 / 0 stretch;
+    border-style: solid;
+    border-width: 5.25px;
+    image-rendering: pixelated;
+    border-radius: 13.125px 13.125px 0 0;
+    border-bottom: none;
     color: #000;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -269,7 +316,16 @@ const sectionNames: Record<string, string> = {
   }
 
   .section-toggle:hover {
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: #d4dbe8;
+  }
+
+  /* Когда контейнер свернут, кнопка должна иметь полную обводку */
+  .collapsible-section:has(.section-content.collapsed) .section-toggle {
+    border-radius: 13.125px;
+    border-bottom: 4px solid transparent;
+    border-image: url("/borders/gray_border.png") 20% / 1 / 0 stretch;
+    border-style: solid;
+    border-width: 5.25px;
   }
 
   .section-title {
@@ -285,7 +341,7 @@ const sectionNames: Record<string, string> = {
   .section-content {
     list-style: none;
     padding: 0;
-    margin: 4px 0 0 0;
+    margin: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
     max-height: 500px;
@@ -295,20 +351,49 @@ const sectionNames: Record<string, string> = {
     max-height: 0;
   }
 
+  .sub-items-container {
+    border: 4px solid transparent;
+    border-image: url("/borders/gray_border.png") 20% / 1 / 0 stretch;
+    border-style: solid;
+    border-width: 5.25px;
+    image-rendering: pixelated;
+    border-radius: 0 0 13.125px 13.125px;
+    border-top: none;
+    background-color: #c0cbdc;
+    padding: 8px;
+    margin: 0;
+  }
+
   .sub-item {
-    margin-left: 16px;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
+  }
+
+  .sub-item:last-child {
+    margin-bottom: 0;
   }
 
   .sub-item a {
+    display: block;
     padding: 6px 10px;
     font-size: 11px;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    color: #000;
+    text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    transition: background-color 0.2s;
   }
 
   .sub-item a:hover {
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #000;
+  }
+
+  .sub-item a.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #000;
+    font-weight: bold;
   }
 
   .ad-box {
@@ -334,26 +419,94 @@ const sectionNames: Record<string, string> = {
       border-bottom: 4px solid #fff;
       padding: 10px;
     }
-    
+
     .nav-item a {
       padding: 6px 10px;
       font-size: 11px;
+      background-color: #c0cbdc;
+      border: 4px solid transparent;
+      border-image: url("/borders/gray_border.png") 20% / 1 / 0 stretch;
+      border-style: solid;
+      border-width: 5.25px;
+      image-rendering: pixelated;
+      border-radius: 13.125px;
       font-family: 'Roboto', sans-serif;
     }
-    
+
+    .nav-item a:hover {
+      background-color: #d4dbe8;
+    }
+
+    .nav-item a.active {
+      background-color: #a8b5c7;
+      color: #fff;
+    }
+
     .section-toggle {
         padding: 6px 10px;
         font-size: 11px;
+        background-color: #c0cbdc;
+        border: 4px solid transparent;
+        border-image: url("/borders/gray_border.png") 20% / 1 / 0 stretch;
+        border-style: solid;
+        border-width: 5.25px;
+        image-rendering: pixelated;
+        border-radius: 13.125px 13.125px 0 0;
+        border-bottom: none;
         font-family: 'Roboto', sans-serif;
     }
- 
+
+    .section-toggle:hover {
+      background-color: #d4dbe8;
+    }
+
+    /* Когда контейнер свернут, кнопка должна иметь полную обводку */
+    .collapsible-section:has(.section-content.collapsed) .section-toggle {
+      border-radius: 13.125px;
+      border-bottom: 4px solid transparent;
+      border-image: url("/borders/gray_border.png") 20% / 1 / 0 stretch;
+      border-style: solid;
+      border-width: 5.25px;
+    }
+
     .section-toggle .section-title {
         font-family: 'Roboto', sans-serif;
     }
-    
+
+    .sub-items-container {
+      border: 4px solid transparent;
+      border-image: url("/borders/gray_border.png") 20% / 1 / 0 stretch;
+      border-style: solid;
+      border-width: 5.25px;
+      image-rendering: pixelated;
+      border-radius: 0 0 13.125px 13.125px;
+      border-top: none;
+      background-color: #c0cbdc;
+      padding: 6px;
+      margin: 0;
+    }
+
     .sub-item a {
       padding: 4px 8px;
       font-size: 10px;
+      background-color: transparent;
+      border: none;
+      border-radius: 0;
+      color: #000;
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif;
+      transition: background-color 0.2s;
+    }
+
+    .sub-item a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      color: #000;
+    }
+
+    .sub-item a.active {
+      background-color: rgba(255, 255, 255, 0.3);
+      color: #000;
+      font-weight: bold;
     }
   }
 </style>

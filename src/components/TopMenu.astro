@@ -1,0 +1,122 @@
+---
+// Компонент унифицированного верхнего меню
+interface Props {
+  currentPath?: string;
+}
+
+const { currentPath = '' } = Astro.props;
+---
+
+<header class="top-menu">
+  <nav class="nav-container">
+    <div class="nav-left">
+      <a href="/" class={`nav-link ${currentPath === '/' ? 'active' : ''}`}>Главная</a>
+      <a href="/guides/guides" class={`nav-link ${currentPath.startsWith('/guides') ? 'active' : ''}`}>Гайды</a>
+      <a href="/database" class={`nav-link ${currentPath === '/database' ? 'active' : ''}`}>База данных</a>
+      <a href="/links" class={`nav-link ${currentPath === '/links' ? 'active' : ''}`}>Полезные ссылки</a>
+      <a href="/contacts" class={`nav-link ${currentPath === '/contacts' ? 'active' : ''}`}>Контакты</a>
+    </div>
+    <div class="nav-right">
+      <a href="/donate" class="nav-link donate-link">Поддержать проект</a>
+    </div>
+  </nav>
+</header>
+
+<style>
+  .top-menu {
+    background-color: #e4a672;
+    border-bottom: 4px solid transparent;
+    border-image: url("/borders/light_border.png") 20% / 1 / 0 stretch;
+    border-style: solid;
+    image-rendering: pixelated;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px 20px;
+  }
+
+  .nav-left, .nav-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .nav-link {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    padding: 8px 16px;
+    border: 4px solid transparent;
+    border-image: url("/borders/light_border.png") 20% / 1 / 0 stretch;
+    border-style: solid;
+    border-radius: 13.125px;
+    image-rendering: pixelated;
+    transition: background-color 0.2s;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #000;
+  }
+
+  .nav-link.active {
+    background-color: #c28569;
+    color: #fff;
+  }
+
+  .donate-link {
+    background-color: #1e6dd5;
+    color: #fff;
+    border: 4px solid transparent;
+    border-image: url("/borders/blue_border.png") 20% / 1 / 0 stretch;
+    border-style: solid;
+    image-rendering: pixelated;
+  }
+
+  .donate-link:hover {
+    background-color: #1e7ab6;
+    color: #ffee33;
+  }
+
+  /* Адаптивные стили для мобильных устройств */
+  @media (max-width: 768px) {
+    .nav-container {
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .nav-left, .nav-right {
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .nav-link {
+      font-size: 10px;
+      padding: 6px 12px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .nav-left, .nav-right {
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .nav-link {
+      font-size: 9px;
+      padding: 4px 8px;
+    }
+  }
+</style>

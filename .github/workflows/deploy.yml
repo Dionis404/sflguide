@@ -1,0 +1,25 @@
+name: Deploy
+on: push
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Log in to GitHub Container Registry
+        run: echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+      - name: Build Docker image
+        run: docker build -t ghcr.io/dionis404/sflguide:latest .
+      - name: Push Docker image
+        run: docker push ghcr.io/dionis404/sflguide:latest
+      - name: Deploy to server
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            docker pull ghcr.io/dionis404/sflguide:latest
+            docker stop sflguide || true
+            docker rm sflguide || true
+            docker run -d --name sflguide -p 4321:4321 ghcr.io/dionis404/sflguide:latest

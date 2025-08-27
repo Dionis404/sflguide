@@ -1,5 +1,6 @@
 ---
 import "../styles/main.css";
+import TopMenu from "../components/TopMenu.astro";
 import ContentNavigation from "../components/ContentNavigation.astro";
 import CollapsibleSidebar from "../components/CollapsibleSidebar.astro";
 const { title = "Гайды", headings = [] } = Astro.props;
@@ -25,15 +26,8 @@ const currentPath = Astro.url.pathname;
     <meta property="og:image" content="/image/GoblinGuides.png" />
   </head>
   <body>
+    <TopMenu currentPath={currentPath} />
     <div class="page-wrapper">
-      <header class="topbar">
-        <nav>
-          <a href="/">Goblin guides</a>
-          <a href="/database">База данных</a>
-          <a href="/links">Полезные ссылки</a>
-        </nav>
-      </header>
-
       <div class="content-area">
         <CollapsibleSidebar currentPath={currentPath} />
 

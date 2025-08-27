@@ -1,6 +1,10 @@
 ---
 import "../styles/main.css";
+import TopMenu from "../components/TopMenu.astro";
 const { title = "Блог" } = Astro.props;
+
+// Получаем текущий путь для передачи в TopMenu
+const currentPath = Astro.url.pathname;
 ---
 
 <html lang="ru">
@@ -20,14 +24,7 @@ const { title = "Блог" } = Astro.props;
     <meta property="og:image" content="/image/GoblinGuides.png" />
   </head>
   <body>
-    <header class="topbar">
-      <nav>
-        <a href="/">Главная</a>
-        <a href="/guides/guides">Гайды</a>
-        <a href="/blog/blog">Блог</a>
-      </nav>
-    </header>
-
+    <TopMenu currentPath={currentPath} />
     <main class="blog">
       <article class="blog-post">
         <slot />

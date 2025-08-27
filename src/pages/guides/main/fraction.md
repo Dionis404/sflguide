@@ -1,6 +1,7 @@
 ---
 layout: ../../../layouts/GuidesLayout.astro
 title: Фракции
+index: 2
 ---
 
 

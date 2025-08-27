@@ -146,6 +146,32 @@ body.home-page {
   box-sizing: border-box;
 }
 
+/* Полноширинная зона контента для страниц без sidebar */
+.content-area-full {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #c28569;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: auto;
+}
+
+/* Убираем min-height для page-wrapper на страницах без sidebar */
+.page-wrapper:has(.content-area-full) {
+  min-height: auto;
+}
+
+/* Основной контент для полноширинных страниц */
+.content-area-full .main-content {
+  margin: 0;
+  max-width: 800px;
+  width: 100%;
+  flex: none;
+  overflow: visible;
+}
+
 /* Адаптивные стили для мобильных устройств */
 @media (max-width: 768px) {
   .topbar {

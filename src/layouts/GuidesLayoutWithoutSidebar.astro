@@ -1,0 +1,37 @@
+---
+import "../styles/main.css";
+import TopMenu from "../components/TopMenu.astro";
+import ContentNavigation from "../components/ContentNavigation.astro";
+const { title = "Гайды", headings = [] } = Astro.props;
+
+// Получаем текущий путь для передачи в TopMenu
+const currentPath = Astro.url.pathname;
+---
+
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+    <meta name="description" content="Подробные гайды по игре Sunflower Land - фракции, монеты, лайфхаки и стратегии">
+    <meta name="keywords" content="Sunflower Land, гайды, фракции, монеты, лайфхаки, стратегии">
+    <meta name="author" content="Goblin Guides">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Open Graph -->
+    <meta property="og:title" content="{title}" />
+    <meta property="og:description" content="Подробные гайды по игре Sunflower Land" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/image/GoblinGuides.png" />
+  </head>
+  <body>
+    <TopMenu currentPath={currentPath} />
+    <div class="page-wrapper">
+      <div class="content-area-full">
+        <main class="main-content">
+          <slot />
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

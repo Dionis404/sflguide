@@ -7,6 +7,7 @@ interface PageInfo {
   url: string;
   title: string;
   filename: string;
+  index?: number;
 }
 
 const { currentPath = '' } = Astro.props;
@@ -16,31 +17,54 @@ const allPages = await Astro.glob('../pages/guides/**/*.md');
 
 // Группируем страницы по папкам
 const pagesByFolder = new Map<string, PageInfo[]>();
-const rootPages: PageInfo[] = [];
+let rootPages: PageInfo[] = [];
 
 allPages.forEach((page) => {
   if (!page.url) return;
-  
+
   const pathParts = page.url.split('/').filter(Boolean);
   const title = page.frontmatter?.title || pathParts[pathParts.length - 1]?.replace(/\.md$/, '') || '';
-  
+  const index = page.frontmatter?.index;
+
   if (pathParts.length === 2) {
     // Файлы в корне guides (например, /guides/fraction.md)
-    rootPages.push({ url: page.url, title, filename: pathParts[1] });
+    rootPages.push({ url: page.url, title, filename: pathParts[1], index });
   } else if (pathParts.length >= 3) {
     // Файлы в подпапках (например, /guides/lifehack/intro.md)
     const folderName = pathParts[1];
     if (!pagesByFolder.has(folderName)) {
       pagesByFolder.set(folderName, []);
     }
-    pagesByFolder.get(folderName)?.push({ url: page.url, title, filename: pathParts[pathParts.length - 1] });
+    pagesByFolder.get(folderName)?.push({ url: page.url, title, filename: pathParts[pathParts.length - 1], index });
   }
 });
 
-// Сортируем страницы
-rootPages.sort((a: PageInfo, b: PageInfo) => a.title.localeCompare(b.title, 'ru'));
-pagesByFolder.forEach((pages: PageInfo[]) => {
-  pages.sort((a: PageInfo, b: PageInfo) => a.title.localeCompare(b.title, 'ru'));
+// Сортируем страницы: сначала по index (если есть), затем по title
+const sortPages = (pages: PageInfo[]) => {
+  return pages.sort((a: PageInfo, b: PageInfo) => {
+    // Если оба имеют index
+    if (a.index !== undefined && b.index !== undefined) {
+      if (a.index !== b.index) {
+        return a.index - b.index;
+      }
+      // Если index одинаковый, сортируем по title
+      return a.title.localeCompare(b.title, 'ru');
+    }
+    // Если только один имеет index, он идет первым
+    if (a.index !== undefined && b.index === undefined) {
+      return -1;
+    }
+    if (a.index === undefined && b.index !== undefined) {
+      return 1;
+    }
+    // Если оба без index, сортируем по title
+    return a.title.localeCompare(b.title, 'ru');
+  });
+};
+
+rootPages = sortPages(rootPages);
+pagesByFolder.forEach((pages: PageInfo[], folderName: string) => {
+  pagesByFolder.set(folderName, sortPages(pages));
 });
 
 // Определяем названия разделов

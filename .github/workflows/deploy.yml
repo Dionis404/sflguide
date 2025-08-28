@@ -53,8 +53,6 @@ jobs:
             services:
               sflguide:
                 image: $IMAGE_NAME
-                ports:
-                  - "80:80"
                 restart: unless-stopped
             EOF
             docker compose down --remove-orphans --volumes || true

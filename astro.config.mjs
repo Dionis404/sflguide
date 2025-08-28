@@ -12,6 +12,7 @@ export default defineConfig({
 
   preview: {
     host: true, // или "0.0.0.0"
+    allowedHosts: ["*"],
     port: 4321,
   },
 

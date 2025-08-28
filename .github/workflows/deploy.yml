@@ -54,7 +54,7 @@ jobs:
               sflguide:
                 image: $IMAGE_NAME
                 ports:
-                  - "4321:4321"
+                  - "80:80"
                 restart: unless-stopped
             EOF
             docker compose down || true

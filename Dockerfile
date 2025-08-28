@@ -5,5 +5,5 @@ RUN npm install
 COPY . .
 RUN npm run build
 EXPOSE 4321
-CMD ["npm", "run", "astro", "preview", "--host", "--port", "4321"]
+CMD ["npm", "run", "astro", "preview", "--host", "0.0.0.0", "--port", "4321"]
 

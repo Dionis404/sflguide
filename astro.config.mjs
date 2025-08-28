@@ -11,9 +11,10 @@ export default defineConfig({
     assetsDir: 'assets',
   },
 
-  server: {
+  preview: {
+    host: true, // или "0.0.0.0"
+    allowedHosts: ["sflguide.fun", "www.sflguide.fun"],
     port: 4321,
-    host: true,
   },
 
   vite: {

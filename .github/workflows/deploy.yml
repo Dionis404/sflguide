@@ -57,6 +57,7 @@ jobs:
                   - "80:80"
                 restart: unless-stopped
             EOF
-            docker compose down || true
+            docker compose down --remove-orphans --volumes || true
+            sleep 5
             docker compose up -d --remove-orphans
             docker image prune -f || true

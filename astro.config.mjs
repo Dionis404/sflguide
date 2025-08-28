@@ -7,13 +7,11 @@ export default defineConfig({
   base: '/',
 
   build: {
-    outDir: './dist',
-    assetsDir: 'assets',
+    assets: 'assets',
   },
 
   preview: {
     host: true, // или "0.0.0.0"
-    allowedHosts: ["sflguide.fun", "www.sflguide.fun"],
     port: 4321,
   },
 

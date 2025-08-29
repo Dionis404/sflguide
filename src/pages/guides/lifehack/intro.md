@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/GuidesLayout.astro
+layout: layouts/GuidesLayout.astro
 title: "Лайфхаки для Sunflower Land"
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/GuidesLayout.astro
+layout: layouts/GuidesLayout.astro
 title: "Введение в Sunflower Land"
 index: 1
 ---

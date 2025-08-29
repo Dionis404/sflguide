@@ -1,6 +1,11 @@
 ---
 import "../styles/main.css";
-const { title = "Goblin Guides" } = Astro.props;
+import { seoConfig, generateMetaTags, generateOpenGraphTags, generateTwitterTags } from "../../seo.config.js";
+
+const { title = seoConfig.defaults.home.title } = Astro.props;
+const metaTags = generateMetaTags('home', { title });
+const ogTags = generateOpenGraphTags(metaTags);
+const twitterTags = generateTwitterTags(metaTags);
 ---
 
 <html lang="ru">
@@ -8,16 +13,25 @@ const { title = "Goblin Guides" } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
-    <meta name="description" content="Гайды по игре Sunflower Land - фракции, монеты, лайфхаки и полезные советы для игроков">
-    <meta name="keywords" content="Sunflower Land, гайды, фракции, монеты, лайфхаки, Stardew Valley">
-    <meta name="author" content="Goblin Guides">
+    <meta name="description" content={metaTags.description}>
+    <meta name="keywords" content={seoConfig.site.keywords}>
+    <meta name="author" content={seoConfig.site.author}>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!-- Open Graph -->
-    <meta property="og:title" content="{title}" />
-    <meta property="og:description" content="Гайды по игре Sunflower Land - фракции, монеты, лайфхаки и полезные советы" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="/image/GoblinGuides.png" />
+    <meta property="og:title" content={ogTags['og:title']} />
+    <meta property="og:description" content={ogTags['og:description']} />
+    <meta property="og:type" content={ogTags['og:type']} />
+    <meta property="og:url" content={ogTags['og:url']} />
+    <meta property="og:image" content={ogTags['og:image']} />
+    <meta property="og:site_name" content={ogTags['og:site_name']} />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content={twitterTags['twitter:card']} />
+    <meta name="twitter:title" content={twitterTags['twitter:title']} />
+    <meta name="twitter:description" content={twitterTags['twitter:description']} />
+    <meta name="twitter:image" content={twitterTags['twitter:image']} />
+    <meta name="twitter:site" content={twitterTags['twitter:site']} />
+    <meta name="twitter:creator" content={twitterTags['twitter:creator']} />
   </head>
   <body class="home-page">
     <main class="home">

@@ -10,11 +10,6 @@ export default defineConfig({
     assets: 'assets',
   },
 
-  preview: {
-    host: true, // или "0.0.0.0"
-    allowedHosts: ["*"],
-    port: 4321,
-  },
 
   vite: {
     build: {

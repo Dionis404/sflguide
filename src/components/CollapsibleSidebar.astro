@@ -112,7 +112,7 @@ const sectionNames: Record<string, string> = {
               <span class="section-title">{sectionNames[folderName] || folderName}</span>
               <span class="toggle-icon">{iconSymbol}</span>
             </button>
-            <div class={`section-content${isCollapsed ? ' collapsed' : ''}`} data-section={folderName}>
+            <div class={`section-content${isCollapsed ? ' collapsed' : ''}`} data-section={folderName} data-has-active={hasActivePage ? 'true' : 'false'}>
               <ul class="sub-items-container">
                 {pages.map((page) => (
                   <li class="nav-item sub-item">
@@ -133,7 +133,7 @@ const sectionNames: Record<string, string> = {
           <span class="section-title">Полезное</span>
           <span class="toggle-icon">▶</span>
         </button>
-        <div class="section-content collapsed" data-section="useful">
+        <div class="section-content collapsed" data-section="useful" data-has-active="false">
           <ul class="sub-items-container">
             <li class="nav-item sub-item">
               <a href="/database">База данных</a>
@@ -211,6 +211,7 @@ const sectionNames: Record<string, string> = {
           if (isCollapsed) {
             content.classList.remove('collapsed');
             icon.textContent = '▼';
+            localStorage.setItem(`sidebar-${folderName}`, 'expanded');
             console.log(`Раскрыт раздел: ${folderName}`);
           } else {
             // Временно отключаем transition для мгновенного закрытия
@@ -221,6 +222,7 @@ const sectionNames: Record<string, string> = {
               content.style.transition = '';
             }, 10);
             icon.textContent = '▶';
+            localStorage.setItem(`sidebar-${folderName}`, 'collapsed');
             console.log(`Свернут раздел: ${folderName}`);
           }
 
@@ -232,6 +234,55 @@ const sectionNames: Record<string, string> = {
 
     // Логируем начальные размеры
     logPageDimensions();
+
+    // Инициализация состояния разделов на основе localStorage и data-has-active
+    const sections = document.querySelectorAll('.section-content') as NodeListOf<HTMLElement>;
+    const hasAnyActive = Array.from(sections).some((section: HTMLElement) => section.getAttribute('data-has-active') === 'true');
+
+    if (hasAnyActive) {
+      // Если есть активная страница, раскрываем только ее раздел, закрываем остальные
+      sections.forEach((section: HTMLElement) => {
+        const folderName = section.getAttribute('data-section');
+        const hasActive = section.getAttribute('data-has-active') === 'true';
+        const button = document.querySelector(`[data-folder="${folderName}"]`) as HTMLElement;
+
+        if (hasActive) {
+          section.classList.remove('collapsed');
+          if (button) {
+            const icon = button.querySelector('.toggle-icon') as HTMLElement;
+            if (icon) icon.textContent = '▼';
+          }
+        } else {
+          section.classList.add('collapsed');
+          if (button) {
+            const icon = button.querySelector('.toggle-icon') as HTMLElement;
+            if (icon) icon.textContent = '▶';
+          }
+        }
+      });
+    } else {
+      // Если нет активных страниц, используем сохраненное состояние из localStorage
+      sections.forEach((section: HTMLElement) => {
+        const folderName = section.getAttribute('data-section');
+        const stored = localStorage.getItem(`sidebar-${folderName}`);
+        const button = document.querySelector(`[data-folder="${folderName}"]`) as HTMLElement;
+
+        if (stored === 'expanded') {
+          section.classList.remove('collapsed');
+          if (button) {
+            const icon = button.querySelector('.toggle-icon') as HTMLElement;
+            if (icon) icon.textContent = '▼';
+          }
+        } else if (stored === 'collapsed') {
+          section.classList.add('collapsed');
+          if (button) {
+            const icon = button.querySelector('.toggle-icon') as HTMLElement;
+            if (icon) icon.textContent = '▶';
+          }
+        }
+        // Если stored null, оставляем как есть (collapsed по умолчанию)
+      });
+    }
 
     // Логика автоматического разворачивания активного раздела выполняется на сервере
   });

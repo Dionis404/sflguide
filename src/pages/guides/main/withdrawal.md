@@ -1,7 +1,7 @@
 ---
 layout: layouts/GuidesLayout.astro
 title: "Вывод из игры"
-index: 3
+index: 10
 ---
 
 # как выводить NFT 

@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/BlogLayout.astro
+layout: layouts/GuidesLayout.astro
 title: "Полезные ссылки"
 ---
 

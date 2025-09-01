@@ -127,23 +127,6 @@ const sectionNames: Record<string, string> = {
         );
       })}
 
-      <!-- Дополнительный раздел "Полезное" -->
-      <div class="collapsible-section">
-        <button class="section-toggle" data-folder="useful">
-          <span class="section-title">Полезное</span>
-          <span class="toggle-icon">▶</span>
-        </button>
-        <div class="section-content collapsed" data-section="useful" data-has-active="false">
-          <ul class="sub-items-container">
-            <li class="nav-item sub-item">
-              <a href="/database">База данных</a>
-            </li>
-            <li class="nav-item sub-item">
-              <a href="/links">Полезные ссылки</a>
-            </li>
-          </ul>
-        </div>
-      </div>
     </div>
 
     <div class="ad-box">
@@ -196,14 +179,17 @@ const sectionNames: Record<string, string> = {
                 otherContent.style.transition = '';
               }, 10);
 
-              const otherButton = document.querySelector(`[data-folder="${otherContent.getAttribute('data-section')}"]`) as HTMLElement;
+              const otherFolderName = otherContent.getAttribute('data-section');
+              localStorage.setItem(`sidebar-${otherFolderName}`, 'collapsed');
+
+              const otherButton = document.querySelector(`[data-folder="${otherFolderName}"]`) as HTMLElement;
               if (otherButton) {
                 const otherIcon = otherButton.querySelector('.toggle-icon') as HTMLElement;
                 if (otherIcon) {
                   otherIcon.textContent = '▶';
                 }
               }
-              console.log(`Автоматически свернут раздел: ${otherContent.getAttribute('data-section')}`);
+              console.log(`Автоматически свернут раздел: ${otherFolderName}`);
             }
           });
 
@@ -261,26 +247,16 @@ const sectionNames: Record<string, string> = {
         }
       });
     } else {
-      // Если нет активных страниц, используем сохраненное состояние из localStorage
+      // Если нет активных страниц, закрываем все разделы
       sections.forEach((section: HTMLElement) => {
         const folderName = section.getAttribute('data-section');
-        const stored = localStorage.getItem(`sidebar-${folderName}`);
         const button = document.querySelector(`[data-folder="${folderName}"]`) as HTMLElement;
 
-        if (stored === 'expanded') {
-          section.classList.remove('collapsed');
-          if (button) {
-            const icon = button.querySelector('.toggle-icon') as HTMLElement;
-            if (icon) icon.textContent = '▼';
-          }
-        } else if (stored === 'collapsed') {
-          section.classList.add('collapsed');
-          if (button) {
-            const icon = button.querySelector('.toggle-icon') as HTMLElement;
-            if (icon) icon.textContent = '▶';
-          }
+        section.classList.add('collapsed');
+        if (button) {
+          const icon = button.querySelector('.toggle-icon') as HTMLElement;
+          if (icon) icon.textContent = '▶';
         }
-        // Если stored null, оставляем как есть (collapsed по умолчанию)
       });
     }
 

@@ -146,6 +146,69 @@ body.home-page {
   box-sizing: border-box;
 }
 
+/* Улучшения для читаемости гайдов */
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+  color: #2c1810;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+}
+
+.main-content p, .main-content li, .main-content td, .main-content th {
+  color: #2c1810;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+.main-content blockquote, .main-content .highlight-box {
+  background: rgba(255, 255, 255, 0.15);
+  border-left: 4px solid #c28569;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-content ul, .main-content ol {
+  margin-bottom: 1.5em;
+}
+
+.main-content li {
+  margin-bottom: 0.5em;
+}
+
+.main-content table {
+  background: rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+  margin: 20px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-content th, .main-content td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.main-content th {
+  background: rgba(194, 133, 105, 0.3);
+  font-weight: bold;
+}
+
+.main-content a {
+  color: #8b4513;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.main-content a:hover {
+  color: #daa520;
+  text-decoration: underline;
+}
+
 /* Полноширинная зона контента для страниц без sidebar */
 .content-area-full {
   display: flex;
@@ -177,35 +240,61 @@ body.home-page {
   .topbar {
     padding: 10px;
   }
-  
+
   .topbar a {
     display: block;
     margin: 5px 0;
     font-size: 14px;
     font-family: 'Press Start 2P', cursive;
   }
-  
+
   .content-area {
     grid-template-columns: 1fr; /* Одна колонка на мобильных устройствах */
     grid-template-rows: auto 1fr auto; /* Сайдбар, контент, затем содержание */
   }
-  
+
   .sidebar {
     border-right: none;
     border-bottom: 4px solid #fff;
     padding: 10px;
   }
-  
+
   .main-content {
     padding: 15px;
     margin: 5px;
     max-width: calc(100% - 10px);
   }
-  
+
+  /* Улучшения для читаемости на мобильных */
+  .main-content h1, .main-content h2, .main-content h3 {
+    font-size: 1.2em;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+  }
+
+  .main-content p, .main-content li {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 1.2em;
+  }
+
+  .main-content blockquote, .main-content .highlight-box {
+    padding: 12px 15px;
+    margin: 15px 0;
+  }
+
+  .main-content table {
+    font-size: 14px;
+  }
+
+  .main-content th, .main-content td {
+    padding: 10px 12px;
+  }
+
   body {
     font-size: 14px;
   }
-  
+
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Press Start 2P', cursive;
   }
@@ -235,27 +324,53 @@ body.home-page {
   .topbar {
     padding: 5px;
   }
-  
+
   .topbar a {
     font-size: 12px;
     margin: 3px 0;
     font-family: 'Press Start 2P', cursive;
   }
-  
+
   .sidebar {
     padding: 8px;
   }
-  
+
   .main-content {
     padding: 10px;
     margin: 3px;
     max-width: calc(100% - 6px);
   }
-  
+
+  /* Улучшения для очень маленьких экранов */
+  .main-content h1, .main-content h2, .main-content h3 {
+    font-size: 1.1em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  .main-content p, .main-content li {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 1.3em;
+  }
+
+  .main-content blockquote, .main-content .highlight-box {
+    padding: 10px 12px;
+    margin: 12px 0;
+  }
+
+  .main-content table {
+    font-size: 13px;
+  }
+
+  .main-content th, .main-content td {
+    padding: 8px 10px;
+  }
+
   body {
     font-size: 12px;
   }
-  
+
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Press Start 2P', cursive;
   }

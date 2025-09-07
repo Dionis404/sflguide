@@ -4,11 +4,19 @@ title: Как заработать FLOWER
 index: 2
 ---
 
+
+
 ## Как заработать токен $**FLOWER** в Sunflower Land
 
 Токен **$FLOWER** - это внутриигровая валюта, которую можно использовать для торговли, развития фермы и участия в экономике игры. Ниже представлены основные способы его получения.
-
+ 
 ---
+# Видео гайд 
+<div style="text-align: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FSH8unUGeT4" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
 
 ### 1. Рынок
 
@@ -68,13 +76,77 @@ index: 2
 
 ---
 
-### 4. Сундуки главы
+### 4. Flower Box
 
-Новичкам стоит попробовать **сундуки главы**.
+Новичкам стоит попробовать **Flower Box**.
 
 - Это способ испытать удачу и заработать первые токены.
 - Отлично подходит для тех, кто хочет познакомиться с механикой соревнований главы и получить бонусы.
-- Шансы выпадения и возможные награды можно посмотреть на сайте: https://sfl.world/info/chests
+- Шансы выпадения и возможные награды 
+<div style="display: flex; gap: 10px;">
+
+<table>
+<thead>
+<tr><th colspan="2">Bronze Flower Box</th></tr>
+<tr><th>Flower</th><th>Chance</th></tr>
+</thead>
+<tbody>
+<tr><td>5</td><td>25.4%</td></tr>
+<tr><td>10</td><td>25.4%</td></tr>
+<tr><td>15</td><td>19.0%</td></tr>
+<tr><td>20</td><td>12.7%</td></tr>
+<tr><td>25</td><td>7.61%</td></tr>
+<tr><td>30</td><td>5.08%</td></tr>
+<tr><td>35</td><td>2.54%</td></tr>
+<tr><td>40</td><td>1.27%</td></tr>
+<tr><td>45</td><td>0.76%</td></tr>
+<tr><td>50</td><td>0.25%</td></tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr><th colspan="2">Silver Flower Box</th></tr>
+<tr><th>Flower</th><th>Chance</th></tr>
+</thead>
+<tbody>
+<tr><td>15</td><td>27.9%</td></tr>
+<tr><td>25</td><td>27.9%</td></tr>
+<tr><td>35</td><td>13.9%</td></tr>
+<tr><td>50</td><td>11.1%</td></tr>
+<tr><td>60</td><td>8.36%</td></tr>
+<tr><td>70</td><td>5.57%</td></tr>
+<tr><td>80</td><td>2.79%</td></tr>
+<tr><td>90</td><td>1.39%</td></tr>
+<tr><td>100</td><td>0.84%</td></tr>
+<tr><td>150</td><td>0.28%</td></tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr><th colspan="2">Gold Flower Box</th></tr>
+<tr><th>Flower</th><th>Chance</th></tr>
+</thead>
+<tbody>
+<tr><td>50</td><td>26.3%</td></tr>
+<tr><td>75</td><td>26.3%</td></tr>
+<tr><td>100</td><td>13.2%</td></tr>
+<tr><td>125</td><td>10.5%</td></tr>
+<tr><td>150</td><td>7.89%</td></tr>
+<tr><td>160</td><td>5.26%</td></tr>
+<tr><td>170</td><td>3.95%</td></tr>
+<tr><td>180</td><td>2.63%</td></tr>
+<tr><td>190</td><td>1.32%</td></tr>
+<tr><td>200</td><td>1.05%</td></tr>
+<tr><td>250</td><td>0.79%</td></tr>
+<tr><td>300</td><td>0.53%</td></tr>
+<tr><td>500</td><td>0.26%</td></tr>
+</tbody>
+</table>
+
+</div>
+
 
 ---
 

@@ -13,7 +13,7 @@ index: 2
 ---
 # Видео гайд 
 <div style="text-align: center;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/FSH8unUGeT4" frameborder="0" allowfullscreen></iframe>
+  <iframe width="90%" height="650" src="https://www.youtube.com/embed/FSH8unUGeT4" frameborder="0" allowfullscreen></iframe>
 </div>
 
 

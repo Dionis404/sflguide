@@ -2,32 +2,20 @@
 layout: ../../layouts/GuidesLayoutWithoutSidebar.astro
 title: "Контакты"
 ---
-
 # Контакты
-
-Свяжитесь с нами по любым вопросам, предложениям или для сотрудничества.
+<img src="/SEO/URG.png" alt="URG" style="width: 100%; max-width: 800px;">
 
 Социальные сети и сообщества:
-
-- **Telegram канал**: [@URGSFL](https://t.me/URGSFL) - Наше сообщество в Telegram 
-- **Telegram блог**: [@urg](https://teletype.in/@urg) - новости и обновления
-- **Discord**: [Sunflower Land Discord](https://discord.gg/sunflowerland) - официальный Discord сервер
-
-Контакты разработчиков:
+- **Мой Telegram канал**: [URGSFL](https://t.me/URGSFL)
+- **Блог**: [Usual Routine Goblin](https://teletype.in/@urg)
+- **Чат фермеров**: [URGSFL](https://t.me/+fhJvtNvdAttkNTky)
 
 Если у вас есть технические вопросы, предложения по улучшению сайта или вы хотите внести свой вклад:
-
-- **Email**: 
-- **GitHub**: [ссылка на репозиторий](https://github.com/Dionis404/sflguide)
+- **GitHub**: [sflguide](https://github.com/Dionis404/sflguide)
 
 Поддержка проекта:
 
 Если вы хотите поддержать проект финансово:
+- **Поддержать проект**: [Поддержать](/donate) 
 
-- **Поддержать проект**: [Донат](/donate) - страница с информацией о поддержке
-
-Обратная связь:
-
-Мы всегда рады услышать ваше мнение! Напишите нам в Telegram.
-
-*Спасибо за интерес к Goblin Guides!*
+Я всегда рады услышать ваше мнение! 

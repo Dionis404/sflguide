@@ -225,6 +225,9 @@ const sectionNames: Record<string, string> = {
     const sections = document.querySelectorAll('.section-content') as NodeListOf<HTMLElement>;
     const hasAnyActive = Array.from(sections).some((section: HTMLElement) => section.getAttribute('data-has-active') === 'true');
 
+    console.log('Sidebar init: hasAnyActive', hasAnyActive);
+    console.log('Current pathname:', window.location.pathname);
+
     sections.forEach((section: HTMLElement) => {
       const folderName = section.getAttribute('data-section');
       const hasActive = section.getAttribute('data-has-active') === 'true';
@@ -234,8 +237,11 @@ const sectionNames: Record<string, string> = {
       // Определяем желаемое состояние
       const shouldBeCollapsed = !hasActive;
 
+      console.log(`Section ${folderName}: hasActive=${hasActive}, currentCollapsed=${isCurrentlyCollapsed}, shouldBeCollapsed=${shouldBeCollapsed}`);
+
       // Если текущее состояние не соответствует желаемому, корректируем
       if (isCurrentlyCollapsed !== shouldBeCollapsed) {
+        console.log(`Changing state for ${folderName}: from ${isCurrentlyCollapsed ? 'collapsed' : 'expanded'} to ${shouldBeCollapsed ? 'collapsed' : 'expanded'}`);
         if (shouldBeCollapsed) {
           section.classList.add('collapsed');
           if (button) {
@@ -249,6 +255,8 @@ const sectionNames: Record<string, string> = {
             if (icon) icon.textContent = '▼';
           }
         }
+      } else {
+        console.log(`No change for ${folderName}: state already correct`);
       }
     });
 

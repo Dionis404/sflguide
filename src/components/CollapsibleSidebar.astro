@@ -218,11 +218,17 @@ const sectionNames: Record<string, string> = {
       });
     });
 
+    console.log('Starting DOMContentLoaded for sidebar');
+
     // Логируем начальные размеры
     logPageDimensions();
 
+    console.log('About to init sidebar sections');
+
     // Инициализация состояния разделов: проверяем, соответствует ли текущее состояние серверному
     const sections = document.querySelectorAll('.section-content') as NodeListOf<HTMLElement>;
+    console.log('Sections found:', sections.length);
+
     const hasAnyActive = Array.from(sections).some((section: HTMLElement) => section.getAttribute('data-has-active') === 'true');
 
     console.log('Sidebar init: hasAnyActive', hasAnyActive);
@@ -259,6 +265,8 @@ const sectionNames: Record<string, string> = {
         console.log(`No change for ${folderName}: state already correct`);
       }
     });
+
+    console.log('Sidebar init completed');
 
     // Логика автоматического разворачивания активного раздела выполняется на сервере
   });

@@ -102,7 +102,14 @@ const sectionNames: Record<string, string> = {
         if (!pages) return null;
 
         // Проверяем, содержит ли этот раздел активную страницу
-        const hasActivePage = pages.some(page => currentPath === page.url);
+        console.log('Current path for comparison:', currentPath);
+        const hasActivePage = pages.some(page => {
+          const cleanCurrent = currentPath.replace(/\/$/, '');
+          const cleanPage = page.url.replace(/\/$/, '');
+          console.log('Comparing cleanCurrent', cleanCurrent, 'with cleanPage', cleanPage);
+          return cleanCurrent === cleanPage;
+        });
+        console.log('hasActivePage for folder', folderName, ':', hasActivePage);
         const isCollapsed = !hasActivePage;
         const iconSymbol = hasActivePage ? '▼' : '▶';
 

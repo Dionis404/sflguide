@@ -221,44 +221,36 @@ const sectionNames: Record<string, string> = {
     // Логируем начальные размеры
     logPageDimensions();
 
-    // Инициализация состояния разделов на основе localStorage и data-has-active
+    // Инициализация состояния разделов: проверяем, соответствует ли текущее состояние серверному
     const sections = document.querySelectorAll('.section-content') as NodeListOf<HTMLElement>;
     const hasAnyActive = Array.from(sections).some((section: HTMLElement) => section.getAttribute('data-has-active') === 'true');
 
-    if (hasAnyActive) {
-      // Если есть активная страница, раскрываем только ее раздел, закрываем остальные
-      sections.forEach((section: HTMLElement) => {
-        const folderName = section.getAttribute('data-section');
-        const hasActive = section.getAttribute('data-has-active') === 'true';
-        const button = document.querySelector(`[data-folder="${folderName}"]`) as HTMLElement;
+    sections.forEach((section: HTMLElement) => {
+      const folderName = section.getAttribute('data-section');
+      const hasActive = section.getAttribute('data-has-active') === 'true';
+      const button = document.querySelector(`[data-folder="${folderName}"]`) as HTMLElement;
+      const isCurrentlyCollapsed = section.classList.contains('collapsed');
 
-        if (hasActive) {
-          section.classList.remove('collapsed');
-          if (button) {
-            const icon = button.querySelector('.toggle-icon') as HTMLElement;
-            if (icon) icon.textContent = '▼';
-          }
-        } else {
+      // Определяем желаемое состояние
+      const shouldBeCollapsed = !hasActive;
+
+      // Если текущее состояние не соответствует желаемому, корректируем
+      if (isCurrentlyCollapsed !== shouldBeCollapsed) {
+        if (shouldBeCollapsed) {
           section.classList.add('collapsed');
           if (button) {
             const icon = button.querySelector('.toggle-icon') as HTMLElement;
             if (icon) icon.textContent = '▶';
           }
+        } else {
+          section.classList.remove('collapsed');
+          if (button) {
+            const icon = button.querySelector('.toggle-icon') as HTMLElement;
+            if (icon) icon.textContent = '▼';
+          }
         }
-      });
-    } else {
-      // Если нет активных страниц, закрываем все разделы
-      sections.forEach((section: HTMLElement) => {
-        const folderName = section.getAttribute('data-section');
-        const button = document.querySelector(`[data-folder="${folderName}"]`) as HTMLElement;
-
-        section.classList.add('collapsed');
-        if (button) {
-          const icon = button.querySelector('.toggle-icon') as HTMLElement;
-          if (icon) icon.textContent = '▶';
-        }
-      });
-    }
+      }
+    });
 
     // Логика автоматического разворачивания активного раздела выполняется на сервере
   });

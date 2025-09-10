@@ -16,8 +16,20 @@ const twitterTags = generateTwitterTags(metaTags);
     <meta name="description" content={metaTags.description}>
     <meta name="keywords" content={seoConfig.site.keywords}>
     <meta name="author" content={seoConfig.site.author}>
+    <link rel="canonical" href={metaTags.url} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": seoConfig.site.name,
+      "url": seoConfig.site.url,
+      "description": seoConfig.site.description,
+      "author": {
+        "@type": "Organization",
+        "name": seoConfig.site.author
+      }
+    })} />
     <!-- Open Graph -->
     <meta property="og:title" content={ogTags['og:title']} />
     <meta property="og:description" content={ogTags['og:description']} />

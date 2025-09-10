@@ -1,6 +1,9 @@
 ---
 layout: layouts/GuidesLayout.astro
-title: Как заработать FLOWER
+title: Как заработать FLOWER в Sunflower Land
+description: "Полное руководство по заработку токенов $FLOWER в игре Sunflower Land. Узнайте о рынках, доставках, Love Charm и Flower Box для максимального дохода."
+image: "/image/guide.webp"
+keywords: "FLOWER, заработок, Sunflower Land, рынок, доставки, Love Charm, Flower Box, гайды"
 index: 2
 ---
 

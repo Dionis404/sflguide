@@ -1,0 +1,19 @@
+---
+export interface Props {
+  icon?: string;
+  title: string;
+  children: any;
+}
+
+const { icon = "⚠️", title, children } = Astro.props;
+---
+
+<div class="warning-box">
+  <div class="warning-header">
+    <span class="warning-icon">{icon}</span>
+    <strong class="warning-title">{title}</strong>
+  </div>
+  <div class="warning-content">
+    {children}
+  </div>
+</div>

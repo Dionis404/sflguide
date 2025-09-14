@@ -3,6 +3,10 @@ import "../styles/main.css";
 import TopMenu from "../components/TopMenu.astro";
 import ContentNavigation from "../components/ContentNavigation.astro";
 import CollapsibleSidebar from "../components/CollapsibleSidebar.astro";
+import GuideImage from "../components/GuideImage.astro";
+import HighlightBox from "../components/HighlightBox.astro";
+import WarningBox from "../components/WarningBox.astro";
+import AccentText from "../components/AccentText.astro";
 import { seoConfig, generateMetaTags, generateOpenGraphTags, generateTwitterTags } from "../../seo.config.js";
 
 const { title = seoConfig.defaults.guides.title, headings = [] } = Astro.props;

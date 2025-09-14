@@ -1,6 +1,6 @@
 ---
 layout: layouts/GuidesLayout.astro
-title: Как заработать FLOWER в Sunflower Land
+title: Как заработать FLOWER 
 description: "Полное руководство по заработку токенов $FLOWER в игре Sunflower Land. Узнайте о рынках, доставках, Love Charm и Flower Box для максимального дохода."
 image: "/image/guide.webp"
 keywords: "FLOWER, заработок, Sunflower Land, рынок, доставки, Love Charm, Flower Box, гайды"
@@ -9,7 +9,7 @@ index: 2
 
 
 
-## Как заработать токен $**FLOWER** в Sunflower Land
+## Как заработать токен $**FLOWER** 
 
 Токен **$FLOWER** - это внутриигровая валюта, которую можно использовать для торговли, развития фермы и участия в экономике игры. Ниже представлены основные способы его получения.
  

@@ -39,6 +39,12 @@ export default defineConfig({
       // @ts-ignore
       langs: ['javascript', 'typescript', 'css', 'json'],
     },
+    remarkPlugins: [
+      'remark-gfm',
+    ],
+    rehypePlugins: [
+      ['rehype-raw', { passThrough: ['html', 'head', 'body'] }]
+    ],
   },
 
   integrations: [sitemap()],

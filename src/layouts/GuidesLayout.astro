@@ -3,9 +3,11 @@ import "../styles/main.css";
 import TopMenu from "../components/TopMenu.astro";
 import ContentNavigation from "../components/ContentNavigation.astro";
 import CollapsibleSidebar from "../components/CollapsibleSidebar.astro";
+import HighlightBlock from "../components/HighlightBlock.astro";
 import { seoConfig, generateMetaTags, generateOpenGraphTags, generateTwitterTags } from "../../seo.config.js";
 
-const { title = seoConfig.defaults.guides.title, headings = [] } = Astro.props;
+const { frontmatter, headings = [] } = Astro.props;
+const title = frontmatter?.title || seoConfig.defaults.guides.title;
 const metaTags = generateMetaTags('guides', { title });
 const ogTags = generateOpenGraphTags(metaTags);
 const twitterTags = generateTwitterTags(metaTags);
@@ -85,14 +87,51 @@ const currentPath = Astro.url.pathname;
         <CollapsibleSidebar currentPath={currentPath} />
 
         <main class="main-content">
-          
-          <slot />
+           <h1 class="page-title">{title}</h1>
+
+           <slot />
         </main>
-        
+
         {headings && headings.length > 0 && (
           <ContentNavigation headings={headings} />
         )}
       </div>
     </div>
+
+    <!-- Модальное окно для картинок -->
+    <div id="imageModal" class="modal">
+      <img id="modalImage" class="modal-content" src="" alt="">
+    </div>
+
+    <script>
+      // Обработчик кликов по картинкам
+      document.addEventListener('DOMContentLoaded', function() {
+        const modal = document.getElementById('imageModal') as HTMLElement;
+        const modalImg = document.getElementById('modalImage') as HTMLImageElement;
+        const images = document.querySelectorAll('.main-content img') as NodeListOf<HTMLImageElement>;
+
+        if (!modal || !modalImg) return;
+
+        images.forEach((img: HTMLImageElement) => {
+          img.addEventListener('click', function(this: HTMLImageElement) {
+            modalImg.src = this.src;
+            modalImg.alt = this.alt;
+            modal.classList.add('show');
+          });
+        });
+
+        // Закрытие модального окна
+        modal.addEventListener('click', function() {
+          modal.classList.remove('show');
+        });
+
+        // Закрытие по ESC
+        document.addEventListener('keydown', function(e: KeyboardEvent) {
+          if (e.key === 'Escape' && modal.classList.contains('show')) {
+            modal.classList.remove('show');
+          }
+        });
+      });
+    </script>
   </body>
 </html>

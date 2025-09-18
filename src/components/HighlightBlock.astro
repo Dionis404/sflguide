@@ -1,0 +1,67 @@
+---
+// Компонент для выделения важного текста в статьях
+---
+
+<div class="highlight-block">
+  <slot />
+</div>
+
+<style>
+  .highlight-block {
+    background-color: #3e8948;
+    border: 4px solid transparent;
+    border-image: url("/borders/green_border.png") 20% / 1 / 0 stretch;
+    border-style: solid;
+    border-radius: 13.125px;
+    image-rendering: pixelated;
+    padding: 20px;
+    margin: 20px 0;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .highlight-block h1,
+  .highlight-block h2,
+  .highlight-block h3,
+  .highlight-block h4,
+  .highlight-block h5,
+  .highlight-block h6 {
+    color: #ffffff;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  .highlight-block p {
+    margin-bottom: 1em;
+  }
+
+  .highlight-block ul,
+  .highlight-block ol {
+    margin-bottom: 1em;
+  }
+
+  .highlight-block li {
+    margin-bottom: 0.5em;
+  }
+
+  .highlight-block a {
+    color: #ffee33;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .highlight-block a:hover {
+    text-decoration: underline;
+  }
+
+  /* Адаптивные стили */
+  @media (max-width: 768px) {
+    .highlight-block {
+      padding: 15px;
+      margin: 15px 0;
+    }
+  }
+</style>

@@ -132,7 +132,7 @@ body.home-page {
 /* Основной контент */
 .main-content {
   background: #e4a672;
-  padding: 20px;
+  padding: 5px 20px 20px 20px;
   overflow-y: auto;
   min-height: 0; /* чтобы контент прокручивался внутри центральной колонки */
   border: 4px solid transparent;
@@ -146,17 +146,34 @@ body.home-page {
   box-sizing: border-box;
 }
 
+/* Заголовок страницы */
+.page-title {
+  text-align: center;
+  color: #000000;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.2em;
+  margin: 0 0 2em 0;
+  padding: 0.5em;
+  background: rgba(255, 255, 255, 0.1);
+  border: 4px solid transparent;
+  border-image: url("/borders/light_border.png") 20% / 1 / 0 stretch;
+  border-style: solid;
+  border-radius: 13.125px;
+  image-rendering: pixelated;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Улучшения для читаемости гайдов */
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-  color: #2c1810;
-  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+  color: #000000;
   margin-top: 1.5em;
   margin-bottom: 0.8em;
 }
 
 .main-content p, .main-content li, .main-content td, .main-content th {
-  color: #2c1810;
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+  color: #000000;
   line-height: 1.6;
   margin-bottom: 1em;
 }
@@ -207,6 +224,177 @@ body.home-page {
 .main-content a:hover {
   color: #daa520;
   text-decoration: underline;
+}
+
+/* Стили для картинок в контенте */
+.main-content img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em 0;
+  border: 4px solid transparent;
+  border-image: url("/borders/gray_border.png") 20% / 1 / 0 stretch;
+  border-style: solid;
+  image-rendering: pixelated;
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+
+.main-content img:hover {
+  transform: scale(1.02);
+}
+
+/* Выделенный блок для важного текста */
+.highlight-block {
+  background-color: #3e8948;
+  border: 4px solid transparent;
+  border-image: url("/borders/green_border.png") 20% / 1 / 0 stretch;
+  border-style: solid;
+  border-radius: 13.125px;
+  image-rendering: pixelated;
+  padding: 20px;
+  margin: 20px 0;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.highlight-block h1,
+.highlight-block h2,
+.highlight-block h3,
+.highlight-block h4,
+.highlight-block h5,
+.highlight-block h6 {
+  color: #ffffff;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.highlight-block p {
+  margin-bottom: 1em;
+}
+
+.highlight-block ul,
+.highlight-block ol {
+  margin-bottom: 1em;
+}
+
+.highlight-block li {
+  margin-bottom: 0.5em;
+}
+
+.highlight-block a {
+  color: #ffee33;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.highlight-block a:hover {
+  text-decoration: underline;
+}
+
+/* Адаптивные стили для выделенного блока */
+@media (max-width: 768px) {
+  .highlight-block {
+    padding: 15px;
+    margin: 15px 0;
+  }
+}
+
+/* Опасный/предупреждающий блок для важного текста */
+.danger-block {
+  background-color: #e43b44;
+  border: 4px solid transparent;
+  border-image: url("/borders/danger_border.png") 20% / 1 / 0 stretch;
+  border-style: solid;
+  border-radius: 13.125px;
+  image-rendering: pixelated;
+  padding: 20px;
+  margin: 20px 0;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.danger-block h1,
+.danger-block h2,
+.danger-block h3,
+.danger-block h4,
+.danger-block h5,
+.danger-block h6 {
+  color: #ffffff;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.danger-block p {
+  margin-bottom: 1em;
+}
+
+.danger-block ul,
+.danger-block ol {
+  margin-bottom: 1em;
+}
+
+.danger-block li {
+  margin-bottom: 0.5em;
+}
+
+.danger-block a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.danger-block a:hover {
+  text-decoration: underline;
+}
+
+/* Адаптивные стили для опасного блока */
+@media (max-width: 768px) {
+  .danger-block {
+    padding: 15px;
+    margin: 15px 0;
+  }
+}
+
+/* Модальное окно для картинок */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  align-items: center;
+  justify-content: center;
+}
+
+.modal.show {
+  display: flex;
+}
+
+.modal-content {
+  max-width: 90vw;
+  max-height: 90vh;
+  min-width: 300px;
+  min-height: 200px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border: 4px solid transparent;
+  border-image: url("/borders/gray_border.png") 20% / 1 / 0 stretch;
+  border-style: solid;
+  image-rendering: pixelated;
+  cursor: pointer;
 }
 
 /* Полноширинная зона контента для страниц без sidebar */

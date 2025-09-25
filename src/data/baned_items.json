@@ -1,0 +1,371 @@
+[
+  {
+    "name": "Apprentice Beaver",
+    "image_path": "/nft/collectibles/416.gif",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 86,
+    "id": 416,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Chicken Coop",
+    "image_path": "/nft/collectibles/408.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 63,
+    "id": 408,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Foreman Beaver",
+    "image_path": "/nft/collectibles/417.gif",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 41,
+    "id": 417,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Nugget",
+    "image_path": "/nft/collectibles/430.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 34,
+    "id": 430,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Gnome",
+    "image_path": "/nft/collectibles/407.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 28,
+    "id": 407,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Kuebiko",
+    "image_path": "/nft/collectibles/421.gif",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 20,
+    "id": 421,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Golden Egg",
+    "image_path": "/nft/collectibles/409.gif",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 17,
+    "id": 409,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Farm Dog",
+    "image_path": "/nft/collectibles/406.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 15,
+    "id": 406,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Golden Cauliflower",
+    "image_path": "/nft/collectibles/410.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 15,
+    "id": 410,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Green Amulet",
+    "image_path": "/nft/collectibles/30.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 9,
+    "id": 30,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Sheaf of Plenty",
+    "image_path": "/nft/collectibles/2152.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 8,
+    "id": 2152,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Camel",
+    "image_path": "/nft/collectibles/2127.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 6,
+    "id": 2127,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Hornet Mask",
+    "image_path": "/nft/collectibles/292.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 6,
+    "id": 292,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Golden Spatula",
+    "image_path": "/nft/collectibles/58.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 5,
+    "id": 58,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Humming Bird",
+    "image_path": "/nft/collectibles/490.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 5,
+    "id": 490,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Giant Kale",
+    "image_path": "/nft/collectibles/2272.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 4,
+    "id": 2272,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Lemon Tea Bath",
+    "image_path": "/nft/collectibles/2121.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 4,
+    "id": 2121,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Sickle",
+    "image_path": "/nft/collectibles/414.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 3,
+    "id": 414,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Cowbell Necklace",
+    "image_path": "/nft/collectibles/407.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 3,
+    "id": 407,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Emerald Turtle",
+    "image_path": "/nft/collectibles/463.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 2,
+    "id": 463,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Lemon Shield",
+    "image_path": "/nft/collectibles/371.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 2,
+    "id": 371,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Paw Shield",
+    "image_path": "/nft/collectibles/311.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 2,
+    "id": 311,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Autumn Guardian",
+    "image_path": "/nft/collectibles/2264.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 2,
+    "id": 2264,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Walrus",
+    "image_path": "/nft/collectibles/478.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 2,
+    "id": 478,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Flower Crown",
+    "image_path": "/nft/collectibles/293.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 2,
+    "id": 293,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Oracle Syringe",
+    "image_path": "/nft/collectibles/461.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 2,
+    "id": 461,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Infernal Bullwhip",
+    "image_path": "/nft/collectibles/400.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 2,
+    "id": 400,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Cattlegrim",
+    "image_path": "/nft/collectibles/164.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 2,
+    "id": 164,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Mootant",
+    "image_path": "/nft/collectibles/2163.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 1,
+    "id": 2163,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Queen Bee",
+    "image_path": "/nft/collectibles/491.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 1,
+    "id": 491,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Spring Guardian",
+    "image_path": "/nft/collectibles/2263.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 1,
+    "id": 2263,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Summer Guardian",
+    "image_path": "/nft/collectibles/2262.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 1,
+    "id": 2262,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Winter Guardian",
+    "image_path": "/nft/collectibles/2261.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 1,
+    "id": 2261,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Christmas Tree",
+    "image_path": "/nft/collectibles/403.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 1,
+    "id": 403,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Blossom Ward",
+    "image_path": "/nft/collectibles/432.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 1,
+    "id": 432,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Frozen Heart",
+    "image_path": "/nft/collectibles/434.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 1,
+    "id": 434,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Honeycomb Shield",
+    "image_path": "/nft/collectibles/291.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 1,
+    "id": 291,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Hoot",
+    "image_path": "/nft/collectibles/461.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 1,
+    "id": 461,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Crimstone Hammer",
+    "image_path": "/nft/collectibles/284.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 1,
+    "id": 284,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Ancient Rod",
+    "image_path": "/nft/collectibles/224.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 1,
+    "id": 224,
+    "collection": "collectibles"
+  },
+  {
+    "name": "Oil Overalls",
+    "image_path": "/nft/collectibles/360.png",
+    "supply": null,
+    "snapshot_price": null,
+    "banned_count": 1,
+    "id": 360,
+    "collection": "collectibles"
+  }
+]

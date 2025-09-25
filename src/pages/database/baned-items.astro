@@ -1,0 +1,21 @@
+---
+import Layout from '../../layouts/GuidesLayout.astro';
+import BanedItemsList from '../../components/BanedItemsList.astro';
+
+export const frontmatter = {
+  title: "Предметы в бане",
+  index: 2
+};
+---
+
+<Layout frontmatter={frontmatter}>
+  <div class="danger-block">
+    <h2>Отчет по предметам на забаненых фермах!</h2>
+    <p>Ниже представлена таблица с предметами на забаненых фермах </p>
+    <p>Выгрузка делается вручную, примерно раз в месяц</p>
+    <p>Дата текущей выгрузки: 18.09.2025 </p>
+  </div>
+
+  <!-- Компонент для отображения NFT -->
+  <BanedItemsList />
+</Layout>

@@ -92,7 +92,7 @@ const currentPath = Astro.url.pathname;
            <slot />
         </main>
 
-        {headings && headings.length > 0 && (
+        {headings && headings.length > 0 && !currentPath.startsWith('/database') && (
           <ContentNavigation headings={headings} />
         )}
       </div>

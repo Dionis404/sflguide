@@ -12,32 +12,49 @@ interface PageInfo {
 
 const { currentPath = '' } = Astro.props;
 
-// Получаем все страницы из папки guides
-const allPages = await Astro.glob('../pages/guides/**/*.md');
+const isDatabase = currentPath.startsWith('/database');
 
-// Группируем страницы по папкам
-const pagesByFolder = new Map<string, PageInfo[]>();
+// Получаем все страницы из соответствующей папки
+const allPages = isDatabase
+  ? await Astro.glob('../pages/database/**/*.{md,astro}')
+  : await Astro.glob('../pages/guides/**/*.md');
+
+// Группируем страницы по папкам или собираем для database
+let pagesByFolder = new Map<string, PageInfo[]>();
 let rootPages: PageInfo[] = [];
+let databasePages: PageInfo[] = [];
 
-allPages.forEach((page) => {
-  if (!page.url) return;
+if (isDatabase) {
+  allPages.forEach((page) => {
+    if (!page.url) return;
 
-  const pathParts = page.url.split('/').filter(Boolean);
-  const title = page.frontmatter?.title || pathParts[pathParts.length - 1]?.replace(/\.md$/, '') || '';
-  const index = page.frontmatter?.index;
+    const pathParts = page.url.split('/').filter(Boolean);
+    const title = page.frontmatter?.title || pathParts[pathParts.length - 1]?.replace(/\.(md|astro)$/, '') || '';
+    const index = page.frontmatter?.index;
 
-  if (pathParts.length === 2) {
-    // Файлы в корне guides (например, /guides/fraction.md)
-    rootPages.push({ url: page.url, title, filename: pathParts[1], index });
-  } else if (pathParts.length >= 3) {
-    // Файлы в подпапках (например, /guides/lifehack/intro.md)
-    const folderName = pathParts[1];
-    if (!pagesByFolder.has(folderName)) {
-      pagesByFolder.set(folderName, []);
+    databasePages.push({ url: page.url, title, filename: pathParts[pathParts.length - 1], index });
+  });
+} else {
+  allPages.forEach((page) => {
+    if (!page.url) return;
+
+    const pathParts = page.url.split('/').filter(Boolean);
+    const title = page.frontmatter?.title || pathParts[pathParts.length - 1]?.replace(/\.md$/, '') || '';
+    const index = page.frontmatter?.index;
+
+    if (pathParts.length === 2) {
+      // Файлы в корне guides (например, /guides/fraction.md)
+      rootPages.push({ url: page.url, title, filename: pathParts[1], index });
+    } else if (pathParts.length >= 3) {
+      // Файлы в подпапках (например, /guides/lifehack/intro.md)
+      const folderName = pathParts[1];
+      if (!pagesByFolder.has(folderName)) {
+        pagesByFolder.set(folderName, []);
+      }
+      pagesByFolder.get(folderName)?.push({ url: page.url, title, filename: pathParts[pathParts.length - 1], index });
     }
-    pagesByFolder.get(folderName)?.push({ url: page.url, title, filename: pathParts[pathParts.length - 1], index });
-  }
-});
+  });
+}
 
 // Сортируем страницы: сначала по index (если есть), затем по title
 const sortPages = (pages: PageInfo[]) => {
@@ -62,10 +79,14 @@ const sortPages = (pages: PageInfo[]) => {
   });
 };
 
-rootPages = sortPages(rootPages);
-pagesByFolder.forEach((pages: PageInfo[], folderName: string) => {
-  pagesByFolder.set(folderName, sortPages(pages));
-});
+if (isDatabase) {
+  databasePages = sortPages(databasePages);
+} else {
+  rootPages = sortPages(rootPages);
+  pagesByFolder.forEach((pages: PageInfo[], folderName: string) => {
+    pagesByFolder.set(folderName, sortPages(pages));
+  });
+}
 
 // Определяем названия разделов
 const sectionNames: Record<string, string> = {
@@ -78,62 +99,77 @@ const sectionNames: Record<string, string> = {
 <aside class="collapsible-sidebar">
   <div class="sidebar-inner">
     <div class="nav-container">
-      <h3>Навигация</h3>
-      
-      <!-- Основные пункты меню -->
-      <ul class="nav-list">
-        <li class="nav-item">
-          
-        </li>
-        
-        <!-- Отдельные файлы в корне guides -->
-        {rootPages.map((page) => (
-          <li class="nav-item">
-            <a href={page.url} class={currentPath === page.url ? 'active' : ''}>
-              {page.title}
-            </a>
-          </li>
-        ))}
-      </ul>
+      <h3>{isDatabase ? 'База данных' : 'Навигация'}</h3>
 
-      <!-- Сворачиваемые разделы -->
-      {['main', 'lifehack', 'temporary'].map(folderName => {
-        const pages = pagesByFolder.get(folderName);
-        if (!pages) return null;
+      {isDatabase ? (
+        <!-- Страницы базы данных -->
+        <ul class="nav-list">
+          {databasePages.map((page) => (
+            <li class="nav-item">
+              <a href={page.url} class={currentPath === page.url ? 'active' : ''}>
+                {page.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <>
+          <!-- Основные пункты меню -->
+          <ul class="nav-list">
+            <li class="nav-item">
 
-        // Проверяем, содержит ли этот раздел активную страницу
-        console.log('Current path for comparison:', currentPath);
-        const hasActivePage = pages.some(page => {
-          const cleanCurrent = currentPath.replace(/\/$/, '');
-          const cleanPage = page.url.replace(/\/$/, '');
-          console.log('Comparing cleanCurrent', cleanCurrent, 'with cleanPage', cleanPage);
-          return cleanCurrent === cleanPage;
-        });
-        console.log('hasActivePage for folder', folderName, ':', hasActivePage);
-        const isCollapsed = !hasActivePage;
-        const iconSymbol = hasActivePage ? '▼' : '▶';
 
-        return (
-          <div class="collapsible-section">
-            <button class="section-toggle" data-folder={folderName}>
-              <span class="section-title">{sectionNames[folderName] || folderName}</span>
-              <span class="toggle-icon">{iconSymbol}</span>
-            </button>
-            <div class={`section-content${isCollapsed ? ' collapsed' : ''}`} data-section={folderName} data-has-active={hasActivePage ? 'true' : 'false'}>
-              <ul class="sub-items-container">
-                {pages.map((page) => (
-                  <li class="nav-item sub-item">
-                    <a href={page.url} class={currentPath === page.url ? 'active' : ''}>
-                      {page.title}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        );
-      })}
+            </li>
 
+            <!-- Отдельные файлы в корне guides -->
+            {rootPages.map((page) => (
+              <li class="nav-item">
+                <a href={page.url} class={currentPath === page.url ? 'active' : ''}>
+                  {page.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+
+          <!-- Сворачиваемые разделы -->
+          {['main', 'lifehack', 'temporary'].map(folderName => {
+            const pages = pagesByFolder.get(folderName);
+            if (!pages) return null;
+
+            // Проверяем, содержит ли этот раздел активную страницу
+            console.log('Current path for comparison:', currentPath);
+            const hasActivePage = pages.some(page => {
+              const cleanCurrent = currentPath.replace(/\/$/, '');
+              const cleanPage = page.url.replace(/\/$/, '');
+              console.log('Comparing cleanCurrent', cleanCurrent, 'with cleanPage', cleanPage);
+              return cleanCurrent === cleanPage;
+            });
+            console.log('hasActivePage for folder', folderName, ':', hasActivePage);
+            const isCollapsed = !hasActivePage;
+            const iconSymbol = hasActivePage ? '▼' : '▶';
+
+            return (
+              <div class="collapsible-section">
+                <button class="section-toggle" data-folder={folderName}>
+                  <span class="section-title">{sectionNames[folderName] || folderName}</span>
+                  <span class="toggle-icon">{iconSymbol}</span>
+                </button>
+                <div class={`section-content${isCollapsed ? ' collapsed' : ''}`} data-section={folderName} data-has-active={hasActivePage ? 'true' : 'false'}>
+                  <ul class="sub-items-container">
+                    {pages.map((page) => (
+                      <li class="nav-item sub-item">
+                        <a href={page.url} class={currentPath === page.url ? 'active' : ''}>
+                          {page.title}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            );
+          })}
+        </>
+      )}
     </div>
 
     <div class="ad-box">

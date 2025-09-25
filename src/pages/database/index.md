@@ -1,6 +1,7 @@
 ---
 layout: layouts/GuidesLayout.astro
 title: "База данных Sunflower Land"
+index: 1 
 ---
 
 # Страница находится в разработке

@@ -90,8 +90,9 @@ if (isDatabase) {
 
 // Определяем названия разделов
 const sectionNames: Record<string, string> = {
-  'main': 'Основные гайды',
+  'main': 'Основные',
   'lifehack': 'Лайфхаки',
+  'other': 'Прочее',
   'temporary': 'Гайды по ивентам'
 };
 ---
@@ -132,7 +133,7 @@ const sectionNames: Record<string, string> = {
           </ul>
 
           <!-- Сворачиваемые разделы -->
-          {['main', 'lifehack', 'temporary'].map(folderName => {
+          {['main', 'lifehack', 'other', 'temporary'].map(folderName => {
             const pages = pagesByFolder.get(folderName);
             if (!pages) return null;
 

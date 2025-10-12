@@ -1,0 +1,20 @@
+---
+import Layout from '../../layouts/GuidesLayout.astro';
+import CollectiblesList from '../../components/CollectiblesList.astro';
+
+export const frontmatter = {
+  title: "Коллекционные предметы",
+  index: 3
+};
+---
+
+<Layout frontmatter={frontmatter}>
+  <div class="info-block">
+    <h2>Коллекционные предметы Sunflower Land</h2>
+    <p>Ниже представлена таблица с коллекционными предметами</p>
+    <p>Нажмите на предмет для получения дополнительной информации.</p>
+  </div>
+
+  <!-- Компонент для отображения коллекционных предметов -->
+  <CollectiblesList client:load />
+</Layout>

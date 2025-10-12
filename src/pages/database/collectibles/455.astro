@@ -1,0 +1,123 @@
+---
+import GuidesLayout from '../../../layouts/GuidesLayout.astro';
+import { getCollection } from 'astro:content';
+
+const item = {
+  "id": 455,
+  "floor": 12,
+  "lastSalePrice": 9,
+  "supply": 4280,
+  "collection": "collectibles",
+  "name": "Karkinos",
+  "have_boost": 1,
+  "boost_text": "+0.1 Cabbage\nDisabled if Cabbage Boy Active"
+};
+
+const title = item.name ? `${item.name} (ID: ${item.id})` : `Collectible ID: ${item.id}`;
+---
+
+<GuidesLayout title={title}>
+  <div class="container mx-auto px-4 py-8">
+    <div class="max-w-4xl mx-auto">
+      <!-- Header -->
+      <div class="mb-8">
+        <a href="/database/collectibles" class="text-blue-600 hover:text-blue-800 mb-4 inline-block">
+          ← Back to Collectibles
+        </a>
+        <h1 class="text-4xl font-bold mb-4">{item.name || `Collectible ID: ${item.id}`}</h1>
+      </div>
+
+      <!-- Item Card -->
+      <div class="bg-white rounded-lg shadow-lg border-4 border-gray-800 p-6 mb-8">
+        <div class="flex flex-col md:flex-row gap-6">
+          <!-- Image -->
+          <div class="flex-shrink-0">
+            <img
+              src={`/nft/collectibles/${item.id}.png`}
+              alt={item.name || `Collectible ${item.id}`}
+              class="w-48 h-48 object-contain border-2 border-gray-300 rounded"
+              loading="lazy"
+            />
+          </div>
+
+          <!-- Info -->
+          <div class="flex-grow">
+            <div class="grid grid-cols-2 gap-4 mb-4">
+              <div>
+                <span class="font-semibold text-gray-600">ID:</span>
+                <span class="ml-2">{item.id}</span>
+              </div>
+              <div>
+                <span class="font-semibold text-gray-600">Floor Price:</span>
+                <span class="ml-2">{item.floor} SFL</span>
+              </div>
+              <div>
+                <span class="font-semibold text-gray-600">Last Sale:</span>
+                <span class="ml-2">{item.lastSalePrice} SFL</span>
+              </div>
+              <div>
+                <span class="font-semibold text-gray-600">Supply:</span>
+                <span class="ml-2">{item.supply.toLocaleString()}</span>
+              </div>
+            </div>
+
+            {item.have_boost === 1 && item.boost_text && (
+              <div class="mb-4">
+                <span class="font-semibold text-green-600">Boost:</span>
+                <p class="mt-1 text-gray-700 whitespace-pre-line">{item.boost_text}</p>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      <!-- Custom Content Section -->
+      <div class="bg-white rounded-lg shadow-lg border-4 border-gray-800 p-6">
+        <h2 class="text-2xl font-bold mb-4">About Karkinos</h2>
+
+        <div class="prose max-w-none">
+          <p class="mb-4">
+            Karkinos is a rare collectible item in Sunflower Land that provides a boost to cabbage production.
+            This crab-themed collectible is part of the seasonal decorations collection.
+          </p>
+
+          <h3 class="text-xl font-semibold mb-2">Boost Details</h3>
+          <p class="mb-4">
+            When placed on your farm, Karkinos provides <strong>+0.1 Cabbage</strong> boost per harvest.
+            However, this boost is disabled if you have the Cabbage Boy collectible active.
+          </p>
+
+          <h3 class="text-xl font-semibold mb-2">Rarity & Availability</h3>
+          <p class="mb-4">
+            With a supply of {item.supply.toLocaleString()} units, Karkinos is considered a rare collectible.
+            The current floor price is {item.floor} SFL, making it moderately expensive to acquire.
+          </p>
+
+          <h3 class="text-xl font-semibold mb-2">Strategy Tips</h3>
+          <ul class="list-disc list-inside mb-4">
+            <li>Consider if you already own Cabbage Boy before purchasing Karkinos</li>
+            <li>Great for cabbage-focused farms</li>
+            <li>Can be traded on the in-game marketplace</li>
+          </ul>
+
+          <!-- Add more custom content here as needed -->
+          <div class="bg-gray-50 p-4 rounded-lg mt-6">
+            <p class="text-sm text-gray-600">
+              <em>This page contains detailed information about Karkinos collectible.
+              More content can be added here as needed for comprehensive item documentation.</em>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</GuidesLayout>
+
+<style>
+  .prose {
+    color: #374151;
+  }
+  .prose strong {
+    color: #111827;
+  }
+</style>

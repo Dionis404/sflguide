@@ -103,17 +103,20 @@ const currentPath = Astro.url.pathname;
       <img id="modalImage" class="modal-content" src="" alt="">
     </div>
 
-    <script>
+    <script define:vars={{ currentPath }}>
       // Обработчик кликов по картинкам
       document.addEventListener('DOMContentLoaded', function() {
-        const modal = document.getElementById('imageModal') as HTMLElement;
-        const modalImg = document.getElementById('modalImage') as HTMLImageElement;
-        const images = document.querySelectorAll('.main-content img') as NodeListOf<HTMLImageElement>;
+        // Отключаем увеличение картинок на страницах базы данных
+        if (currentPath.startsWith('/database')) return;
+
+        const modal = document.getElementById('imageModal');
+        const modalImg = document.getElementById('modalImage');
+        const images = document.querySelectorAll('.main-content img');
 
         if (!modal || !modalImg) return;
 
-        images.forEach((img: HTMLImageElement) => {
-          img.addEventListener('click', function(this: HTMLImageElement) {
+        images.forEach((img) => {
+          img.addEventListener('click', function() {
             modalImg.src = this.src;
             modalImg.alt = this.alt;
             modal.classList.add('show');
@@ -126,7 +129,7 @@ const currentPath = Astro.url.pathname;
         });
 
         // Закрытие по ESC
-        document.addEventListener('keydown', function(e: KeyboardEvent) {
+        document.addEventListener('keydown', function(e) {
           if (e.key === 'Escape' && modal.classList.contains('show')) {
             modal.classList.remove('show');
           }

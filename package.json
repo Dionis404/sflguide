@@ -5,12 +5,14 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "prebuild": "node scripts/update-image-extensions.cjs",
     "preview": "astro preview",
     "astro": "astro",
     "lint": "eslint . --ext .js,.ts,.astro",
     "lint:fix": "eslint . --ext .js,.ts,.astro --fix",
     "format": "prettier --write .",
-    "check": "astro check"
+    "check": "astro check",
+    "update-images": "node scripts/update-image-extensions.cjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.6.0",

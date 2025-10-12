@@ -1,0 +1,20 @@
+---
+import Layout from '../../layouts/GuidesLayout.astro';
+import WearablesList from '../../components/WearablesList.astro';
+
+export const frontmatter = {
+  title: "Одежда и аксессуары",
+  index: 4
+};
+---
+
+<Layout frontmatter={frontmatter}>
+  <div class="info-block">
+    <h2>Одежда и аксессуары Sunflower Land</h2>
+    <p>Ниже представлена таблица с одеждой и аксессуарами</p>
+    <p>Нажмите на предмет для получения дополнительной информации.</p>
+  </div>
+
+  <!-- Компонент для отображения одежды и аксессуаров -->
+  <WearablesList client:load />
+</Layout>

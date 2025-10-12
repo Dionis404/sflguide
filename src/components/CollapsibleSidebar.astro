@@ -29,10 +29,19 @@ if (isDatabase) {
     if (!page.url) return;
 
     const pathParts = page.url.split('/').filter(Boolean);
-    const title = page.frontmatter?.title || pathParts[pathParts.length - 1]?.replace(/\.(md|astro)$/, '') || '';
+    const filename = pathParts[pathParts.length - 1];
+
+    // Пропускаем динамические маршруты (файлы с [ в имени)
+    if (filename.startsWith('[')) return;
+
+    // Пропускаем страницы в подпапках (детальные страницы предметов)
+    // Например: /database/collectibles/455 - имеет 3 сегмента после фильтрации
+    if (pathParts.length > 2) return;
+
+    const title = page.frontmatter?.title || filename.replace(/\.(md|astro)$/, '') || '';
     const index = page.frontmatter?.index;
 
-    databasePages.push({ url: page.url, title, filename: pathParts[pathParts.length - 1], index });
+    databasePages.push({ url: page.url, title, filename, index });
   });
 } else {
   allPages.forEach((page) => {

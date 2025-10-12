@@ -8,7 +8,8 @@
       "collection": "collectibles",
       "name": "Lunalist",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2196,
@@ -18,7 +19,8 @@
       "collection": "collectibles",
       "name": "Summer Duckling",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2197,
@@ -28,7 +30,8 @@
       "collection": "collectibles",
       "name": "Autumn Duckling",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2198,
@@ -38,7 +41,8 @@
       "collection": "collectibles",
       "name": "Winter Duckling",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1206,
@@ -48,7 +52,8 @@
       "collection": "collectibles",
       "name": "Construction Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1210,
@@ -58,7 +63,8 @@
       "collection": "collectibles",
       "name": "Brilliant Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1208,
@@ -68,7 +74,8 @@
       "collection": "collectibles",
       "name": "Badass Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1212,
@@ -78,7 +85,8 @@
       "collection": "collectibles",
       "name": "Farmer Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2169,
@@ -88,7 +96,8 @@
       "collection": "collectibles",
       "name": "Christmas Stocking",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1298,
@@ -98,7 +107,8 @@
       "collection": "collectibles",
       "name": "Bumpkin Nutcracker",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 935,
@@ -108,21 +118,24 @@
       "collection": "collectibles",
       "name": "Baby Panda",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1249,
       "floor": 0.2798,
       "lastSalePrice": 0.2899,
       "supply": 52233,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 1251,
       "floor": 0.2889,
       "lastSalePrice": 0.2,
       "supply": 42092,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 2267,
@@ -132,7 +145,8 @@
       "collection": "collectibles",
       "name": "Balloon Rug",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1205,
@@ -142,14 +156,16 @@
       "collection": "collectibles",
       "name": "Chef Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1250,
       "floor": 0.3399,
       "lastSalePrice": 0.2249,
       "supply": 44033,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 2271,
@@ -159,14 +175,16 @@
       "collection": "collectibles",
       "name": "Mini Floating Island",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1274,
       "floor": 0.38,
       "lastSalePrice": 0.3,
       "supply": 6207,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 1225,
@@ -176,7 +194,8 @@
       "collection": "collectibles",
       "name": "T-Rex Skull",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1233,
@@ -186,14 +205,16 @@
       "collection": "collectibles",
       "name": "Pirate Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1272,
       "floor": 0.399,
       "lastSalePrice": 0.3999,
       "supply": 10425,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 2029,
@@ -203,7 +224,8 @@
       "collection": "collectibles",
       "name": "Silver Squire",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2139,
@@ -213,7 +235,8 @@
       "collection": "collectibles",
       "name": "Morty",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1255,
@@ -223,7 +246,8 @@
       "collection": "collectibles",
       "name": "Dawn Umbrella Seat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1211,
@@ -233,7 +257,8 @@
       "collection": "collectibles",
       "name": "Classy Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2202,
@@ -243,14 +268,16 @@
       "collection": "collectibles",
       "name": "Chamomile",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1265,
       "floor": 0.6899,
       "lastSalePrice": 0.261,
       "supply": 10796,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 2205,
@@ -260,7 +287,8 @@
       "collection": "collectibles",
       "name": "Jin",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2171,
@@ -270,7 +298,8 @@
       "collection": "collectibles",
       "name": "Cozy Fireplace",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2167,
@@ -280,7 +309,8 @@
       "collection": "collectibles",
       "name": "Vampire Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1229,
@@ -290,7 +320,8 @@
       "collection": "collectibles",
       "name": "Lifeguard Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1226,
@@ -300,7 +331,8 @@
       "collection": "collectibles",
       "name": "Sunflower Coin",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2185,
@@ -310,7 +342,8 @@
       "collection": "collectibles",
       "name": "Acorn House",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1289,
@@ -320,7 +353,8 @@
       "collection": "collectibles",
       "name": "Lifeguard Ring",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1278,
@@ -330,7 +364,8 @@
       "collection": "collectibles",
       "name": "Candles",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 426,
@@ -340,7 +375,8 @@
       "collection": "collectibles",
       "name": "Golden Bonsai",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1230,
@@ -350,7 +386,8 @@
       "collection": "collectibles",
       "name": "Snorkel Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2018,
@@ -360,7 +397,8 @@
       "collection": "collectibles",
       "name": "Gaucho Rug",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1237,
@@ -370,7 +408,8 @@
       "collection": "collectibles",
       "name": "Dinosaur Bone",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2138,
@@ -380,7 +419,8 @@
       "collection": "collectibles",
       "name": "Mog",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2255,
@@ -390,14 +430,16 @@
       "collection": "collectibles",
       "name": "Love Chicken",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1273,
       "floor": 1.199,
       "lastSalePrice": 1.2499,
       "supply": 2313,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 2101,
@@ -407,7 +449,8 @@
       "collection": "collectibles",
       "name": "Hapy Jar",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2170,
@@ -417,7 +460,8 @@
       "collection": "collectibles",
       "name": "Golden Christmas Stocking",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1287,
@@ -427,7 +471,8 @@
       "collection": "collectibles",
       "name": "Mini Corn Maze",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1277,
@@ -437,7 +482,8 @@
       "collection": "collectibles",
       "name": "Dawn Flower",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2186,
@@ -447,7 +493,8 @@
       "collection": "collectibles",
       "name": "Spring Duckling",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2187,
@@ -457,7 +504,8 @@
       "collection": "collectibles",
       "name": "Igloo",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1293,
@@ -467,7 +515,8 @@
       "collection": "collectibles",
       "name": "Tiki Torch",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2184,
@@ -477,7 +526,8 @@
       "collection": "collectibles",
       "name": "Kite",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2189,
@@ -487,7 +537,8 @@
       "collection": "collectibles",
       "name": "Lake Rug",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1291,
@@ -497,7 +548,8 @@
       "collection": "collectibles",
       "name": "Hideaway Herman",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1236,
@@ -507,7 +559,8 @@
       "collection": "collectibles",
       "name": "Easter Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2040,
@@ -517,7 +570,8 @@
       "collection": "collectibles",
       "name": "Paint Can",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2173,
@@ -527,7 +581,8 @@
       "collection": "collectibles",
       "name": "Christmas Candle",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2104,
@@ -537,7 +592,8 @@
       "collection": "collectibles",
       "name": "Imsety Jar",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2148,
@@ -547,7 +603,8 @@
       "collection": "collectibles",
       "name": "Cow Scratcher",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1256,
@@ -557,7 +614,8 @@
       "collection": "collectibles",
       "name": "Eggplant Grill",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2115,
@@ -567,7 +625,8 @@
       "collection": "collectibles",
       "name": "Scarab Beetle",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1213,
@@ -577,7 +636,8 @@
       "collection": "collectibles",
       "name": "Sunflower Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2149,
@@ -587,7 +647,8 @@
       "collection": "collectibles",
       "name": "Spinning Wheel",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2102,
@@ -597,7 +658,8 @@
       "collection": "collectibles",
       "name": "Duamutef Jar",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 402,
@@ -607,7 +669,8 @@
       "collection": "collectibles",
       "name": "Potato Statue",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 414,
@@ -617,7 +680,8 @@
       "collection": "collectibles",
       "name": "Fountain",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 451,
@@ -627,7 +691,8 @@
       "collection": "collectibles",
       "name": "Heart Balloons",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1112,
@@ -637,7 +702,8 @@
       "collection": "collectibles",
       "name": "War Skull",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1113,
@@ -647,7 +713,8 @@
       "collection": "collectibles",
       "name": "War Tombstone",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1286,
@@ -657,7 +724,8 @@
       "collection": "collectibles",
       "name": "Crow Rock",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2236,
@@ -667,7 +735,8 @@
       "collection": "collectibles",
       "name": "Orange Bunny Lantern",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 452,
@@ -677,7 +746,8 @@
       "collection": "collectibles",
       "name": "Flamingo",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1242,
@@ -687,7 +757,8 @@
       "collection": "collectibles",
       "name": "Beach Ball",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2172,
@@ -697,7 +768,8 @@
       "collection": "collectibles",
       "name": "Christmas Rug",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1239,
@@ -707,7 +779,8 @@
       "collection": "collectibles",
       "name": "Whale Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1214,
@@ -717,7 +790,8 @@
       "collection": "collectibles",
       "name": "Rich Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1290,
@@ -727,7 +801,8 @@
       "collection": "collectibles",
       "name": "Surfboard",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1275,
@@ -737,7 +812,8 @@
       "collection": "collectibles",
       "name": "Eggplant Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1224,
@@ -747,7 +823,8 @@
       "collection": "collectibles",
       "name": "Turtle Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2107,
@@ -757,7 +834,8 @@
       "collection": "collectibles",
       "name": "Clay Tablet",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2113,
@@ -767,7 +845,8 @@
       "collection": "collectibles",
       "name": "Cactus King",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2021,
@@ -777,7 +856,8 @@
       "collection": "collectibles",
       "name": "Cluckapult",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2188,
@@ -787,7 +867,8 @@
       "collection": "collectibles",
       "name": "Ugly Duckling",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2015,
@@ -797,7 +878,8 @@
       "collection": "collectibles",
       "name": "Clock",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2001,
@@ -807,7 +889,8 @@
       "collection": "collectibles",
       "name": "White Festive Fox",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1257,
@@ -817,7 +900,8 @@
       "collection": "collectibles",
       "name": "Giant Dawn Mushroom",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 481,
@@ -827,7 +911,8 @@
       "collection": "collectibles",
       "name": "Anchor",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 413,
@@ -837,7 +922,8 @@
       "collection": "collectibles",
       "name": "Goblin Crown",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1243,
@@ -847,7 +933,8 @@
       "collection": "collectibles",
       "name": "Easter Bush",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2176,
@@ -857,7 +944,8 @@
       "collection": "collectibles",
       "name": "Snowman",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 423,
@@ -867,7 +955,8 @@
       "collection": "collectibles",
       "name": "Farmer Bath",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2006,
@@ -877,7 +966,8 @@
       "collection": "collectibles",
       "name": "Rainbow",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2031,
@@ -887,7 +977,8 @@
       "collection": "collectibles",
       "name": "Trainee Target",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2125,
@@ -897,7 +988,8 @@
       "collection": "collectibles",
       "name": "Paper Reed",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2192,
@@ -907,7 +999,8 @@
       "collection": "collectibles",
       "name": "Cup of Chocolate",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2011,
@@ -917,7 +1010,8 @@
       "collection": "collectibles",
       "name": "Flower Rug",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2103,
@@ -927,7 +1021,8 @@
       "collection": "collectibles",
       "name": "Qebehsenuef Jar",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2151,
@@ -937,7 +1032,8 @@
       "collection": "collectibles",
       "name": "Meteorite",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2008,
@@ -947,7 +1043,8 @@
       "collection": "collectibles",
       "name": "Flower Cart",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2269,
@@ -957,7 +1054,8 @@
       "collection": "collectibles",
       "name": "Heart Air Balloon",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2111,
@@ -967,7 +1065,8 @@
       "collection": "collectibles",
       "name": "Sundial",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2028,
@@ -977,7 +1076,8 @@
       "collection": "collectibles",
       "name": "Silver Sentinel",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2032,
@@ -987,7 +1087,8 @@
       "collection": "collectibles",
       "name": "Twister Rug",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2007,
@@ -997,7 +1098,8 @@
       "collection": "collectibles",
       "name": "Enchanted Rose",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 431,
@@ -1007,7 +1109,8 @@
       "collection": "collectibles",
       "name": "Wicker Man",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1217,
@@ -1017,7 +1120,8 @@
       "collection": "collectibles",
       "name": "Christmas Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2150,
@@ -1027,7 +1131,8 @@
       "collection": "collectibles",
       "name": "Sleepy Rug",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 937,
@@ -1037,7 +1142,8 @@
       "collection": "collectibles",
       "name": "Community Egg",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 482,
@@ -1047,7 +1153,8 @@
       "collection": "collectibles",
       "name": "Goblet",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2023,
@@ -1057,7 +1164,8 @@
       "collection": "collectibles",
       "name": "Golden Garrison",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2165,
@@ -1067,7 +1175,8 @@
       "collection": "collectibles",
       "name": "Crop Circle",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 424,
@@ -1077,7 +1186,8 @@
       "collection": "collectibles",
       "name": "Homeless Tent",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1263,
@@ -1087,7 +1197,8 @@
       "collection": "collectibles",
       "name": "Shroom Glow",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2106,
@@ -1097,7 +1208,8 @@
       "collection": "collectibles",
       "name": "Sarcophagus",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1240,
@@ -1107,7 +1219,8 @@
       "collection": "collectibles",
       "name": "Valentine Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2274,
@@ -1117,7 +1230,8 @@
       "collection": "collectibles",
       "name": "Paint Buckets",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1219,
@@ -1127,7 +1241,8 @@
       "collection": "collectibles",
       "name": "Christmas Snow Globe",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2036,
@@ -1137,7 +1252,8 @@
       "collection": "collectibles",
       "name": "Devotion Flag",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2110,
@@ -1147,7 +1263,8 @@
       "collection": "collectibles",
       "name": "Anubis Jackal",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2108,
@@ -1157,7 +1274,8 @@
       "collection": "collectibles",
       "name": "Snake in Jar",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2153,
@@ -1167,14 +1285,16 @@
       "collection": "collectibles",
       "name": "Mechanical Bull",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1276,
       "floor": 8,
       "lastSalePrice": 1.022,
       "supply": 849,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 2190,
@@ -1184,7 +1304,8 @@
       "collection": "collectibles",
       "name": "Hammock",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1296,
@@ -1194,7 +1315,8 @@
       "collection": "collectibles",
       "name": "Sapo Travessuras",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1222,
@@ -1204,7 +1326,8 @@
       "collection": "collectibles",
       "name": "Cyborg Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2112,
@@ -1214,7 +1337,8 @@
       "collection": "collectibles",
       "name": "Sand Golem",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2027,
@@ -1224,7 +1348,8 @@
       "collection": "collectibles",
       "name": "Rookie Rook",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 484,
@@ -1234,7 +1359,8 @@
       "collection": "collectibles",
       "name": "Kraken Head",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2177,
@@ -1244,7 +1370,8 @@
       "collection": "collectibles",
       "name": "Festive Toy Train",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2037,
@@ -1254,7 +1381,8 @@
       "collection": "collectibles",
       "name": "Generosity Flag",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1244,
@@ -1264,7 +1392,8 @@
       "collection": "collectibles",
       "name": "Giant Carrot",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2035,
@@ -1274,7 +1403,8 @@
       "collection": "collectibles",
       "name": "Benevolence Flag",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2275,
@@ -1284,7 +1414,8 @@
       "collection": "collectibles",
       "name": "Rainbow Well",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2265,
@@ -1294,7 +1425,8 @@
       "collection": "collectibles",
       "name": "Sky Pillar",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2235,
@@ -1304,7 +1436,8 @@
       "collection": "collectibles",
       "name": "Carrot House",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1266,
@@ -1314,7 +1447,8 @@
       "collection": "collectibles",
       "name": "Beta Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2166,
@@ -1324,7 +1458,8 @@
       "collection": "collectibles",
       "name": "Halloween Scarecrow",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 455,
@@ -1334,7 +1469,8 @@
       "collection": "collectibles",
       "name": "Karkinos",
       "have_boost": 1,
-      "boost_text": "+0.1 Cabbage\nDisabled if Cabbage Boy Active"
+      "boost_text": "+0.1 Cabbage\nDisabled if Cabbage Boy Active",
+      "image_extension": "png"
     },
     {
       "id": 1292,
@@ -1344,7 +1480,8 @@
       "collection": "collectibles",
       "name": "Shifty Sheldon",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2124,
@@ -1354,7 +1491,8 @@
       "collection": "collectibles",
       "name": "Oasis",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 936,
@@ -1364,7 +1502,8 @@
       "collection": "collectibles",
       "name": "Baozi",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2019,
@@ -1374,7 +1513,8 @@
       "collection": "collectibles",
       "name": "Bullseye Board",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 499,
@@ -1384,7 +1524,8 @@
       "collection": "collectibles",
       "name": "Lily Egg",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2013,
@@ -1394,7 +1535,8 @@
       "collection": "collectibles",
       "name": "Green Field Rug",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1279,
@@ -1404,7 +1546,8 @@
       "collection": "collectibles",
       "name": "Haunted Stump",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1285,
@@ -1414,7 +1557,8 @@
       "collection": "collectibles",
       "name": "Observer",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1241,
@@ -1424,7 +1568,8 @@
       "collection": "collectibles",
       "name": "Palm Tree",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2266,
@@ -1434,7 +1579,8 @@
       "collection": "collectibles",
       "name": "Flower-Scribed Statue",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1295,
@@ -1444,7 +1590,8 @@
       "collection": "collectibles",
       "name": "Sapo Docuras",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 457,
@@ -1454,7 +1601,8 @@
       "collection": "collectibles",
       "name": "Purple Trail",
       "have_boost": 1,
-      "boost_text": "+0.2 Eggplant"
+      "boost_text": "+0.2 Eggplant",
+      "image_extension": "png"
     },
     {
       "id": 909,
@@ -1464,7 +1612,8 @@
       "collection": "collectibles",
       "name": "Easter Bunny",
       "have_boost": 1,
-      "boost_text": "+20% Carrot"
+      "boost_text": "+20% Carrot",
+      "image_extension": "gif"
     },
     {
       "id": 2238,
@@ -1474,7 +1623,8 @@
       "collection": "collectibles",
       "name": "Orange Tunnel Bunny",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 610,
@@ -1484,7 +1634,8 @@
       "collection": "collectibles",
       "name": "Speed Chicken",
       "have_boost": 1,
-      "boost_text": "-10% Egg Production Time"
+      "boost_text": "-10% Egg Production Time",
+      "image_extension": "gif"
     },
     {
       "id": 2237,
@@ -1494,7 +1645,8 @@
       "collection": "collectibles",
       "name": "White Bunny Lantern",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2038,
@@ -1504,7 +1656,8 @@
       "collection": "collectibles",
       "name": "Splendor Flag",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2020,
@@ -1514,7 +1667,8 @@
       "collection": "collectibles",
       "name": "Chess Rug",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2004,
@@ -1524,7 +1678,8 @@
       "collection": "collectibles",
       "name": "Sunrise Bloom Rug",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2126,
@@ -1534,7 +1689,8 @@
       "collection": "collectibles",
       "name": "Baobab Tree",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2174,
@@ -1544,7 +1700,8 @@
       "collection": "collectibles",
       "name": "Santa Penguin",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 930,
@@ -1554,7 +1711,8 @@
       "collection": "collectibles",
       "name": "Earn Alliance Banner",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2012,
@@ -1564,7 +1722,8 @@
       "collection": "collectibles",
       "name": "Tea Rug",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 411,
@@ -1574,7 +1733,8 @@
       "collection": "collectibles",
       "name": "Sunflower Tombstone",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1261,
@@ -1584,7 +1744,8 @@
       "collection": "collectibles",
       "name": "Clementine",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 432,
@@ -1594,7 +1755,8 @@
       "collection": "collectibles",
       "name": "Victoria Sisters",
       "have_boost": 1,
-      "boost_text": "+20% Pumpkin"
+      "boost_text": "+20% Pumpkin",
+      "image_extension": "gif"
     },
     {
       "id": 611,
@@ -1604,7 +1766,8 @@
       "collection": "collectibles",
       "name": "Fat Chicken",
       "have_boost": 1,
-      "boost_text": "-10% Feed to Chicken"
+      "boost_text": "-10% Feed to Chicken",
+      "image_extension": "gif"
     },
     {
       "id": 612,
@@ -1614,7 +1777,8 @@
       "collection": "collectibles",
       "name": "Rich Chicken",
       "have_boost": 1,
-      "boost_text": "+0.1 Egg"
+      "boost_text": "+0.1 Egg",
+      "image_extension": "gif"
     },
     {
       "id": 401,
@@ -1624,7 +1788,8 @@
       "collection": "collectibles",
       "name": "Sunflower Statue",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 425,
@@ -1634,7 +1799,8 @@
       "collection": "collectibles",
       "name": "Mysterious Head",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1262,
@@ -1644,7 +1810,8 @@
       "collection": "collectibles",
       "name": "Cobalt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2119,
@@ -1654,7 +1821,8 @@
       "collection": "collectibles",
       "name": "Sunlit Citadel",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2159,
@@ -1664,7 +1832,8 @@
       "collection": "collectibles",
       "name": "Chicory",
       "have_boost": 1,
-      "boost_text": "10% Chance for +1 Flower"
+      "boost_text": "10% Chance for +1 Flower",
+      "image_extension": "png"
     },
     {
       "id": 422,
@@ -1674,7 +1843,8 @@
       "collection": "collectibles",
       "name": "Nyon Statue",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 926,
@@ -1684,7 +1854,8 @@
       "collection": "collectibles",
       "name": "Pablo The Bunny",
       "have_boost": 1,
-      "boost_text": "+0.1 Carrot"
+      "boost_text": "+0.1 Carrot",
+      "image_extension": "gif"
     },
     {
       "id": 458,
@@ -1694,7 +1865,8 @@
       "collection": "collectibles",
       "name": "Obie",
       "have_boost": 1,
-      "boost_text": "-25% Eggplant Growth Time"
+      "boost_text": "-25% Eggplant Growth Time",
+      "image_extension": "png"
     },
     {
       "id": 2009,
@@ -1704,7 +1876,8 @@
       "collection": "collectibles",
       "name": "Capybara",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1209,
@@ -1714,7 +1887,8 @@
       "collection": "collectibles",
       "name": "Bear Trap",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2039,
@@ -1724,7 +1898,8 @@
       "collection": "collectibles",
       "name": "Jelly Lamp",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1294,
@@ -1734,7 +1909,8 @@
       "collection": "collectibles",
       "name": "Beach Umbrella",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2100,
@@ -1744,7 +1920,8 @@
       "collection": "collectibles",
       "name": "Desert Rose",
       "have_boost": 1,
-      "boost_text": "10% Chance for +1 Flower"
+      "boost_text": "10% Chance for +1 Flower",
+      "image_extension": "png"
     },
     {
       "id": 2158,
@@ -1754,7 +1931,8 @@
       "collection": "collectibles",
       "name": "UFO",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 485,
@@ -1764,7 +1942,8 @@
       "collection": "collectibles",
       "name": "Skill Shrimpy",
       "have_boost": 1,
-      "boost_text": "+20% Fish XP"
+      "boost_text": "+20% Fish XP",
+      "image_extension": "png"
     },
     {
       "id": 2116,
@@ -1774,7 +1953,8 @@
       "collection": "collectibles",
       "name": "Pharaoh Chicken",
       "have_boost": 1,
-      "boost_text": "+1 Desert Dig"
+      "boost_text": "+1 Desert Dig",
+      "image_extension": "png"
     },
     {
       "id": 1288,
@@ -1784,7 +1964,8 @@
       "collection": "collectibles",
       "name": "White Crow",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2005,
@@ -1794,7 +1975,8 @@
       "collection": "collectibles",
       "name": "Blossom Royale",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2025,
@@ -1804,7 +1986,8 @@
       "collection": "collectibles",
       "name": "Novice Knight",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 456,
@@ -1814,7 +1997,8 @@
       "collection": "collectibles",
       "name": "Mushroom House",
       "have_boost": 1,
-      "boost_text": "+0.2 Wild Mushroom"
+      "boost_text": "+0.2 Wild Mushroom",
+      "image_extension": "png"
     },
     {
       "id": 488,
@@ -1824,7 +2008,8 @@
       "collection": "collectibles",
       "name": "Banana Chicken",
       "have_boost": 1,
-      "boost_text": "+0.1 Banana"
+      "boost_text": "+0.1 Banana",
+      "image_extension": "webp"
     },
     {
       "id": 1280,
@@ -1834,7 +2019,8 @@
       "collection": "collectibles",
       "name": "Spooky Tree",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2277,
@@ -1844,7 +2030,8 @@
       "collection": "collectibles",
       "name": "Rainbow Flower",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2201,
@@ -1854,7 +2041,8 @@
       "collection": "collectibles",
       "name": "Summer Chicken",
       "have_boost": 1,
-      "boost_text": "No chicken sickness during summer"
+      "boost_text": "No chicken sickness during summer",
+      "image_extension": "png"
     },
     {
       "id": 487,
@@ -1864,7 +2052,8 @@
       "collection": "collectibles",
       "name": "Nana",
       "have_boost": 1,
-      "boost_text": "-10% Banana Growth Time"
+      "boost_text": "-10% Banana Growth Time",
+      "image_extension": "png"
     },
     {
       "id": 2278,
@@ -1874,7 +2063,8 @@
       "collection": "collectibles",
       "name": "Pony Toy",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1264,
@@ -1884,7 +2074,8 @@
       "collection": "collectibles",
       "name": "Genie Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2136,
@@ -1894,7 +2085,8 @@
       "collection": "collectibles",
       "name": "Marty",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2161,
@@ -1904,7 +2096,8 @@
       "collection": "collectibles",
       "name": "Black Sheep",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2026,
@@ -1914,7 +2107,8 @@
       "collection": "collectibles",
       "name": "Regular Pawn",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 442,
@@ -1924,7 +2118,8 @@
       "collection": "collectibles",
       "name": "Lady Bug",
       "have_boost": 1,
-      "boost_text": "+0.25 Apple"
+      "boost_text": "+0.25 Apple",
+      "image_extension": "gif"
     },
     {
       "id": 2175,
@@ -1934,7 +2129,8 @@
       "collection": "collectibles",
       "name": "Penguin Pool",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2254,
@@ -1944,7 +2140,8 @@
       "collection": "collectibles",
       "name": "Pink Dolphin",
       "have_boost": 1,
-      "boost_text": "+1 Fish during Spring"
+      "boost_text": "+1 Fish during Spring",
+      "image_extension": "png"
     },
     {
       "id": 2280,
@@ -1954,7 +2151,8 @@
       "collection": "collectibles",
       "name": "Blue Slime Balloon",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2034,
@@ -1964,7 +2162,8 @@
       "collection": "collectibles",
       "name": "Rice Panda",
       "have_boost": 1,
-      "boost_text": "+0.25 Rice"
+      "boost_text": "+0.25 Rice",
+      "image_extension": "png"
     },
     {
       "id": 938,
@@ -1974,7 +2173,8 @@
       "collection": "collectibles",
       "name": "Hungry Hare",
       "have_boost": 1,
-      "boost_text": "Fermented Carrots 2x XP"
+      "boost_text": "Fermented Carrots 2x XP",
+      "image_extension": "png"
     },
     {
       "id": 483,
@@ -1984,7 +2184,8 @@
       "collection": "collectibles",
       "name": "Rubber Ducky",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1221,
@@ -1994,7 +2195,8 @@
       "collection": "collectibles",
       "name": "Collectible Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2114,
@@ -2004,7 +2206,8 @@
       "collection": "collectibles",
       "name": "Lemon Frog",
       "have_boost": 1,
-      "boost_text": "-25% Lemon Growth Time"
+      "boost_text": "-25% Lemon Growth Time",
+      "image_extension": "png"
     },
     {
       "id": 2203,
@@ -2014,7 +2217,8 @@
       "collection": "collectibles",
       "name": "Jellyfish",
       "have_boost": 1,
-      "boost_text": "+1 Fish during Summer"
+      "boost_text": "+1 Fish during Summer",
+      "image_extension": "png"
     },
     {
       "id": 2162,
@@ -2024,14 +2228,16 @@
       "collection": "collectibles",
       "name": "Alien Chicken",
       "have_boost": 1,
-      "boost_text": "+0.1 Feathers"
+      "boost_text": "+0.1 Feathers",
+      "image_extension": "png"
     },
     {
       "id": 834,
       "floor": 64,
       "lastSalePrice": 21,
       "supply": 483,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 446,
@@ -2041,7 +2247,8 @@
       "collection": "collectibles",
       "name": "Maneki Neko",
       "have_boost": 1,
-      "boost_text": "1 Free Food per Day"
+      "boost_text": "1 Free Food per Day",
+      "image_extension": "png"
     },
     {
       "id": 2276,
@@ -2051,7 +2258,8 @@
       "collection": "collectibles",
       "name": "Floating Toy",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 500,
@@ -2061,7 +2269,8 @@
       "collection": "collectibles",
       "name": "Knight Chicken",
       "have_boost": 1,
-      "boost_text": "+0.1 Oil"
+      "boost_text": "+0.1 Oil",
+      "image_extension": "gif"
     },
     {
       "id": 2257,
@@ -2071,7 +2280,8 @@
       "collection": "collectibles",
       "name": "Nurse Sheep",
       "have_boost": 1,
-      "boost_text": "Sheeps cannot get sick during summer"
+      "boost_text": "Sheeps cannot get sick during summer",
+      "image_extension": "png"
     },
     {
       "id": 453,
@@ -2081,7 +2291,8 @@
       "collection": "collectibles",
       "name": "Blossom Tree",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2268,
@@ -2091,7 +2302,8 @@
       "collection": "collectibles",
       "name": "Giant Yam",
       "have_boost": 1,
-      "boost_text": "+0.5 Yams"
+      "boost_text": "+0.5 Yams",
+      "image_extension": "png"
     },
     {
       "id": 2270,
@@ -2101,7 +2313,8 @@
       "collection": "collectibles",
       "name": "Giant Zucchini",
       "have_boost": 1,
-      "boost_text": "-50% Zucchini Growth Time"
+      "boost_text": "-50% Zucchini Growth Time",
+      "image_extension": "png"
     },
     {
       "id": 2016,
@@ -2111,14 +2324,16 @@
       "collection": "collectibles",
       "name": "Vinny",
       "have_boost": 1,
-      "boost_text": "+0.25 Grape"
+      "boost_text": "+0.25 Grape",
+      "image_extension": "png"
     },
     {
       "id": 822,
       "floor": 88,
       "lastSalePrice": 54,
       "supply": 479,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 447,
@@ -2128,14 +2343,16 @@
       "collection": "collectibles",
       "name": "Tiki Totem",
       "have_boost": 1,
-      "boost_text": "+0.1 Wood"
+      "boost_text": "+0.1 Wood",
+      "image_extension": "png"
     },
     {
       "id": 826,
       "floor": 89,
       "lastSalePrice": 90,
       "supply": 217,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 2014,
@@ -2145,7 +2362,8 @@
       "collection": "collectibles",
       "name": "Fancy Rug",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2199,
@@ -2155,7 +2373,8 @@
       "collection": "collectibles",
       "name": "Frozen Cow",
       "have_boost": 1,
-      "boost_text": "No cow sickness during winter"
+      "boost_text": "No cow sickness during winter",
+      "image_extension": "png"
     },
     {
       "id": 434,
@@ -2165,7 +2384,8 @@
       "collection": "collectibles",
       "name": "Cabbage Boy",
       "have_boost": 1,
-      "boost_text": "+0.25 Cabbage"
+      "boost_text": "+0.25 Cabbage",
+      "image_extension": "png"
     },
     {
       "id": 1114,
@@ -2175,7 +2395,8 @@
       "collection": "collectibles",
       "name": "Undead Rooster",
       "have_boost": 1,
-      "boost_text": "+0.1 Egg"
+      "boost_text": "+0.1 Egg",
+      "image_extension": "gif"
     },
     {
       "id": 2279,
@@ -2185,7 +2406,8 @@
       "collection": "collectibles",
       "name": "Red Slime Balloon",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1207,
@@ -2195,7 +2417,8 @@
       "collection": "collectibles",
       "name": "Angel Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 471,
@@ -2205,7 +2428,8 @@
       "collection": "collectibles",
       "name": "Poppy",
       "have_boost": 1,
-      "boost_text": "+0.1 Corn"
+      "boost_text": "+0.1 Corn",
+      "image_extension": "png"
     },
     {
       "id": 486,
@@ -2215,7 +2439,8 @@
       "collection": "collectibles",
       "name": "Soil Krabby",
       "have_boost": 1,
-      "boost_text": "-10% Composter Compost Time"
+      "boost_text": "-10% Composter Compost Time",
+      "image_extension": "png"
     },
     {
       "id": 420,
@@ -2225,7 +2450,8 @@
       "collection": "collectibles",
       "name": "Nancy",
       "have_boost": 1,
-      "boost_text": "-15% Crop Growth Time\nDisabled if Scarecrow or Kuebiko Active"
+      "boost_text": "-15% Crop Growth Time\nDisabled if Scarecrow or Kuebiko Active",
+      "image_extension": "png"
     },
     {
       "id": 492,
@@ -2235,7 +2461,8 @@
       "collection": "collectibles",
       "name": "Flower Fox",
       "have_boost": 1,
-      "boost_text": "-10% Flower Growth Time"
+      "boost_text": "-10% Flower Growth Time",
+      "image_extension": "png"
     },
     {
       "id": 2105,
@@ -2245,7 +2472,8 @@
       "collection": "collectibles",
       "name": "Cannonball",
       "have_boost": 1,
-      "boost_text": "-25% Tomato Growth Time"
+      "boost_text": "-25% Tomato Growth Time",
+      "image_extension": "png"
     },
     {
       "id": 439,
@@ -2255,7 +2483,8 @@
       "collection": "collectibles",
       "name": "Radical Radish",
       "have_boost": 1,
-      "boost_text": "3% Chance of +10 Radish"
+      "boost_text": "3% Chance of +10 Radish",
+      "image_extension": "gif"
     },
     {
       "id": 2109,
@@ -2265,7 +2494,8 @@
       "collection": "collectibles",
       "name": "Reveling Lemon",
       "have_boost": 1,
-      "boost_text": "+0.25 Lemon"
+      "boost_text": "+0.25 Lemon",
+      "image_extension": "gif"
     },
     {
       "id": 428,
@@ -2275,14 +2505,16 @@
       "collection": "collectibles",
       "name": "Tunnel Mole",
       "have_boost": 1,
-      "boost_text": "+0.25 Stone"
+      "boost_text": "+0.25 Stone",
+      "image_extension": "gif"
     },
     {
       "id": 835,
       "floor": 125,
       "lastSalePrice": 114,
       "supply": 304,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 433,
@@ -2292,7 +2524,8 @@
       "collection": "collectibles",
       "name": "Peeled Potato",
       "have_boost": 1,
-      "boost_text": "20% Chance for +1 Potato"
+      "boost_text": "20% Chance for +1 Potato",
+      "image_extension": "gif"
     },
     {
       "id": 1227,
@@ -2302,7 +2535,8 @@
       "collection": "collectibles",
       "name": "Foliant",
       "have_boost": 1,
-      "boost_text": "+0.2 Kale"
+      "boost_text": "+0.2 Kale",
+      "image_extension": "png"
     },
     {
       "id": 2123,
@@ -2312,7 +2546,8 @@
       "collection": "collectibles",
       "name": "Pyramid",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 498,
@@ -2322,7 +2557,8 @@
       "collection": "collectibles",
       "name": "Royal Throne",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 911,
@@ -2332,7 +2568,8 @@
       "collection": "collectibles",
       "name": "Observatory",
       "have_boost": 1,
-      "boost_text": "+5% XP"
+      "boost_text": "+5% XP",
+      "image_extension": "png"
     },
     {
       "id": 613,
@@ -2342,7 +2579,8 @@
       "collection": "collectibles",
       "name": "Rooster",
       "have_boost": 1,
-      "boost_text": "2x Chance of Mutant Chicken"
+      "boost_text": "2x Chance of Mutant Chicken",
+      "image_extension": "gif"
     },
     {
       "id": 494,
@@ -2352,7 +2590,8 @@
       "collection": "collectibles",
       "name": "Crim Peckster",
       "have_boost": 1,
-      "boost_text": "+0.1 Crimstone"
+      "boost_text": "+0.1 Crimstone",
+      "image_extension": "png"
     },
     {
       "id": 438,
@@ -2362,7 +2601,8 @@
       "collection": "collectibles",
       "name": "Potent Potato",
       "have_boost": 1,
-      "boost_text": "3% Chance of +10 Potato"
+      "boost_text": "3% Chance of +10 Potato",
+      "image_extension": "gif"
     },
     {
       "id": 473,
@@ -2372,7 +2612,8 @@
       "collection": "collectibles",
       "name": "Kernaldo",
       "have_boost": 1,
-      "boost_text": "-25% Corn Growth Time"
+      "boost_text": "-25% Corn Growth Time",
+      "image_extension": "png"
     },
     {
       "id": 479,
@@ -2382,7 +2623,8 @@
       "collection": "collectibles",
       "name": "Alba",
       "have_boost": 1,
-      "boost_text": "50% Chance of +1 Basic Fish"
+      "boost_text": "50% Chance of +1 Basic Fish",
+      "image_extension": "png"
     },
     {
       "id": 2200,
@@ -2392,7 +2634,8 @@
       "collection": "collectibles",
       "name": "Frozen Sheep",
       "have_boost": 1,
-      "boost_text": "No sheep sickness during winter"
+      "boost_text": "No sheep sickness during winter",
+      "image_extension": "png"
     },
     {
       "id": 437,
@@ -2402,7 +2645,8 @@
       "collection": "collectibles",
       "name": "Stellar Sunflower",
       "have_boost": 1,
-      "boost_text": "3% Chance of +10 Sunflower"
+      "boost_text": "3% Chance of +10 Sunflower",
+      "image_extension": "gif"
     },
     {
       "id": 2191,
@@ -2412,7 +2656,8 @@
       "collection": "collectibles",
       "name": "Mammoth",
       "have_boost": 1,
-      "boost_text": "-25% Cow Production Time"
+      "boost_text": "-25% Cow Production Time",
+      "image_extension": "png"
     },
     {
       "id": 470,
@@ -2422,7 +2667,8 @@
       "collection": "collectibles",
       "name": "El Pollo Veloz",
       "have_boost": 1,
-      "boost_text": "-2h Egg Production Time"
+      "boost_text": "-2h Egg Production Time",
+      "image_extension": "gif"
     },
     {
       "id": 472,
@@ -2432,7 +2678,8 @@
       "collection": "collectibles",
       "name": "Grain Grinder",
       "have_boost": 1,
-      "boost_text": "+20% Cake XP"
+      "boost_text": "+20% Cake XP",
+      "image_extension": "png"
     },
     {
       "id": 448,
@@ -2442,7 +2689,8 @@
       "collection": "collectibles",
       "name": "Lunar Calendar",
       "have_boost": 1,
-      "boost_text": "-10% Crop Growth Time"
+      "boost_text": "-10% Crop Growth Time",
+      "image_extension": "png"
     },
     {
       "id": 1220,
@@ -2452,7 +2700,8 @@
       "collection": "collectibles",
       "name": "Devil Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1539,
@@ -2462,7 +2711,8 @@
       "collection": "collectibles",
       "name": "Lemon Shark",
       "have_boost": 1,
-      "boost_text": "+0.2 Lemons"
+      "boost_text": "+0.2 Lemons",
+      "image_extension": "png"
     },
     {
       "id": 2156,
@@ -2472,7 +2722,8 @@
       "collection": "collectibles",
       "name": "Swiss Whiskers",
       "have_boost": 1,
-      "boost_text": "+500 Cheese Recipe XP"
+      "boost_text": "+500 Cheese Recipe XP",
+      "image_extension": "png"
     },
     {
       "id": 445,
@@ -2482,7 +2733,8 @@
       "collection": "collectibles",
       "name": "Ayam Cemani",
       "have_boost": 1,
-      "boost_text": "+0.2 Egg"
+      "boost_text": "+0.2 Egg",
+      "image_extension": "gif"
     },
     {
       "id": 496,
@@ -2492,7 +2744,8 @@
       "collection": "collectibles",
       "name": "Soybliss",
       "have_boost": 1,
-      "boost_text": "+1 Soybean"
+      "boost_text": "+1 Soybean",
+      "image_extension": "png"
     },
     {
       "id": 419,
@@ -2502,7 +2755,8 @@
       "collection": "collectibles",
       "name": "Carrot Sword",
       "have_boost": 1,
-      "boost_text": "4x Chance of Mutant Crop"
+      "boost_text": "4x Chance of Mutant Crop",
+      "image_extension": "png"
     },
     {
       "id": 1538,
@@ -2512,7 +2766,8 @@
       "collection": "collectibles",
       "name": "Battle Fish",
       "have_boost": 1,
-      "boost_text": "+0.05 Oil"
+      "boost_text": "+0.05 Oil",
+      "image_extension": "png"
     },
     {
       "id": 2137,
@@ -2522,7 +2777,8 @@
       "collection": "collectibles",
       "name": "Miffy",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 443,
@@ -2532,7 +2788,8 @@
       "collection": "collectibles",
       "name": "Squirrel Monkey",
       "have_boost": 1,
-      "boost_text": "-50% Orange Growth Time"
+      "boost_text": "-50% Orange Growth Time",
+      "image_extension": "gif"
     },
     {
       "id": 1231,
@@ -2542,7 +2799,8 @@
       "collection": "collectibles",
       "name": "Parasaur Skull",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 427,
@@ -2552,7 +2810,8 @@
       "collection": "collectibles",
       "name": "Rock Golem",
       "have_boost": 1,
-      "boost_text": "10% Chance of +2 Stone"
+      "boost_text": "10% Chance of +2 Stone",
+      "image_extension": "gif"
     },
     {
       "id": 429,
@@ -2562,7 +2821,8 @@
       "collection": "collectibles",
       "name": "Rocky the Mole",
       "have_boost": 1,
-      "boost_text": "+0.25 Iron"
+      "boost_text": "+0.25 Iron",
+      "image_extension": "gif"
     },
     {
       "id": 459,
@@ -2572,7 +2832,8 @@
       "collection": "collectibles",
       "name": "Maximus",
       "have_boost": 1,
-      "boost_text": "+1 Eggplant"
+      "boost_text": "+1 Eggplant",
+      "image_extension": "png"
     },
     {
       "id": 1540,
@@ -2582,7 +2843,8 @@
       "collection": "collectibles",
       "name": "Longhorn Cowfish",
       "have_boost": 1,
-      "boost_text": "+0.2 Milk"
+      "boost_text": "+0.2 Milk",
+      "image_extension": "png"
     },
     {
       "id": 464,
@@ -2592,7 +2854,8 @@
       "collection": "collectibles",
       "name": "Tin Turtle",
       "have_boost": 1,
-      "boost_text": "+0.1 Stone\nAffects plots around (3x3)"
+      "boost_text": "+0.1 Stone\nAffects plots around (3x3)",
+      "image_extension": "png"
     },
     {
       "id": 474,
@@ -2602,7 +2865,8 @@
       "collection": "collectibles",
       "name": "Queen Cornelia",
       "have_boost": 1,
-      "boost_text": "+1 Corn\nAffects plots around (3x4)"
+      "boost_text": "+1 Corn\nAffects plots around (3x4)",
+      "image_extension": "png"
     },
     {
       "id": 444,
@@ -2612,7 +2876,8 @@
       "collection": "collectibles",
       "name": "Black Bearry",
       "have_boost": 1,
-      "boost_text": "+1 Blueberry"
+      "boost_text": "+1 Blueberry",
+      "image_extension": "gif"
     },
     {
       "id": 415,
@@ -2622,7 +2887,8 @@
       "collection": "collectibles",
       "name": "Woody the Beaver",
       "have_boost": 1,
-      "boost_text": "+20% Wood\nDisabled if Apprentice Beaver or Foreman Beaver Active"
+      "boost_text": "+20% Wood\nDisabled if Apprentice Beaver or Foreman Beaver Active",
+      "image_extension": "gif"
     },
     {
       "id": 460,
@@ -2632,7 +2898,8 @@
       "collection": "collectibles",
       "name": "Genie Lamp",
       "have_boost": 1,
-      "boost_text": "Grants 3 Wishes from the Wish list"
+      "boost_text": "Grants 3 Wishes from the Wish list",
+      "image_extension": "png"
     },
     {
       "id": 493,
@@ -2642,7 +2909,8 @@
       "collection": "collectibles",
       "name": "Hungry Caterpillar",
       "have_boost": 1,
-      "boost_text": "Free Flower Seeds"
+      "boost_text": "Free Flower Seeds",
+      "image_extension": "png"
     },
     {
       "id": 469,
@@ -2652,7 +2920,8 @@
       "collection": "collectibles",
       "name": "Freya Fox",
       "have_boost": 1,
-      "boost_text": "+0.5 Pumpkin"
+      "boost_text": "+0.5 Pumpkin",
+      "image_extension": "png"
     },
     {
       "id": 418,
@@ -2662,7 +2931,8 @@
       "collection": "collectibles",
       "name": "Mysterious Parsnip",
       "have_boost": 1,
-      "boost_text": "-50% Parsnip Growth Time"
+      "boost_text": "-50% Parsnip Growth Time",
+      "image_extension": "png"
     },
     {
       "id": 2256,
@@ -2672,7 +2942,8 @@
       "collection": "collectibles",
       "name": "Dr Cow",
       "have_boost": 1,
-      "boost_text": "5% less feeding cost for cows"
+      "boost_text": "5% less feeding cost for cows",
+      "image_extension": "png"
     },
     {
       "id": 2154,
@@ -2682,7 +2953,8 @@
       "collection": "collectibles",
       "name": "King of Bears",
       "have_boost": 1,
-      "boost_text": "Increase Honey Yield per full beehive +0.25"
+      "boost_text": "Increase Honey Yield per full beehive +0.25",
+      "image_extension": "png"
     },
     {
       "id": 2155,
@@ -2692,7 +2964,8 @@
       "collection": "collectibles",
       "name": "Moo-ver",
       "have_boost": 1,
-      "boost_text": "+0.25 Leather"
+      "boost_text": "+0.25 Leather",
+      "image_extension": "gif"
     },
     {
       "id": 435,
@@ -2702,7 +2975,8 @@
       "collection": "collectibles",
       "name": "Cabbage Girl",
       "have_boost": 1,
-      "boost_text": "-50% Cabbage Growth Time"
+      "boost_text": "-50% Cabbage Growth Time",
+      "image_extension": "png"
     },
     {
       "id": 450,
@@ -2712,7 +2986,8 @@
       "collection": "collectibles",
       "name": "Heart of Davy Jones",
       "have_boost": 1,
-      "boost_text": "+20 Desert Digs"
+      "boost_text": "+20 Desert Digs",
+      "image_extension": "png"
     },
     {
       "id": 2122,
@@ -2722,21 +2997,24 @@
       "collection": "collectibles",
       "name": "Tomato Clown",
       "have_boost": 1,
-      "boost_text": "-50% Tomato Growth Time"
+      "boost_text": "-50% Tomato Growth Time",
+      "image_extension": "gif"
     },
     {
       "id": 807,
       "floor": 555,
       "lastSalePrice": 429,
       "supply": 40,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 806,
       "floor": 599,
       "lastSalePrice": 150,
       "supply": 49,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 466,
@@ -2746,7 +3024,8 @@
       "collection": "collectibles",
       "name": "Sir Goldensnout",
       "have_boost": 1,
-      "boost_text": "+0.5 crop yield\nAffects plots around (4x4)"
+      "boost_text": "+0.5 crop yield\nAffects plots around (4x4)",
+      "image_extension": "png"
     },
     {
       "id": 480,
@@ -2756,7 +3035,8 @@
       "collection": "collectibles",
       "name": "Knowledge Crab",
       "have_boost": 1,
-      "boost_text": "Double Sprout Mix Boost Effect"
+      "boost_text": "Double Sprout Mix Boost Effect",
+      "image_extension": "png"
     },
     {
       "id": 497,
@@ -2766,7 +3046,8 @@
       "collection": "collectibles",
       "name": "Grape Granny",
       "have_boost": 1,
-      "boost_text": "+1 Grape"
+      "boost_text": "+1 Grape",
+      "image_extension": "png"
     },
     {
       "id": 404,
@@ -2776,7 +3057,8 @@
       "collection": "collectibles",
       "name": "Scarecrow",
       "have_boost": 1,
-      "boost_text": "-15% Crop Growth Time\n+20% Crop Yield\nDisabled if Kuebiko Active"
+      "boost_text": "-15% Crop Growth Time\n+20% Crop Yield\nDisabled if Kuebiko Active",
+      "image_extension": "png"
     },
     {
       "id": 436,
@@ -2786,7 +3068,8 @@
       "collection": "collectibles",
       "name": "Wood Nymph Wendy",
       "have_boost": 1,
-      "boost_text": "+0.2 Wood"
+      "boost_text": "+0.2 Wood",
+      "image_extension": "gif"
     },
     {
       "id": 1232,
@@ -2796,7 +3079,8 @@
       "collection": "collectibles",
       "name": "Golden Bear Head",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 1537,
@@ -2806,7 +3090,8 @@
       "collection": "collectibles",
       "name": "Crimson Carp",
       "have_boost": 1,
-      "boost_text": "+0.05 Crimstone"
+      "boost_text": "+0.05 Crimstone",
+      "image_extension": "png"
     },
     {
       "id": 416,
@@ -2816,7 +3101,8 @@
       "collection": "collectibles",
       "name": "Apprentice Beaver",
       "have_boost": 1,
-      "boost_text": "+20% Wood\n-50% Tree Recovery Time\nDisabled if Foreman Beaver Active"
+      "boost_text": "+20% Wood\n-50% Tree Recovery Time\nDisabled if Foreman Beaver Active",
+      "image_extension": "gif"
     },
     {
       "id": 2157,
@@ -2826,7 +3112,8 @@
       "collection": "collectibles",
       "name": "Cluckulator",
       "have_boost": 1,
-      "boost_text": "-25% Feed to Chicken"
+      "boost_text": "-25% Feed to Chicken",
+      "image_extension": "gif"
     },
     {
       "id": 2128,
@@ -2836,7 +3123,8 @@
       "collection": "collectibles",
       "name": "Tomato Bombard",
       "have_boost": 1,
-      "boost_text": "+1 Tomato"
+      "boost_text": "+1 Tomato",
+      "image_extension": "png"
     },
     {
       "id": 2164,
@@ -2846,14 +3134,16 @@
       "collection": "collectibles",
       "name": "Toxic Tuft",
       "have_boost": 1,
-      "boost_text": "+0.1 Merino Wool"
+      "boost_text": "+0.1 Merino Wool",
+      "image_extension": "png"
     },
     {
       "id": 828,
       "floor": 999,
       "lastSalePrice": 0,
       "supply": 46,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 1218,
@@ -2863,7 +3153,8 @@
       "collection": "collectibles",
       "name": "Rainbow Artist Bear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2163,
@@ -2873,7 +3164,8 @@
       "collection": "collectibles",
       "name": "Mootant",
       "have_boost": 1,
-      "boost_text": "+0.1 Leather"
+      "boost_text": "+0.1 Leather",
+      "image_extension": "png"
     },
     {
       "id": 407,
@@ -2883,7 +3175,8 @@
       "collection": "collectibles",
       "name": "Gnome",
       "have_boost": 1,
-      "boost_text": "+10 yield to medium/advanced crops\nAffects plot below\nRequires Clementine & Cobalt"
+      "boost_text": "+10 yield to medium/advanced crops\nAffects plot below\nRequires Clementine & Cobalt",
+      "image_extension": "png"
     },
     {
       "id": 430,
@@ -2893,7 +3186,8 @@
       "collection": "collectibles",
       "name": "Nugget",
       "have_boost": 1,
-      "boost_text": "+0.25 Gold"
+      "boost_text": "+0.25 Gold",
+      "image_extension": "gif"
     },
     {
       "id": 2263,
@@ -2903,7 +3197,8 @@
       "collection": "collectibles",
       "name": "Spring Guardian",
       "have_boost": 1,
-      "boost_text": "Spring Disaster Protection\nBlessed Spring Events"
+      "boost_text": "Spring Disaster Protection\nBlessed Spring Events",
+      "image_extension": "png"
     },
     {
       "id": 2272,
@@ -2913,7 +3208,8 @@
       "collection": "collectibles",
       "name": "Giant Kale",
       "have_boost": 1,
-      "boost_text": "+2 Kale"
+      "boost_text": "+2 Kale",
+      "image_extension": "png"
     },
     {
       "id": 490,
@@ -2923,7 +3219,8 @@
       "collection": "collectibles",
       "name": "Humming Bird",
       "have_boost": 1,
-      "boost_text": "20% Chance for +1 Flower"
+      "boost_text": "20% Chance for +1 Flower",
+      "image_extension": "png"
     },
     {
       "id": 478,
@@ -2933,7 +3230,8 @@
       "collection": "collectibles",
       "name": "Walrus",
       "have_boost": 1,
-      "boost_text": "+1 Fish"
+      "boost_text": "+1 Fish",
+      "image_extension": "png"
     },
     {
       "id": 412,
@@ -2943,7 +3241,8 @@
       "collection": "collectibles",
       "name": "Sunflower Rock",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2261,
@@ -2953,7 +3252,8 @@
       "collection": "collectibles",
       "name": "Winter Guardian",
       "have_boost": 1,
-      "boost_text": "Winter Disaster Protection\nBlessed Winter Events"
+      "boost_text": "Winter Disaster Protection\nBlessed Winter Events",
+      "image_extension": "png"
     },
     {
       "id": 2121,
@@ -2963,7 +3263,8 @@
       "collection": "collectibles",
       "name": "Lemon Tea Bath",
       "have_boost": 1,
-      "boost_text": "-50% Lemon Growth Time"
+      "boost_text": "-50% Lemon Growth Time",
+      "image_extension": "png"
     },
     {
       "id": 2152,
@@ -2973,7 +3274,8 @@
       "collection": "collectibles",
       "name": "Sheaf of Plenty",
       "have_boost": 1,
-      "boost_text": "+2 Barley"
+      "boost_text": "+2 Barley",
+      "image_extension": "png"
     },
     {
       "id": 2127,
@@ -2983,14 +3285,16 @@
       "collection": "collectibles",
       "name": "Camel",
       "have_boost": 1,
-      "boost_text": "+1 Sand\n+30% Treasure Sale Price"
+      "boost_text": "+1 Sand\n+30% Treasure Sale Price",
+      "image_extension": "png"
     },
     {
       "id": 839,
       "floor": 1900,
       "lastSalePrice": 0,
       "supply": 9,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 2194,
@@ -3000,7 +3304,8 @@
       "collection": "collectibles",
       "name": "Barn Blueprint",
       "have_boost": 1,
-      "boost_text": "+5 Base Barn Animals\n+5 Max Barn Animals per Upgrade"
+      "boost_text": "+5 Base Barn Animals\n+5 Max Barn Animals per Upgrade",
+      "image_extension": "png"
     },
     {
       "id": 408,
@@ -3010,14 +3315,16 @@
       "collection": "collectibles",
       "name": "Chicken Coop",
       "have_boost": 1,
-      "boost_text": "+1 Egg\n+5 Base Chickens\n+5 Max Chickens per Hen House Upgrade"
+      "boost_text": "+1 Egg\n+5 Base Chickens\n+5 Max Chickens per Hen House Upgrade",
+      "image_extension": "png"
     },
     {
       "id": 812,
       "floor": 1999,
       "lastSalePrice": 0,
       "supply": 36,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 2264,
@@ -3027,7 +3334,8 @@
       "collection": "collectibles",
       "name": "Autumn Guardian",
       "have_boost": 1,
-      "boost_text": "Autumn Disaster Protection\nBlessed Autumn Events"
+      "boost_text": "Autumn Disaster Protection\nBlessed Autumn Events",
+      "image_extension": "png"
     },
     {
       "id": 410,
@@ -3037,7 +3345,8 @@
       "collection": "collectibles",
       "name": "Golden Cauliflower",
       "have_boost": 1,
-      "boost_text": "+100% Cauliflower"
+      "boost_text": "+100% Cauliflower",
+      "image_extension": "png"
     },
     {
       "id": 2262,
@@ -3047,14 +3356,16 @@
       "collection": "collectibles",
       "name": "Summer Guardian",
       "have_boost": 1,
-      "boost_text": "Summer Disaster Protection\nBlessed Summer Events"
+      "boost_text": "Summer Disaster Protection\nBlessed Summer Events",
+      "image_extension": "png"
     },
     {
       "id": 824,
       "floor": 2350,
       "lastSalePrice": 100,
       "supply": 34,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 491,
@@ -3064,7 +3375,8 @@
       "collection": "collectibles",
       "name": "Queen Bee",
       "have_boost": 1,
-      "boost_text": "+1 Honey Production Speed"
+      "boost_text": "+1 Honey Production Speed",
+      "image_extension": "png"
     },
     {
       "id": 406,
@@ -3074,7 +3386,8 @@
       "collection": "collectibles",
       "name": "Farm Dog",
       "have_boost": 1,
-      "boost_text": "-25% Sheep Production Time"
+      "boost_text": "-25% Sheep Production Time",
+      "image_extension": "gif"
     },
     {
       "id": 454,
@@ -3084,21 +3397,24 @@
       "collection": "collectibles",
       "name": "Iron Idol",
       "have_boost": 1,
-      "boost_text": "+1 Iron"
+      "boost_text": "+1 Iron",
+      "image_extension": "png"
     },
     {
       "id": 825,
       "floor": 5000,
       "lastSalePrice": 60,
       "supply": 80,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 821,
       "floor": 5000,
       "lastSalePrice": 320,
       "supply": 8,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 461,
@@ -3108,14 +3424,16 @@
       "collection": "collectibles",
       "name": "Hoot",
       "have_boost": 1,
-      "boost_text": "+0.5 Wheat, Radish, Kale, Rice, Barley"
+      "boost_text": "+0.5 Wheat, Radish, Kale, Rice, Barley",
+      "image_extension": "png"
     },
     {
       "id": 833,
       "floor": 6100,
       "lastSalePrice": 0,
       "supply": 39,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 495,
@@ -3125,7 +3443,8 @@
       "collection": "collectibles",
       "name": "Turbo Sprout",
       "have_boost": 1,
-      "boost_text": "-50% Growth Time in Greenhouse"
+      "boost_text": "-50% Growth Time in Greenhouse",
+      "image_extension": "png"
     },
     {
       "id": 463,
@@ -3135,7 +3454,8 @@
       "collection": "collectibles",
       "name": "Emerald Turtle",
       "have_boost": 1,
-      "boost_text": "+0.5 Stone, Iron, Gold (AOE 3x3)\nAffects plots around (3x3)"
+      "boost_text": "+0.5 Stone, Iron, Gold (AOE 3x3)\nAffects plots around (3x3)",
+      "image_extension": "png"
     },
     {
       "id": 421,
@@ -3145,7 +3465,8 @@
       "collection": "collectibles",
       "name": "Kuebiko",
       "have_boost": 1,
-      "boost_text": "-15% Crop Growth Time\n+20% Crop Yield\nFree Seeds"
+      "boost_text": "-15% Crop Growth Time\n+20% Crop Yield\nFree Seeds",
+      "image_extension": "gif"
     },
     {
       "id": 2193,
@@ -3155,14 +3476,16 @@
       "collection": "collectibles",
       "name": "Golden Sheep",
       "have_boost": 1,
-      "boost_text": "Feed Sheeps for free!"
+      "boost_text": "Feed Sheeps for free!",
+      "image_extension": "png"
     },
     {
       "id": 803,
       "floor": 9999,
       "lastSalePrice": 450,
       "supply": 33,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 409,
@@ -3172,7 +3495,8 @@
       "collection": "collectibles",
       "name": "Gold Egg",
       "have_boost": 1,
-      "boost_text": "Feed Chickens for free"
+      "boost_text": "Feed Chickens for free",
+      "image_extension": "gif"
     },
     {
       "id": 2260,
@@ -3182,7 +3506,8 @@
       "collection": "collectibles",
       "name": "Obsidian Turtle",
       "have_boost": 1,
-      "boost_text": "+0.5 Obsidian"
+      "boost_text": "+0.5 Obsidian",
+      "image_extension": "png"
     },
     {
       "id": 2259,
@@ -3192,7 +3517,8 @@
       "collection": "collectibles",
       "name": "Quarry",
       "have_boost": 1,
-      "boost_text": "Mine stone without pickaxes"
+      "boost_text": "Mine stone without pickaxes",
+      "image_extension": "png"
     },
     {
       "id": 2120,
@@ -3202,7 +3528,8 @@
       "collection": "collectibles",
       "name": "Pharaoh Gnome",
       "have_boost": 1,
-      "boost_text": "+2 Greenhouse Produce"
+      "boost_text": "+2 Greenhouse Produce",
+      "image_extension": "png"
     },
     {
       "id": 417,
@@ -3212,35 +3539,40 @@
       "collection": "collectibles",
       "name": "Foreman Beaver",
       "have_boost": 1,
-      "boost_text": "+20% Wood\n-50% Tree Recovery Time\nChop Trees without Axes"
+      "boost_text": "+20% Wood\n-50% Tree Recovery Time\nChop Trees without Axes",
+      "image_extension": "gif"
     },
     {
       "id": 818,
       "floor": 15000,
       "lastSalePrice": 100,
       "supply": 60,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 820,
       "floor": 15000,
       "lastSalePrice": 0,
       "supply": 9,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 815,
       "floor": 16400,
       "lastSalePrice": 0,
       "supply": 23,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 817,
       "floor": 16500,
       "lastSalePrice": 225,
       "supply": 8,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 489,
@@ -3250,7 +3582,8 @@
       "collection": "collectibles",
       "name": "Grinx's Hammer",
       "have_boost": 1,
-      "boost_text": "Halves expansion costs"
+      "boost_text": "Halves expansion costs",
+      "image_extension": "png"
     },
     {
       "id": 2178,
@@ -3260,7 +3593,8 @@
       "collection": "collectibles",
       "name": "Golden Cow",
       "have_boost": 1,
-      "boost_text": "Feed cows for free!"
+      "boost_text": "Feed cows for free!",
+      "image_extension": "png"
     },
     {
       "id": 403,
@@ -3270,7 +3604,8 @@
       "collection": "collectibles",
       "name": "Christmas Tree",
       "have_boost": 1,
-      "boost_text": "Free Gift at Christmas"
+      "boost_text": "Free Gift at Christmas",
+      "image_extension": "png"
     },
     {
       "id": 405,
@@ -3280,14 +3615,16 @@
       "collection": "collectibles",
       "name": "Farm Cat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 801,
       "floor": 99999999999999,
       "lastSalePrice": 0,
       "supply": 23,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 2033,
@@ -3297,168 +3634,192 @@
       "collection": "collectibles",
       "name": "Battlecry Drum",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 836,
       "floor": 0,
       "lastSalePrice": 5,
       "supply": 5,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 804,
       "floor": 0,
       "lastSalePrice": 50,
       "supply": 186,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 808,
       "floor": 0,
       "lastSalePrice": 150,
       "supply": 7,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 809,
       "floor": 0,
       "lastSalePrice": 333,
       "supply": 5,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 802,
       "floor": 0,
       "lastSalePrice": 635,
       "supply": 15,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 805,
       "floor": 0,
       "lastSalePrice": 0,
       "supply": 2,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 810,
       "floor": 0,
       "lastSalePrice": 0,
       "supply": 1,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 811,
       "floor": 0,
       "lastSalePrice": 0,
       "supply": 8,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 813,
       "floor": 0,
       "lastSalePrice": 0,
       "supply": 11,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 814,
       "floor": 0,
       "lastSalePrice": 0,
       "supply": 7,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 816,
       "floor": 0,
       "lastSalePrice": 0,
       "supply": 6,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 819,
       "floor": 0,
       "lastSalePrice": 0,
       "supply": 3,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 823,
       "floor": 0,
       "lastSalePrice": 0,
       "supply": 3,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 827,
       "floor": 0,
       "lastSalePrice": 0,
       "supply": 5,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 829,
       "floor": 0,
       "lastSalePrice": 0,
       "supply": 1,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 830,
       "floor": 0,
       "lastSalePrice": 0,
       "supply": 19,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 831,
       "floor": 0,
       "lastSalePrice": 0,
       "supply": 1,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 832,
       "floor": 0,
       "lastSalePrice": 0,
       "supply": 5,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 837,
       "floor": 0,
       "lastSalePrice": 0,
       "supply": 8,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 838,
       "floor": 0,
       "lastSalePrice": 0,
       "supply": 3,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 840,
       "floor": 0,
       "lastSalePrice": 0,
       "supply": 1,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 841,
       "floor": 0,
       "lastSalePrice": 0,
       "supply": 8,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 842,
       "floor": 0,
       "lastSalePrice": 0,
       "supply": 5,
-      "collection": "collectibles"
+      "collection": "collectibles",
+      "image_extension": "png"
     },
     {
       "id": 2022,
@@ -3468,7 +3829,8 @@
       "collection": "collectibles",
       "name": "Golden Gallant",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2024,
@@ -3478,7 +3840,8 @@
       "collection": "collectibles",
       "name": "Golden Guardian",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 2030,
@@ -3488,7 +3851,8 @@
       "collection": "collectibles",
       "name": "Silver Stallion",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     }
   ],
   "wearables": [
@@ -3497,28 +3861,32 @@
       "floor": 0.0238,
       "lastSalePrice": 0.0249,
       "supply": 72776,
-      "collection": "wearables"
+      "collection": "wearables",
+      "image_extension": "png"
     },
     {
       "id": 22,
       "floor": 0.0249,
       "lastSalePrice": 0.0001,
       "supply": 72164,
-      "collection": "wearables"
+      "collection": "wearables",
+      "image_extension": "png"
     },
     {
       "id": 32,
       "floor": 0.0499,
       "lastSalePrice": 0.0004,
       "supply": 71889,
-      "collection": "wearables"
+      "collection": "wearables",
+      "image_extension": "png"
     },
     {
       "id": 34,
       "floor": 0.0948,
       "lastSalePrice": 0.01,
       "supply": 43637,
-      "collection": "wearables"
+      "collection": "wearables",
+      "image_extension": "png"
     },
     {
       "id": 404,
@@ -3528,7 +3896,8 @@
       "collection": "wearables",
       "name": "Cowgirl Skirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 451,
@@ -3538,7 +3907,8 @@
       "collection": "wearables",
       "name": "Embersteel Suit",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 137,
@@ -3548,14 +3918,16 @@
       "collection": "wearables",
       "name": "Striped Red Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 46,
       "floor": 0.1999,
       "lastSalePrice": 0.19,
       "supply": 26213,
-      "collection": "wearables"
+      "collection": "wearables",
+      "image_extension": "png"
     },
     {
       "id": 452,
@@ -3565,14 +3937,16 @@
       "collection": "wearables",
       "name": "Amberfall Suit",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 41,
       "floor": 0.279,
       "lastSalePrice": 0.08,
       "supply": 44353,
-      "collection": "wearables"
+      "collection": "wearables",
+      "image_extension": "png"
     },
     {
       "id": 423,
@@ -3582,14 +3956,16 @@
       "collection": "wearables",
       "name": "Acorn Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 51,
       "floor": 0.29,
       "lastSalePrice": 0.01,
       "supply": 17313,
-      "collection": "wearables"
+      "collection": "wearables",
+      "image_extension": "png"
     },
     {
       "id": 304,
@@ -3599,49 +3975,56 @@
       "collection": "wearables",
       "name": "Lucky Red Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 45,
       "floor": 0.32,
       "lastSalePrice": 0.3,
       "supply": 43425,
-      "collection": "wearables"
+      "collection": "wearables",
+      "image_extension": "png"
     },
     {
       "id": 35,
       "floor": 0.334,
       "lastSalePrice": 0.39,
       "supply": 26580,
-      "collection": "wearables"
+      "collection": "wearables",
+      "image_extension": "png"
     },
     {
       "id": 48,
       "floor": 0.3899,
       "lastSalePrice": 0.39,
       "supply": 44046,
-      "collection": "wearables"
+      "collection": "wearables",
+      "image_extension": "png"
     },
     {
       "id": 44,
       "floor": 0.39,
       "lastSalePrice": 0.06,
       "supply": 43897,
-      "collection": "wearables"
+      "collection": "wearables",
+      "image_extension": "png"
     },
     {
       "id": 50,
       "floor": 0.3999,
       "lastSalePrice": 0.08,
       "supply": 17465,
-      "collection": "wearables"
+      "collection": "wearables",
+      "image_extension": "png"
     },
     {
       "id": 47,
       "floor": 0.4899,
       "lastSalePrice": 0.0005,
       "supply": 44164,
-      "collection": "wearables"
+      "collection": "wearables",
+      "image_extension": "png"
     },
     {
       "id": 315,
@@ -3651,7 +4034,8 @@
       "collection": "wearables",
       "name": "Soybean Onesie",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 420,
@@ -3661,7 +4045,8 @@
       "collection": "wearables",
       "name": "Gingerbread Onesie",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 125,
@@ -3671,7 +4056,8 @@
       "collection": "wearables",
       "name": "Fox Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 299,
@@ -3681,14 +4067,16 @@
       "collection": "wearables",
       "name": "Orange Monarch Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 43,
       "floor": 0.6799,
       "lastSalePrice": 0.6799,
       "supply": 17538,
-      "collection": "wearables"
+      "collection": "wearables",
+      "image_extension": "png"
     },
     {
       "id": 270,
@@ -3698,7 +4086,8 @@
       "collection": "wearables",
       "name": "New Years Tiara",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 435,
@@ -3708,7 +4097,8 @@
       "collection": "wearables",
       "name": "Love Heart Onesie",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 441,
@@ -3718,7 +4108,8 @@
       "collection": "wearables",
       "name": "Flower Mask",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 459,
@@ -3728,14 +4119,16 @@
       "collection": "wearables",
       "name": "Love Charm Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 49,
       "floor": 0.9579,
       "lastSalePrice": 0.2333,
       "supply": 6202,
-      "collection": "wearables"
+      "collection": "wearables",
+      "image_extension": "png"
     },
     {
       "id": 396,
@@ -3745,14 +4138,16 @@
       "collection": "wearables",
       "name": "Cowboy Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 421,
       "floor": 0.999,
       "lastSalePrice": 0.0445,
       "supply": 7436,
-      "collection": "wearables"
+      "collection": "wearables",
+      "image_extension": "png"
     },
     {
       "id": 266,
@@ -3762,7 +4157,8 @@
       "collection": "wearables",
       "name": "Santa Beard",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 25,
@@ -3772,7 +4168,8 @@
       "collection": "wearables",
       "name": "Chef Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 97,
@@ -3782,7 +4179,8 @@
       "collection": "wearables",
       "name": "Cupid Hair",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 296,
@@ -3792,7 +4190,8 @@
       "collection": "wearables",
       "name": "Orange Monarch Dress",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 364,
@@ -3802,7 +4201,8 @@
       "collection": "wearables",
       "name": "Desert Camel Background",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 349,
@@ -3812,7 +4212,8 @@
       "collection": "wearables",
       "name": "Pharaoh Headdress",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 265,
@@ -3822,7 +4223,8 @@
       "collection": "wearables",
       "name": "Elf Suit",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 347,
@@ -3832,7 +4234,8 @@
       "collection": "wearables",
       "name": "Painter's Cap",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 249,
@@ -3842,7 +4245,8 @@
       "collection": "wearables",
       "name": "Tiki Pants",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 219,
@@ -3852,7 +4256,8 @@
       "collection": "wearables",
       "name": "Reel Fishing Vest",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 307,
@@ -3862,7 +4267,8 @@
       "collection": "wearables",
       "name": "Love's Topper",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 134,
@@ -3872,7 +4278,8 @@
       "collection": "wearables",
       "name": "Mushroom Sweater",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 260,
@@ -3882,7 +4289,8 @@
       "collection": "wearables",
       "name": "Ugly Christmas Sweater",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 450,
@@ -3892,7 +4300,8 @@
       "collection": "wearables",
       "name": "Bloomwarden Suit",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 297,
@@ -3902,7 +4311,8 @@
       "collection": "wearables",
       "name": "Blue Monarch Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 305,
@@ -3912,7 +4322,8 @@
       "collection": "wearables",
       "name": "Lucky Red Suit",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 397,
@@ -3922,7 +4333,8 @@
       "collection": "wearables",
       "name": "Cowboy Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 208,
@@ -3932,7 +4344,8 @@
       "collection": "wearables",
       "name": "Pumpkin Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 69,
@@ -3942,7 +4355,8 @@
       "collection": "wearables",
       "name": "Reindeer Suit",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 80,
@@ -3952,7 +4366,8 @@
       "collection": "wearables",
       "name": "Reindeer Antlers",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 83,
@@ -3962,7 +4377,8 @@
       "collection": "wearables",
       "name": "China Town Background",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 117,
@@ -3972,7 +4388,8 @@
       "collection": "wearables",
       "name": "Bunny Onesie",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 215,
@@ -3982,7 +4399,8 @@
       "collection": "wearables",
       "name": "Valoria Wreath",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 205,
@@ -3992,14 +4410,16 @@
       "collection": "wearables",
       "name": "Parsnip Horns",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 52,
       "floor": 2.079,
       "lastSalePrice": 1.615,
       "supply": 17427,
-      "collection": "wearables"
+      "collection": "wearables",
+      "image_extension": "png"
     },
     {
       "id": 453,
@@ -4009,7 +4429,8 @@
       "collection": "wearables",
       "name": "Glacierguard Suit",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 348,
@@ -4019,7 +4440,8 @@
       "collection": "wearables",
       "name": "Festival of Colors Background",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 267,
@@ -4029,7 +4451,8 @@
       "collection": "wearables",
       "name": "Santa Suit",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 455,
@@ -4039,7 +4462,8 @@
       "collection": "wearables",
       "name": "Frost Sword",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 458,
@@ -4049,7 +4473,8 @@
       "collection": "wearables",
       "name": "Red Pepper Onesie",
       "have_boost": 1,
-      "boost_text": "-25% Red Pepper Growth Time"
+      "boost_text": "-25% Red Pepper Growth Time",
+      "image_extension": "png"
     },
     {
       "id": 151,
@@ -4059,7 +4484,8 @@
       "collection": "wearables",
       "name": "Straw Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 353,
@@ -4069,7 +4495,8 @@
       "collection": "wearables",
       "name": "Explorer Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 286,
@@ -4079,7 +4506,8 @@
       "collection": "wearables",
       "name": "Full Bloom Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 398,
@@ -4089,7 +4517,8 @@
       "collection": "wearables",
       "name": "Cowboy Trouser",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 210,
@@ -4099,7 +4528,8 @@
       "collection": "wearables",
       "name": "Kama",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 84,
@@ -4109,7 +4539,8 @@
       "collection": "wearables",
       "name": "Lion Dance Mask",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 116,
@@ -4119,7 +4550,8 @@
       "collection": "wearables",
       "name": "St Patricks Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 306,
@@ -4129,7 +4561,8 @@
       "collection": "wearables",
       "name": "Valentine's Field Background",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 447,
@@ -4139,7 +4572,8 @@
       "collection": "wearables",
       "name": "Bunny Pants",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 351,
@@ -4149,7 +4583,8 @@
       "collection": "wearables",
       "name": "Amber Amulet",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 155,
@@ -4159,7 +4594,8 @@
       "collection": "wearables",
       "name": "Witching Wardrobe",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 156,
@@ -4169,7 +4605,8 @@
       "collection": "wearables",
       "name": "Witch's Broom",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 294,
@@ -4179,7 +4616,8 @@
       "collection": "wearables",
       "name": "Blue Monarch Dress",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 98,
@@ -4189,7 +4627,8 @@
       "collection": "wearables",
       "name": "Cupid Dress",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 261,
@@ -4199,7 +4638,8 @@
       "collection": "wearables",
       "name": "Candy Cane",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 368,
@@ -4209,7 +4649,8 @@
       "collection": "wearables",
       "name": "Ankh Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 99,
@@ -4219,7 +4660,8 @@
       "collection": "wearables",
       "name": "Cupid Sandals",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 212,
@@ -4229,7 +4671,8 @@
       "collection": "wearables",
       "name": "Unicorn Horn",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 279,
@@ -4239,7 +4682,8 @@
       "collection": "wearables",
       "name": "Beekeeper Suit",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 464,
@@ -4249,7 +4693,8 @@
       "collection": "wearables",
       "name": "Paint Splattered Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 237,
@@ -4259,7 +4704,8 @@
       "collection": "wearables",
       "name": "Wellies",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 460,
@@ -4269,7 +4715,8 @@
       "collection": "wearables",
       "name": "Sky Island Background",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 463,
@@ -4279,7 +4726,8 @@
       "collection": "wearables",
       "name": "Paint Splattered Hair",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 81,
@@ -4289,7 +4737,8 @@
       "collection": "wearables",
       "name": "Santa Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 365,
@@ -4299,7 +4748,8 @@
       "collection": "wearables",
       "name": "Water Gourd",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 112,
@@ -4309,7 +4759,8 @@
       "collection": "wearables",
       "name": "Sleeping Otter",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 409,
@@ -4319,7 +4770,8 @@
       "collection": "wearables",
       "name": "Shepherd Staff",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 465,
@@ -4329,7 +4781,8 @@
       "collection": "wearables",
       "name": "Paint Splattered Overalls",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 160,
@@ -4339,7 +4792,8 @@
       "collection": "wearables",
       "name": "Ox Costume",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 417,
@@ -4349,7 +4803,8 @@
       "collection": "wearables",
       "name": "Adventurer's Suit",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 313,
@@ -4359,7 +4814,8 @@
       "collection": "wearables",
       "name": "Crown",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 216,
@@ -4369,7 +4825,8 @@
       "collection": "wearables",
       "name": "Earn Alliance Sombrero",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 448,
@@ -4379,7 +4836,8 @@
       "collection": "wearables",
       "name": "Bunny Mask",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 446,
@@ -4389,7 +4847,8 @@
       "collection": "wearables",
       "name": "Handheld Bunny",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 214,
@@ -4399,7 +4858,8 @@
       "collection": "wearables",
       "name": "Feather Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 319,
@@ -4409,7 +4869,8 @@
       "collection": "wearables",
       "name": "Tofu Mask",
       "have_boost": 1,
-      "boost_text": "+0.1 Soybean"
+      "boost_text": "+0.1 Soybean",
+      "image_extension": "png"
     },
     {
       "id": 359,
@@ -4419,7 +4880,8 @@
       "collection": "wearables",
       "name": "Explorer Shorts",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 418,
@@ -4429,7 +4891,8 @@
       "collection": "wearables",
       "name": "Adventurer's Torch",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 355,
@@ -4439,7 +4902,8 @@
       "collection": "wearables",
       "name": "Rock Hammer",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 77,
@@ -4449,7 +4913,8 @@
       "collection": "wearables",
       "name": "Ancient Goblin Sword",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 71,
@@ -4459,7 +4924,8 @@
       "collection": "wearables",
       "name": "Christmas Background",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 17,
@@ -4469,7 +4935,8 @@
       "collection": "wearables",
       "name": "Warrior Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 248,
@@ -4479,7 +4946,8 @@
       "collection": "wearables",
       "name": "Tiki Mask",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 445,
@@ -4489,7 +4957,8 @@
       "collection": "wearables",
       "name": "Carrot Pitchfork",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 165,
@@ -4499,7 +4968,8 @@
       "collection": "wearables",
       "name": "Crumple Crown",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 449,
@@ -4509,7 +4979,8 @@
       "collection": "wearables",
       "name": "Easter Apron",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 139,
@@ -4519,7 +4990,8 @@
       "collection": "wearables",
       "name": "Summer Top",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 127,
@@ -4529,7 +5001,8 @@
       "collection": "wearables",
       "name": "Infected Potion",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 466,
@@ -4539,7 +5012,8 @@
       "collection": "wearables",
       "name": "Paint Spray Can",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 357,
@@ -4549,7 +5023,8 @@
       "collection": "wearables",
       "name": "Explorer Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 101,
@@ -4559,7 +5034,8 @@
       "collection": "wearables",
       "name": "SFL Office Background",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 76,
@@ -4569,7 +5045,8 @@
       "collection": "wearables",
       "name": "Ancient War Hammer",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 289,
@@ -4579,7 +5056,8 @@
       "collection": "wearables",
       "name": "Daisy Tee",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 61,
@@ -4589,7 +5067,8 @@
       "collection": "wearables",
       "name": "Project Dignity Hoodie",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 74,
@@ -4599,7 +5078,8 @@
       "collection": "wearables",
       "name": "Fire Hair",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 53,
@@ -4609,7 +5089,8 @@
       "collection": "wearables",
       "name": "Cemetery Background",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 163,
@@ -4619,7 +5100,8 @@
       "collection": "wearables",
       "name": "Infernal Horns",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 352,
@@ -4629,7 +5111,8 @@
       "collection": "wearables",
       "name": "Desert Background",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 100,
@@ -4639,7 +5122,8 @@
       "collection": "wearables",
       "name": "Love Quiver",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 124,
@@ -4649,7 +5133,8 @@
       "collection": "wearables",
       "name": "Eggplant Onesie",
       "have_boost": 1,
-      "boost_text": "+0.1 Eggplant"
+      "boost_text": "+0.1 Eggplant",
+      "image_extension": "png"
     },
     {
       "id": 82,
@@ -4659,7 +5144,8 @@
       "collection": "wearables",
       "name": "Pineapple Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 26,
@@ -4669,7 +5155,8 @@
       "collection": "wearables",
       "name": "Warrior Helmet",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 262,
@@ -4679,7 +5166,8 @@
       "collection": "wearables",
       "name": "Elf Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 263,
@@ -4689,7 +5177,8 @@
       "collection": "wearables",
       "name": "Elf Potion",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 283,
@@ -4699,7 +5188,8 @@
       "collection": "wearables",
       "name": "Gardening Overalls",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 39,
@@ -4709,7 +5199,8 @@
       "collection": "wearables",
       "name": "Peasant Skirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 422,
@@ -4719,7 +5210,8 @@
       "collection": "wearables",
       "name": "Ladybug Suit",
       "have_boost": 1,
-      "boost_text": "-25% Onion Seed Coin cost"
+      "boost_text": "-25% Onion Seed Coin cost",
+      "image_extension": "png"
     },
     {
       "id": 195,
@@ -4729,7 +5221,8 @@
       "collection": "wearables",
       "name": "Skull Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 231,
@@ -4739,7 +5232,8 @@
       "collection": "wearables",
       "name": "Seaside Tank Top",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 300,
@@ -4749,7 +5243,8 @@
       "collection": "wearables",
       "name": "Queen Bee Crown",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 21,
@@ -4759,7 +5254,8 @@
       "collection": "wearables",
       "name": "Warrior Pants",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 290,
@@ -4769,7 +5265,8 @@
       "collection": "wearables",
       "name": "Propeller Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 93,
@@ -4779,7 +5276,8 @@
       "collection": "wearables",
       "name": "Pirate Pants",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 274,
@@ -4789,7 +5287,8 @@
       "collection": "wearables",
       "name": "Beehive Staff",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 28,
@@ -4799,7 +5298,8 @@
       "collection": "wearables",
       "name": "Carrot Amulet",
       "have_boost": 1,
-      "boost_text": "-20% Carrot Growth time"
+      "boost_text": "-20% Carrot Growth time",
+      "image_extension": "png"
     },
     {
       "id": 317,
@@ -4809,7 +5309,8 @@
       "collection": "wearables",
       "name": "Olive Royalty Shirt",
       "have_boost": 1,
-      "boost_text": "+0.25 Olive"
+      "boost_text": "+0.25 Olive",
+      "image_extension": "png"
     },
     {
       "id": 251,
@@ -4819,7 +5320,8 @@
       "collection": "wearables",
       "name": "Banana Onesie",
       "have_boost": 1,
-      "boost_text": "-20% Banana Growth Time"
+      "boost_text": "-20% Banana Growth Time",
+      "image_extension": "png"
     },
     {
       "id": 132,
@@ -4829,7 +5331,8 @@
       "collection": "wearables",
       "name": "Mushroom Shield",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 16,
@@ -4839,7 +5342,8 @@
       "collection": "wearables",
       "name": "Chef Apron",
       "have_boost": 1,
-      "boost_text": "+20% Cake Profit"
+      "boost_text": "+20% Cake Profit",
+      "image_extension": "png"
     },
     {
       "id": 401,
@@ -4849,7 +5353,8 @@
       "collection": "wearables",
       "name": "White Sheep Onesie",
       "have_boost": 1,
-      "boost_text": "+0.25 Wool"
+      "boost_text": "+0.25 Wool",
+      "image_extension": "png"
     },
     {
       "id": 246,
@@ -4859,7 +5364,8 @@
       "collection": "wearables",
       "name": "Stockeye Salmon Onesie",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 128,
@@ -4869,7 +5375,8 @@
       "collection": "wearables",
       "name": "Mushroom Hat",
       "have_boost": 1,
-      "boost_text": "+0.1 Mushrooms"
+      "boost_text": "+0.1 Mushrooms",
+      "image_extension": "png"
     },
     {
       "id": 235,
@@ -4879,7 +5386,8 @@
       "collection": "wearables",
       "name": "Fishing Spear",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 63,
@@ -4889,7 +5397,8 @@
       "collection": "wearables",
       "name": "Blacksmith Hair",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 312,
@@ -4899,7 +5408,8 @@
       "collection": "wearables",
       "name": "Royal Robe",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 419,
@@ -4909,7 +5419,8 @@
       "collection": "wearables",
       "name": "Pumpkin Head",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 27,
@@ -4919,7 +5430,8 @@
       "collection": "wearables",
       "name": "Sunflower Amulet",
       "have_boost": 1,
-      "boost_text": "+10% Sunflower"
+      "boost_text": "+10% Sunflower",
+      "image_extension": "png"
     },
     {
       "id": 75,
@@ -4929,7 +5441,8 @@
       "collection": "wearables",
       "name": "Luscious Hair",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 133,
@@ -4939,7 +5452,8 @@
       "collection": "wearables",
       "name": "Mushroom Shoes",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 29,
@@ -4949,7 +5463,8 @@
       "collection": "wearables",
       "name": "Beetroot Amulet",
       "have_boost": 1,
-      "boost_text": "+20% Beetroot"
+      "boost_text": "+20% Beetroot",
+      "image_extension": "png"
     },
     {
       "id": 40,
@@ -4959,7 +5474,8 @@
       "collection": "wearables",
       "name": "SFL T-Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 276,
@@ -4969,7 +5485,8 @@
       "collection": "wearables",
       "name": "Bee Suit",
       "have_boost": 1,
-      "boost_text": "+0.1 Honey per Full Beehive"
+      "boost_text": "+0.1 Honey per Full Beehive",
+      "image_extension": "png"
     },
     {
       "id": 437,
@@ -4979,7 +5496,8 @@
       "collection": "wearables",
       "name": "Flower Bouquet",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 282,
@@ -4989,7 +5507,8 @@
       "collection": "wearables",
       "name": "Crimstone Armor",
       "have_boost": 1,
-      "boost_text": "+0.1 Crimstones"
+      "boost_text": "+0.1 Crimstones",
+      "image_extension": "png"
     },
     {
       "id": 247,
@@ -4999,7 +5518,8 @@
       "collection": "wearables",
       "name": "Tiki Armor",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 467,
@@ -5009,7 +5529,8 @@
       "collection": "wearables",
       "name": "Slime Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 218,
@@ -5019,7 +5540,8 @@
       "collection": "wearables",
       "name": "Fish Pro Vest",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 103,
@@ -5029,7 +5551,8 @@
       "collection": "wearables",
       "name": "Goblin Puppet",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 245,
@@ -5039,7 +5562,8 @@
       "collection": "wearables",
       "name": "Normal Fish Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 350,
@@ -5049,7 +5573,8 @@
       "collection": "wearables",
       "name": "Camel Onesie",
       "have_boost": 1,
-      "boost_text": "+0.1 Fruit Patch Yield"
+      "boost_text": "+0.1 Fruit Patch Yield",
+      "image_extension": "png"
     },
     {
       "id": 244,
@@ -5059,7 +5584,8 @@
       "collection": "wearables",
       "name": "Koi Fish Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 268,
@@ -5069,7 +5595,8 @@
       "collection": "wearables",
       "name": "Butterfly Wings",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 140,
@@ -5079,7 +5606,8 @@
       "collection": "wearables",
       "name": "Sunburst Potion",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 57,
@@ -5089,7 +5617,8 @@
       "collection": "wearables",
       "name": "Jail Background",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 38,
@@ -5099,7 +5628,8 @@
       "collection": "wearables",
       "name": "Maiden Top",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 222,
@@ -5109,7 +5639,8 @@
       "collection": "wearables",
       "name": "Abyssal Angler Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 406,
@@ -5119,7 +5650,8 @@
       "collection": "wearables",
       "name": "Dream Scarf",
       "have_boost": 1,
-      "boost_text": "-20% Sheep Production Time"
+      "boost_text": "-20% Sheep Production Time",
+      "image_extension": "png"
     },
     {
       "id": 159,
@@ -5129,7 +5661,8 @@
       "collection": "wearables",
       "name": "Imp Costume",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 280,
@@ -5139,7 +5672,8 @@
       "collection": "wearables",
       "name": "Crimstone Boots",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 68,
@@ -5149,7 +5683,8 @@
       "collection": "wearables",
       "name": "Snowman Onesie",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 174,
@@ -5159,7 +5694,8 @@
       "collection": "wearables",
       "name": "Corn Onesie",
       "have_boost": 1,
-      "boost_text": "+0.1 Corn"
+      "boost_text": "+0.1 Corn",
+      "image_extension": "png"
     },
     {
       "id": 119,
@@ -5169,7 +5705,8 @@
       "collection": "wearables",
       "name": "Polkastarter Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 123,
@@ -5179,7 +5716,8 @@
       "collection": "wearables",
       "name": "Dawn Lamp",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 281,
@@ -5189,7 +5727,8 @@
       "collection": "wearables",
       "name": "Crimstone Pants",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 95,
@@ -5199,7 +5738,8 @@
       "collection": "wearables",
       "name": "Crab Claw",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 102,
@@ -5209,7 +5749,8 @@
       "collection": "wearables",
       "name": "Bumpkin Puppet",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 239,
@@ -5219,7 +5760,8 @@
       "collection": "wearables",
       "name": "Skinning Knife",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 193,
@@ -5229,7 +5771,8 @@
       "collection": "wearables",
       "name": "Pale Potion",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 424,
@@ -5239,7 +5782,8 @@
       "collection": "wearables",
       "name": "Crab Hat",
       "have_boost": 1,
-      "boost_text": "+1 treasure when fishing"
+      "boost_text": "+1 treasure when fishing",
+      "image_extension": "png"
     },
     {
       "id": 175,
@@ -5249,7 +5793,8 @@
       "collection": "wearables",
       "name": "Crow Wings",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 70,
@@ -5259,7 +5804,8 @@
       "collection": "wearables",
       "name": "Shark Onesie",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 278,
@@ -5269,7 +5815,8 @@
       "collection": "wearables",
       "name": "Beekeeper Hat",
       "have_boost": 1,
-      "boost_text": "+0.2 Honey Production Speed"
+      "boost_text": "+0.2 Honey Production Speed",
+      "image_extension": "png"
     },
     {
       "id": 122,
@@ -5279,7 +5826,8 @@
       "collection": "wearables",
       "name": "Dawn Breaker Background",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 67,
@@ -5289,7 +5837,8 @@
       "collection": "wearables",
       "name": "Red Long Hair",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 54,
@@ -5299,7 +5848,8 @@
       "collection": "wearables",
       "name": "Teal Mohawk",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 230,
@@ -5309,7 +5859,8 @@
       "collection": "wearables",
       "name": "Crab Trap",
       "have_boost": 1,
-      "boost_text": "+1 Crab when digging or drilling"
+      "boost_text": "+1 Crab when digging or drilling",
+      "image_extension": "png"
     },
     {
       "id": 94,
@@ -5319,7 +5870,8 @@
       "collection": "wearables",
       "name": "Pirate Leather Polo",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 303,
@@ -5329,7 +5881,8 @@
       "collection": "wearables",
       "name": "Chicken Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 373,
@@ -5339,7 +5892,8 @@
       "collection": "wearables",
       "name": "Grape Pants",
       "have_boost": 1,
-      "boost_text": "+0.2 Grapes"
+      "boost_text": "+0.2 Grapes",
+      "image_extension": "png"
     },
     {
       "id": 66,
@@ -5349,7 +5903,8 @@
       "collection": "wearables",
       "name": "Fire Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 233,
@@ -5359,7 +5914,8 @@
       "collection": "wearables",
       "name": "Fishing Pants",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 104,
@@ -5369,7 +5925,8 @@
       "collection": "wearables",
       "name": "Hawaiian Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 375,
@@ -5379,7 +5936,8 @@
       "collection": "wearables",
       "name": "Fossil Head",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 468,
@@ -5389,7 +5947,8 @@
       "collection": "wearables",
       "name": "Slime Wings",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 55,
@@ -5399,7 +5958,8 @@
       "collection": "wearables",
       "name": "Space Background",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 78,
@@ -5409,7 +5969,8 @@
       "collection": "wearables",
       "name": "Mountain View Background",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 454,
@@ -5419,7 +5980,8 @@
       "collection": "wearables",
       "name": "Broccoli Hat",
       "have_boost": 1,
-      "boost_text": "-50% Broccoli Growth Time"
+      "boost_text": "-50% Broccoli Growth Time",
+      "image_extension": "png"
     },
     {
       "id": 277,
@@ -5429,7 +5991,8 @@
       "collection": "wearables",
       "name": "Bee Wings",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 65,
@@ -5439,7 +6002,8 @@
       "collection": "wearables",
       "name": "Bumpkin Boots",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 429,
@@ -5449,7 +6013,8 @@
       "collection": "wearables",
       "name": "Locust King Onesie",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 250,
@@ -5459,7 +6024,8 @@
       "collection": "wearables",
       "name": "Banana Amulet",
       "have_boost": 1,
-      "boost_text": "+0.5 Bananas"
+      "boost_text": "+0.5 Bananas",
+      "image_extension": "png"
     },
     {
       "id": 220,
@@ -5469,7 +6035,8 @@
       "collection": "wearables",
       "name": "Clown Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 372,
@@ -5479,7 +6046,8 @@
       "collection": "wearables",
       "name": "Scarab Wings",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 33,
@@ -5489,7 +6057,8 @@
       "collection": "wearables",
       "name": "Fancy Top",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 106,
@@ -5499,7 +6068,8 @@
       "collection": "wearables",
       "name": "Frog Onesie",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 36,
@@ -5509,7 +6079,8 @@
       "collection": "wearables",
       "name": "Fancy Pants",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 217,
@@ -5519,7 +6090,8 @@
       "collection": "wearables",
       "name": "Fresh Catch Vest",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 105,
@@ -5529,7 +6101,8 @@
       "collection": "wearables",
       "name": "Bear Onesie",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 456,
@@ -5539,7 +6112,8 @@
       "collection": "wearables",
       "name": "Medic Apron",
       "have_boost": 1,
-      "boost_text": "-50% Medicine to heal animals"
+      "boost_text": "-50% Medicine to heal animals",
+      "image_extension": "png"
     },
     {
       "id": 403,
@@ -5549,7 +6123,8 @@
       "collection": "wearables",
       "name": "Chicken Suit",
       "have_boost": 1,
-      "boost_text": "+1 Feather"
+      "boost_text": "+1 Feather",
+      "image_extension": "png"
     },
     {
       "id": 148,
@@ -5559,7 +6134,8 @@
       "collection": "wearables",
       "name": "Harry's Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 96,
@@ -5569,7 +6145,8 @@
       "collection": "wearables",
       "name": "Pirate Scimitar",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 469,
@@ -5579,7 +6156,8 @@
       "collection": "wearables",
       "name": "Slime Aura",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 285,
@@ -5589,7 +6167,8 @@
       "collection": "wearables",
       "name": "Crimstone Amulet",
       "have_boost": 1,
-      "boost_text": "-20% Crimstone Cooldown Time"
+      "boost_text": "-20% Crimstone Cooldown Time",
+      "image_extension": "png"
     },
     {
       "id": 79,
@@ -5599,7 +6178,8 @@
       "collection": "wearables",
       "name": "Skull Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 309,
@@ -5609,7 +6189,8 @@
       "collection": "wearables",
       "name": "Non La Hat",
       "have_boost": 1,
-      "boost_text": "+1 Rice"
+      "boost_text": "+1 Rice",
+      "image_extension": "png"
     },
     {
       "id": 310,
@@ -5619,7 +6200,8 @@
       "collection": "wearables",
       "name": "Olive Shield",
       "have_boost": 1,
-      "boost_text": "+1 Olive"
+      "boost_text": "+1 Olive",
+      "image_extension": "png"
     },
     {
       "id": 405,
@@ -5629,7 +6211,8 @@
       "collection": "wearables",
       "name": "Merino Jumper",
       "have_boost": 1,
-      "boost_text": "+1 Merino Wool"
+      "boost_text": "+1 Merino Wool",
+      "image_extension": "png"
     },
     {
       "id": 408,
@@ -5639,7 +6222,8 @@
       "collection": "wearables",
       "name": "Milk Apron",
       "have_boost": 1,
-      "boost_text": "+0.5 Milk"
+      "boost_text": "+0.5 Milk",
+      "image_extension": "png"
     },
     {
       "id": 308,
@@ -5649,7 +6233,8 @@
       "collection": "wearables",
       "name": "Oil Can",
       "have_boost": 1,
-      "boost_text": "+2 Oil"
+      "boost_text": "+2 Oil",
+      "image_extension": "png"
     },
     {
       "id": 92,
@@ -5659,7 +6244,8 @@
       "collection": "wearables",
       "name": "Pirate General Coat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 292,
@@ -5669,7 +6255,8 @@
       "collection": "wearables",
       "name": "Hornet Mask",
       "have_boost": 1,
-      "boost_text": "2x chance Bee Swarm"
+      "boost_text": "2x chance Bee Swarm",
+      "image_extension": "png"
     },
     {
       "id": 311,
@@ -5679,7 +6266,8 @@
       "collection": "wearables",
       "name": "Paw Shield",
       "have_boost": 1,
-      "boost_text": "+25% Faction Pet Satiation and Marks Awarded"
+      "boost_text": "+25% Faction Pet Satiation and Marks Awarded",
+      "image_extension": "png"
     },
     {
       "id": 287,
@@ -5689,7 +6277,8 @@
       "collection": "wearables",
       "name": "Blue Blossom Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 158,
@@ -5699,7 +6288,8 @@
       "collection": "wearables",
       "name": "Infernal Goblin Potion",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 58,
@@ -5709,7 +6299,8 @@
       "collection": "wearables",
       "name": "Golden Spatula",
       "have_boost": 1,
-      "boost_text": "+10% XP"
+      "boost_text": "+10% XP",
+      "image_extension": "png"
     },
     {
       "id": 371,
@@ -5719,7 +6310,8 @@
       "collection": "wearables",
       "name": "Lemon Shield",
       "have_boost": 1,
-      "boost_text": "+1 Lemon"
+      "boost_text": "+1 Lemon",
+      "image_extension": "png"
     },
     {
       "id": 60,
@@ -5729,7 +6321,8 @@
       "collection": "wearables",
       "name": "Bumpkin Art Competition Merch",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 56,
@@ -5739,7 +6332,8 @@
       "collection": "wearables",
       "name": "Parsnip",
       "have_boost": 1,
-      "boost_text": "+20% Parsnip"
+      "boost_text": "+20% Parsnip",
+      "image_extension": "png"
     },
     {
       "id": 31,
@@ -5749,7 +6343,8 @@
       "collection": "wearables",
       "name": "Sunflower Shield",
       "have_boost": 1,
-      "boost_text": "Free Sunflower Seeds"
+      "boost_text": "Free Sunflower Seeds",
+      "image_extension": "png"
     },
     {
       "id": 157,
@@ -5759,7 +6354,8 @@
       "collection": "wearables",
       "name": "Infernal Bumpkin Potion",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 136,
@@ -5769,7 +6365,8 @@
       "collection": "wearables",
       "name": "Squid Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 461,
@@ -5779,7 +6376,8 @@
       "collection": "wearables",
       "name": "Oracle Syringe",
       "have_boost": 1,
-      "boost_text": "Heal animals for free"
+      "boost_text": "Heal animals for free",
+      "image_extension": "png"
     },
     {
       "id": 121,
@@ -5789,7 +6387,8 @@
       "collection": "wearables",
       "name": "Club Polo",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 410,
@@ -5799,7 +6398,8 @@
       "collection": "wearables",
       "name": "Sol & Luna",
       "have_boost": 1,
-      "boost_text": "-50% Crafting Box Time"
+      "boost_text": "-50% Crafting Box Time",
+      "image_extension": "png"
     },
     {
       "id": 434,
@@ -5809,7 +6409,8 @@
       "collection": "wearables",
       "name": "Frozen Heart",
       "have_boost": 1,
-      "boost_text": "+1 Yield to Winter Plot Crop in Winter"
+      "boost_text": "+1 Yield to Winter Plot Crop in Winter",
+      "image_extension": "png"
     },
     {
       "id": 402,
@@ -5819,7 +6420,8 @@
       "collection": "wearables",
       "name": "Black Sheep Onesie",
       "have_boost": 1,
-      "boost_text": "+2 Wool"
+      "boost_text": "+2 Wool",
+      "image_extension": "png"
     },
     {
       "id": 432,
@@ -5829,7 +6431,8 @@
       "collection": "wearables",
       "name": "Blossom Ward",
       "have_boost": 1,
-      "boost_text": "+1 Yield to Spring Plot Crop in Spring"
+      "boost_text": "+1 Yield to Spring Plot Crop in Spring",
+      "image_extension": "png"
     },
     {
       "id": 291,
@@ -5839,7 +6442,8 @@
       "collection": "wearables",
       "name": "Honeycomb Shield",
       "have_boost": 1,
-      "boost_text": "+1 Honey per Full Beehive"
+      "boost_text": "+1 Honey per Full Beehive",
+      "image_extension": "png"
     },
     {
       "id": 366,
@@ -5849,7 +6453,8 @@
       "collection": "wearables",
       "name": "Rocket Onesie",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 414,
@@ -5859,7 +6464,8 @@
       "collection": "wearables",
       "name": "Sickle",
       "have_boost": 1,
-      "boost_text": "+2 Wheat"
+      "boost_text": "+2 Wheat",
+      "image_extension": "png"
     },
     {
       "id": 431,
@@ -5869,7 +6475,8 @@
       "collection": "wearables",
       "name": "Solflare Aegis",
       "have_boost": 1,
-      "boost_text": "-50% Plot Crop Time in Summer"
+      "boost_text": "-50% Plot Crop Time in Summer",
+      "image_extension": "png"
     },
     {
       "id": 30,
@@ -5879,7 +6486,8 @@
       "collection": "wearables",
       "name": "Green Amulet",
       "have_boost": 1,
-      "boost_text": "Chance 10x Crops"
+      "boost_text": "Chance 10x Crops",
+      "image_extension": "png"
     },
     {
       "id": 164,
@@ -5889,7 +6497,8 @@
       "collection": "wearables",
       "name": "Cattlegrim",
       "have_boost": 1,
-      "boost_text": "+0.25 Animal Produce"
+      "boost_text": "+0.25 Animal Produce",
+      "image_extension": "png"
     },
     {
       "id": 360,
@@ -5899,7 +6508,8 @@
       "collection": "wearables",
       "name": "Oil Overalls",
       "have_boost": 1,
-      "boost_text": "+10 Oil"
+      "boost_text": "+10 Oil",
+      "image_extension": "png"
     },
     {
       "id": 407,
@@ -5909,7 +6519,8 @@
       "collection": "wearables",
       "name": "Cowbell Necklace",
       "have_boost": 1,
-      "boost_text": "+2 Milk"
+      "boost_text": "+2 Milk",
+      "image_extension": "png"
     },
     {
       "id": 224,
@@ -5919,7 +6530,8 @@
       "collection": "wearables",
       "name": "Ancient Rod",
       "have_boost": 1,
-      "boost_text": "Cast without rod"
+      "boost_text": "Cast without rod",
+      "image_extension": "png"
     },
     {
       "id": 284,
@@ -5929,7 +6541,8 @@
       "collection": "wearables",
       "name": "Crimstone Hammer",
       "have_boost": 1,
-      "boost_text": "+2 Crimstones on 5th mine"
+      "boost_text": "+2 Crimstones on 5th mine",
+      "image_extension": "png"
     },
     {
       "id": 354,
@@ -5939,7 +6552,8 @@
       "collection": "wearables",
       "name": "Dev Wrench",
       "have_boost": 1,
-      "boost_text": "-50% Oil Regeneration Time"
+      "boost_text": "-50% Oil Regeneration Time",
+      "image_extension": "png"
     },
     {
       "id": 314,
@@ -5949,7 +6563,8 @@
       "collection": "wearables",
       "name": "Pan",
       "have_boost": 1,
-      "boost_text": "+25% XP"
+      "boost_text": "+25% XP",
+      "image_extension": "png"
     },
     {
       "id": 433,
@@ -5959,7 +6574,8 @@
       "collection": "wearables",
       "name": "Autumn's Embrace",
       "have_boost": 1,
-      "boost_text": "-50% Plot Crop Time in Autumn"
+      "boost_text": "-50% Plot Crop Time in Autumn",
+      "image_extension": "png"
     },
     {
       "id": 457,
@@ -5969,7 +6585,8 @@
       "collection": "wearables",
       "name": "Obsidian Necklace",
       "have_boost": 1,
-      "boost_text": "-50% Lava Pit Time"
+      "boost_text": "-50% Lava Pit Time",
+      "image_extension": "png"
     },
     {
       "id": 293,
@@ -5979,7 +6596,8 @@
       "collection": "wearables",
       "name": "Flower Crown",
       "have_boost": 1,
-      "boost_text": "-50% Flower Growth Time"
+      "boost_text": "-50% Flower Growth Time",
+      "image_extension": "png"
     },
     {
       "id": 400,
@@ -5989,7 +6607,8 @@
       "collection": "wearables",
       "name": "Infernal Bullwhip",
       "have_boost": 1,
-      "boost_text": "-50% Feed to Barn Animal"
+      "boost_text": "-50% Feed to Barn Animal",
+      "image_extension": "png"
     },
     {
       "id": 161,
@@ -5999,7 +6618,8 @@
       "collection": "wearables",
       "name": "Luna's Hat",
       "have_boost": 1,
-      "boost_text": "-50% Cooking Time"
+      "boost_text": "-50% Cooking Time",
+      "image_extension": "png"
     },
     {
       "id": 369,
@@ -6009,7 +6629,8 @@
       "collection": "wearables",
       "name": "Ancient Shovel",
       "have_boost": 1,
-      "boost_text": "Dig treasure without Sand Shovel"
+      "boost_text": "Dig treasure without Sand Shovel",
+      "image_extension": "png"
     },
     {
       "id": 370,
@@ -6019,7 +6640,8 @@
       "collection": "wearables",
       "name": "Infernal Drill",
       "have_boost": 1,
-      "boost_text": "Drill Oil without Oil Drill"
+      "boost_text": "Drill Oil without Oil Drill",
+      "image_extension": "png"
     },
     {
       "id": 73,
@@ -6029,7 +6651,8 @@
       "collection": "wearables",
       "name": "Angel Wings",
       "have_boost": 1,
-      "boost_text": "30% Chance of Instant Crops"
+      "boost_text": "30% Chance of Instant Crops",
+      "image_extension": "png"
     },
     {
       "id": 162,
@@ -6039,7 +6662,8 @@
       "collection": "wearables",
       "name": "Infernal Pitchfork",
       "have_boost": 1,
-      "boost_text": "+3 Crops"
+      "boost_text": "+3 Crops",
+      "image_extension": "png"
     },
     {
       "id": 107,
@@ -6049,7 +6673,8 @@
       "collection": "wearables",
       "name": "Tiger Onesie",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 367,
@@ -6059,7 +6684,8 @@
       "collection": "wearables",
       "name": "Coin Aura",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 430,
@@ -6069,7 +6695,8 @@
       "collection": "wearables",
       "name": "Glacial Plume",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 72,
@@ -6079,7 +6706,8 @@
       "collection": "wearables",
       "name": "Devil Wings",
       "have_boost": 1,
-      "boost_text": "30% Chance of Instant Crops"
+      "boost_text": "30% Chance of Instant Crops",
+      "image_extension": "png"
     },
     {
       "id": 24,
@@ -6089,7 +6717,8 @@
       "collection": "wearables",
       "name": "Farmer Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 37,
@@ -6099,7 +6728,8 @@
       "collection": "wearables",
       "name": "Maiden Skirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 59,
@@ -6109,7 +6739,8 @@
       "collection": "wearables",
       "name": "Artist Scarf",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 62,
@@ -6119,7 +6750,8 @@
       "collection": "wearables",
       "name": "Developer Hoodie",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 64,
@@ -6129,7 +6761,8 @@
       "collection": "wearables",
       "name": "Hammer",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 108,
@@ -6139,7 +6772,8 @@
       "collection": "wearables",
       "name": "Beach Sarong",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 113,
@@ -6149,7 +6783,8 @@
       "collection": "wearables",
       "name": "Tropical Sarong",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 114,
@@ -6159,7 +6794,8 @@
       "collection": "wearables",
       "name": "Sequence Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 115,
@@ -6169,7 +6805,8 @@
       "collection": "wearables",
       "name": "Sequence Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 126,
@@ -6179,7 +6816,8 @@
       "collection": "wearables",
       "name": "Grave Diggers Shovel",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 138,
@@ -6189,7 +6827,8 @@
       "collection": "wearables",
       "name": "Striped Yellow Shirt",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 143,
@@ -6199,7 +6838,8 @@
       "collection": "wearables",
       "name": "White Turtle Neck",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 207,
@@ -6209,7 +6849,8 @@
       "collection": "wearables",
       "name": "Whale Hat",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 227,
@@ -6219,7 +6860,8 @@
       "collection": "wearables",
       "name": "Infernal Rod",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 236,
@@ -6229,7 +6871,8 @@
       "collection": "wearables",
       "name": "Flip Flops",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 238,
@@ -6239,7 +6882,8 @@
       "collection": "wearables",
       "name": "Saw Fish",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 241,
@@ -6249,7 +6893,8 @@
       "collection": "wearables",
       "name": "Tackle Box",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 275,
@@ -6259,7 +6904,8 @@
       "collection": "wearables",
       "name": "Bee Smoker",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     },
     {
       "id": 399,
@@ -6269,7 +6915,8 @@
       "collection": "wearables",
       "name": "Cowboy Boots",
       "have_boost": 0,
-      "boost_text": ""
+      "boost_text": "",
+      "image_extension": "png"
     }
   ],
   "updatedAt": 1758722350424

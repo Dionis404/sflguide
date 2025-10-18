@@ -1,10 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
-const dataPath = path.join(__dirname, '..', 'src', 'data', 'tempapidata.json');
+const tempApiDataPath = path.join(__dirname, '..', 'src', 'data', 'tempapidata.json');
 const publicNftPath = path.join(__dirname, '..', 'public', 'nft');
 
-const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+const data = JSON.parse(fs.readFileSync(tempApiDataPath, 'utf8'));
 
 const priorities = { 'png': 1, 'gif': 2, 'webp': 3 };
 
@@ -34,7 +34,7 @@ for (const collection of ['collectibles', 'wearables']) {
   }
 }
 
-fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
+fs.writeFileSync(tempApiDataPath, JSON.stringify(data, null, 2));
 
 console.log(`Updated ${updated} items.`);
 if (notFound.length > 0) {

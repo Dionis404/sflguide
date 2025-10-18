@@ -6,7 +6,8 @@
     "snapshot_price": null,
     "banned_count": 86,
     "id": 416,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "gif"
   },
   {
     "name": "Chicken Coop",
@@ -15,7 +16,8 @@
     "snapshot_price": null,
     "banned_count": 63,
     "id": 408,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Foreman Beaver",
@@ -24,7 +26,8 @@
     "snapshot_price": null,
     "banned_count": 41,
     "id": 417,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "gif"
   },
   {
     "name": "Nugget",
@@ -33,7 +36,8 @@
     "snapshot_price": null,
     "banned_count": 34,
     "id": 430,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "gif"
   },
   {
     "name": "Gnome",
@@ -42,7 +46,8 @@
     "snapshot_price": null,
     "banned_count": 28,
     "id": 407,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Kuebiko",
@@ -51,7 +56,8 @@
     "snapshot_price": null,
     "banned_count": 20,
     "id": 421,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "gif"
   },
   {
     "name": "Golden Egg",
@@ -60,7 +66,8 @@
     "snapshot_price": null,
     "banned_count": 17,
     "id": 409,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "gif"
   },
   {
     "name": "Farm Dog",
@@ -69,7 +76,8 @@
     "snapshot_price": null,
     "banned_count": 15,
     "id": 406,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "gif"
   },
   {
     "name": "Golden Cauliflower",
@@ -78,7 +86,8 @@
     "snapshot_price": null,
     "banned_count": 15,
     "id": 410,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Green Amulet",
@@ -87,7 +96,8 @@
     "snapshot_price": null,
     "banned_count": 9,
     "id": 30,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Sheaf of Plenty",
@@ -96,7 +106,8 @@
     "snapshot_price": null,
     "banned_count": 8,
     "id": 2152,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Camel",
@@ -105,7 +116,8 @@
     "snapshot_price": null,
     "banned_count": 6,
     "id": 2127,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Hornet Mask",
@@ -114,7 +126,8 @@
     "snapshot_price": null,
     "banned_count": 6,
     "id": 292,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Golden Spatula",
@@ -123,7 +136,8 @@
     "snapshot_price": null,
     "banned_count": 5,
     "id": 58,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Humming Bird",
@@ -132,7 +146,8 @@
     "snapshot_price": null,
     "banned_count": 5,
     "id": 490,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "webp"
   },
   {
     "name": "Giant Kale",
@@ -141,7 +156,8 @@
     "snapshot_price": null,
     "banned_count": 4,
     "id": 2272,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Lemon Tea Bath",
@@ -150,7 +166,8 @@
     "snapshot_price": null,
     "banned_count": 4,
     "id": 2121,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Sickle",
@@ -159,7 +176,8 @@
     "snapshot_price": null,
     "banned_count": 3,
     "id": 414,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "gif"
   },
   {
     "name": "Cowbell Necklace",
@@ -168,7 +186,8 @@
     "snapshot_price": null,
     "banned_count": 3,
     "id": 407,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Emerald Turtle",
@@ -177,7 +196,8 @@
     "snapshot_price": null,
     "banned_count": 2,
     "id": 463,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Lemon Shield",
@@ -186,7 +206,8 @@
     "snapshot_price": null,
     "banned_count": 2,
     "id": 371,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Paw Shield",
@@ -195,7 +216,8 @@
     "snapshot_price": null,
     "banned_count": 2,
     "id": 311,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Autumn Guardian",
@@ -204,7 +226,8 @@
     "snapshot_price": null,
     "banned_count": 2,
     "id": 2264,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Walrus",
@@ -213,7 +236,8 @@
     "snapshot_price": null,
     "banned_count": 2,
     "id": 478,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "webp"
   },
   {
     "name": "Flower Crown",
@@ -222,7 +246,8 @@
     "snapshot_price": null,
     "banned_count": 2,
     "id": 293,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Oracle Syringe",
@@ -231,7 +256,8 @@
     "snapshot_price": null,
     "banned_count": 2,
     "id": 461,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Infernal Bullwhip",
@@ -240,7 +266,8 @@
     "snapshot_price": null,
     "banned_count": 2,
     "id": 400,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Cattlegrim",
@@ -249,7 +276,8 @@
     "snapshot_price": null,
     "banned_count": 2,
     "id": 164,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Mootant",
@@ -258,7 +286,8 @@
     "snapshot_price": null,
     "banned_count": 1,
     "id": 2163,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Queen Bee",
@@ -267,7 +296,8 @@
     "snapshot_price": null,
     "banned_count": 1,
     "id": 491,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "webp"
   },
   {
     "name": "Spring Guardian",
@@ -276,7 +306,8 @@
     "snapshot_price": null,
     "banned_count": 1,
     "id": 2263,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Summer Guardian",
@@ -285,7 +316,8 @@
     "snapshot_price": null,
     "banned_count": 1,
     "id": 2262,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Winter Guardian",
@@ -294,7 +326,8 @@
     "snapshot_price": null,
     "banned_count": 1,
     "id": 2261,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Christmas Tree",
@@ -303,7 +336,8 @@
     "snapshot_price": null,
     "banned_count": 1,
     "id": 403,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Blossom Ward",
@@ -312,7 +346,8 @@
     "snapshot_price": null,
     "banned_count": 1,
     "id": 432,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "gif"
   },
   {
     "name": "Frozen Heart",
@@ -321,7 +356,8 @@
     "snapshot_price": null,
     "banned_count": 1,
     "id": 434,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Honeycomb Shield",
@@ -330,7 +366,8 @@
     "snapshot_price": null,
     "banned_count": 1,
     "id": 291,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Hoot",
@@ -339,7 +376,8 @@
     "snapshot_price": null,
     "banned_count": 1,
     "id": 461,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Crimstone Hammer",
@@ -348,7 +386,8 @@
     "snapshot_price": null,
     "banned_count": 1,
     "id": 284,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Ancient Rod",
@@ -357,7 +396,8 @@
     "snapshot_price": null,
     "banned_count": 1,
     "id": 224,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   },
   {
     "name": "Oil Overalls",
@@ -366,6 +406,7 @@
     "snapshot_price": null,
     "banned_count": 1,
     "id": 360,
-    "collection": "collectibles"
+    "collection": "collectibles",
+    "image_extension": "png"
   }
 ]

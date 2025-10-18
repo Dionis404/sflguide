@@ -1,0 +1,30 @@
+---
+interface Props {
+  type: string;
+  id: number;
+}
+
+const { type, id } = Astro.props;
+---
+
+<a href={`https://sunflower-land.com/play/#/marketplace/${type}/${id}`} target="_blank" class="buy-button">Купить</a>
+
+<style>
+.buy-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #1e6dd5;
+  color: #fff;
+  font-family: 'Press Start 2P', monospace;
+  border-radius: 13.125px;
+  border: 5px solid transparent;
+  border-image: url('/borders/green_border.png') 5 stretch;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.buy-button:hover {
+  background-color: #1e7ab6;
+  color: #ffee33;
+}
+</style>

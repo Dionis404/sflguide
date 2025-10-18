@@ -1,6 +1,6 @@
 ---
-import GuidesLayout from '../../../layouts/GuidesLayout.astro';
-import { getCollection } from 'astro:content';
+import Layout from '../../../layouts/GuidesLayout.astro';
+import BuyButton from '../../../components/BuyButton.astro';
 
 const item = {
   "id": 455,
@@ -10,114 +10,86 @@ const item = {
   "collection": "collectibles",
   "name": "Karkinos",
   "have_boost": 1,
-  "boost_text": "+0.1 Cabbage\nDisabled if Cabbage Boy Active"
+  "boost_text": "+0.1 Капуста\nОтключено, если есть Cabbage Boy"
 };
 
-const title = item.name ? `${item.name} (ID: ${item.id})` : `Collectible ID: ${item.id}`;
+const title = item.name || `ID: ${item.id}`;
 ---
 
-<GuidesLayout title={title}>
-  <div class="container mx-auto px-4 py-8">
-    <div class="max-w-4xl mx-auto">
-      <!-- Header -->
-      <div class="mb-8">
-        <a href="/database/collectibles" class="text-blue-600 hover:text-blue-800 mb-4 inline-block">
-          ← Back to Collectibles
-        </a>
-        <h1 class="text-4xl font-bold mb-4">{item.name || `Collectible ID: ${item.id}`}</h1>
-      </div>
+<Layout frontmatter={{ title }}>
+  <div class="item-detail">
+    <a href="/database/collectibles" class="back-link">← Назад к списку коллекционных предметов</a>
 
-      <!-- Item Card -->
-      <div class="bg-white rounded-lg shadow-lg border-4 border-gray-800 p-6 mb-8">
-        <div class="flex flex-col md:flex-row gap-6">
-          <!-- Image -->
-          <div class="flex-shrink-0">
-            <img
-              src={`/nft/collectibles/${item.id}.png`}
-              alt={item.name || `Collectible ${item.id}`}
-              class="w-48 h-48 object-contain border-2 border-gray-300 rounded"
-              loading="lazy"
-            />
-          </div>
-
-          <!-- Info -->
-          <div class="flex-grow">
-            <div class="grid grid-cols-2 gap-4 mb-4">
-              <div>
-                <span class="font-semibold text-gray-600">ID:</span>
-                <span class="ml-2">{item.id}</span>
-              </div>
-              <div>
-                <span class="font-semibold text-gray-600">Floor Price:</span>
-                <span class="ml-2">{item.floor} SFL</span>
-              </div>
-              <div>
-                <span class="font-semibold text-gray-600">Last Sale:</span>
-                <span class="ml-2">{item.lastSalePrice} SFL</span>
-              </div>
-              <div>
-                <span class="font-semibold text-gray-600">Supply:</span>
-                <span class="ml-2">{item.supply.toLocaleString()}</span>
-              </div>
-            </div>
-
-            {item.have_boost === 1 && item.boost_text && (
-              <div class="mb-4">
-                <span class="font-semibold text-green-600">Boost:</span>
-                <p class="mt-1 text-gray-700 whitespace-pre-line">{item.boost_text}</p>
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
-
-      <!-- Custom Content Section -->
-      <div class="bg-white rounded-lg shadow-lg border-4 border-gray-800 p-6">
-        <h2 class="text-2xl font-bold mb-4">About Karkinos</h2>
-
-        <div class="prose max-w-none">
-          <p class="mb-4">
-            Karkinos is a rare collectible item in Sunflower Land that provides a boost to cabbage production.
-            This crab-themed collectible is part of the seasonal decorations collection.
-          </p>
-
-          <h3 class="text-xl font-semibold mb-2">Boost Details</h3>
-          <p class="mb-4">
-            When placed on your farm, Karkinos provides <strong>+0.1 Cabbage</strong> boost per harvest.
-            However, this boost is disabled if you have the Cabbage Boy collectible active.
-          </p>
-
-          <h3 class="text-xl font-semibold mb-2">Rarity & Availability</h3>
-          <p class="mb-4">
-            With a supply of {item.supply.toLocaleString()} units, Karkinos is considered a rare collectible.
-            The current floor price is {item.floor} SFL, making it moderately expensive to acquire.
-          </p>
-
-          <h3 class="text-xl font-semibold mb-2">Strategy Tips</h3>
-          <ul class="list-disc list-inside mb-4">
-            <li>Consider if you already own Cabbage Boy before purchasing Karkinos</li>
-            <li>Great for cabbage-focused farms</li>
-            <li>Can be traded on the in-game marketplace</li>
-          </ul>
-
-          <!-- Add more custom content here as needed -->
-          <div class="bg-gray-50 p-4 rounded-lg mt-6">
-            <p class="text-sm text-gray-600">
-              <em>This page contains detailed information about Karkinos collectible.
-              More content can be added here as needed for comprehensive item documentation.</em>
-            </p>
-          </div>
-        </div>
+    <div class="item-header">
+      <img src={`/nft/collectibles/${item.id}.png`} alt={item.name} class="item-image" />
+      <div class="item-info">
+        <h1>{title}</h1>
+        <p><strong>ID:</strong> {item.id}</p>
+        <p><strong>Supply:</strong> {item.supply}</p>
+        <BuyButton type="collectibles" id={455} />
+        {item.have_boost && item.boost_text && (
+          <p><strong>Boost:</strong> {item.boost_text}</p>
+        )}
       </div>
     </div>
+
+    <div class="item-description">
+      <h2>Описание</h2>
+      <p>Karkinos - редкий коллекционный предмет в Sunflower Land, который предоставляет усиление для производства капусты. Этот коллекционный предмет в виде краба является частью коллекции сезонных украшений.</p>
+      <p>При размещении на ферме Karkinos предоставляет усиление <strong>+0.1 Капуста</strong> за сбор. Однако это усиление отключено, если у вас активен коллекционный предмет Cabbage Boy.</p>
+      <p>С запасом в {item.supply} единиц, Karkinos считается редким коллекционным предметом. Текущая минимальная цена - {item.floor} SFL, что делает его умеренно дорогим для приобретения.</p>
+      <p>Советы: Учитывайте, владеете ли вы уже Cabbage Boy перед покупкой Karkinos. Отлично подходит для ферм, ориентированных на капусту. Можно торговать на внутриигровом рынке.</p>
+    </div>
   </div>
-</GuidesLayout>
+</Layout>
 
 <style>
-  .prose {
-    color: #374151;
-  }
-  .prose strong {
-    color: #111827;
-  }
+.item-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.item-header {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  align-items: flex-start;
+}
+
+.item-image {
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.item-info h1 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.item-info p {
+  margin: 8px 0;
+}
+
+.item-description {
+  margin-top: 30px;
+}
+
+.item-description h2 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
 </style>

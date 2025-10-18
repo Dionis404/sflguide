@@ -527,7 +527,7 @@
       "name": "Kite",
       "have_boost": 0,
       "boost_text": "",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 2189,
@@ -648,7 +648,7 @@
       "name": "Spinning Wheel",
       "have_boost": 0,
       "boost_text": "",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 2102,
@@ -681,7 +681,7 @@
       "name": "Fountain",
       "have_boost": 0,
       "boost_text": "",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 451,
@@ -1231,7 +1231,7 @@
       "name": "Paint Buckets",
       "have_boost": 0,
       "boost_text": "",
-      "image_extension": "png"
+      "image_extension": "webp"
     },
     {
       "id": 1219,
@@ -1242,7 +1242,7 @@
       "name": "Christmas Snow Globe",
       "have_boost": 0,
       "boost_text": "",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 2036,
@@ -1286,7 +1286,7 @@
       "name": "Mechanical Bull",
       "have_boost": 0,
       "boost_text": "",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 1276,
@@ -1415,7 +1415,7 @@
       "name": "Rainbow Well",
       "have_boost": 0,
       "boost_text": "",
-      "image_extension": "png"
+      "image_extension": "webp"
     },
     {
       "id": 2265,
@@ -1503,7 +1503,7 @@
       "name": "Baozi",
       "have_boost": 0,
       "boost_text": "",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 2019,
@@ -1701,7 +1701,7 @@
       "name": "Santa Penguin",
       "have_boost": 0,
       "boost_text": "",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 930,
@@ -1932,7 +1932,7 @@
       "name": "UFO",
       "have_boost": 0,
       "boost_text": "",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 485,
@@ -1943,7 +1943,7 @@
       "name": "Skill Shrimpy",
       "have_boost": 1,
       "boost_text": "+20% Fish XP",
-      "image_extension": "png"
+      "image_extension": "webp"
     },
     {
       "id": 2116,
@@ -1965,7 +1965,7 @@
       "name": "White Crow",
       "have_boost": 0,
       "boost_text": "",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 2005,
@@ -2031,7 +2031,7 @@
       "name": "Rainbow Flower",
       "have_boost": 0,
       "boost_text": "",
-      "image_extension": "png"
+      "image_extension": "webp"
     },
     {
       "id": 2201,
@@ -2064,7 +2064,7 @@
       "name": "Pony Toy",
       "have_boost": 0,
       "boost_text": "",
-      "image_extension": "png"
+      "image_extension": "webp"
     },
     {
       "id": 1264,
@@ -2130,7 +2130,7 @@
       "name": "Penguin Pool",
       "have_boost": 0,
       "boost_text": "",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 2254,
@@ -2152,7 +2152,7 @@
       "name": "Blue Slime Balloon",
       "have_boost": 0,
       "boost_text": "",
-      "image_extension": "png"
+      "image_extension": "webp"
     },
     {
       "id": 2034,
@@ -2237,7 +2237,7 @@
       "lastSalePrice": 21,
       "supply": 483,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 446,
@@ -2248,7 +2248,7 @@
       "name": "Maneki Neko",
       "have_boost": 1,
       "boost_text": "1 Free Food per Day",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 2276,
@@ -2259,7 +2259,7 @@
       "name": "Floating Toy",
       "have_boost": 0,
       "boost_text": "",
-      "image_extension": "png"
+      "image_extension": "webp"
     },
     {
       "id": 500,
@@ -2333,7 +2333,7 @@
       "lastSalePrice": 54,
       "supply": 479,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 447,
@@ -2352,7 +2352,7 @@
       "lastSalePrice": 90,
       "supply": 217,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 2014,
@@ -2407,7 +2407,7 @@
       "name": "Red Slime Balloon",
       "have_boost": 0,
       "boost_text": "",
-      "image_extension": "png"
+      "image_extension": "webp"
     },
     {
       "id": 1207,
@@ -2514,7 +2514,7 @@
       "lastSalePrice": 114,
       "supply": 304,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 433,
@@ -2569,7 +2569,7 @@
       "name": "Observatory",
       "have_boost": 1,
       "boost_text": "+5% XP",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 613,
@@ -2668,7 +2668,7 @@
       "name": "El Pollo Veloz",
       "have_boost": 1,
       "boost_text": "-2h Egg Production Time",
-      "image_extension": "gif"
+      "image_extension": "png"
     },
     {
       "id": 472,
@@ -2987,7 +2987,7 @@
       "name": "Heart of Davy Jones",
       "have_boost": 1,
       "boost_text": "+20 Desert Digs",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 2122,
@@ -3006,7 +3006,7 @@
       "lastSalePrice": 429,
       "supply": 40,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 806,
@@ -3014,7 +3014,7 @@
       "lastSalePrice": 150,
       "supply": 49,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 466,
@@ -3069,7 +3069,7 @@
       "name": "Wood Nymph Wendy",
       "have_boost": 1,
       "boost_text": "+0.2 Wood",
-      "image_extension": "gif"
+      "image_extension": "png"
     },
     {
       "id": 1232,
@@ -3143,7 +3143,7 @@
       "lastSalePrice": 0,
       "supply": 46,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 1218,
@@ -3220,7 +3220,7 @@
       "name": "Humming Bird",
       "have_boost": 1,
       "boost_text": "20% Chance for +1 Flower",
-      "image_extension": "png"
+      "image_extension": "webp"
     },
     {
       "id": 478,
@@ -3231,7 +3231,7 @@
       "name": "Walrus",
       "have_boost": 1,
       "boost_text": "+1 Fish",
-      "image_extension": "png"
+      "image_extension": "webp"
     },
     {
       "id": 412,
@@ -3294,7 +3294,7 @@
       "lastSalePrice": 0,
       "supply": 9,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 2194,
@@ -3324,7 +3324,7 @@
       "lastSalePrice": 0,
       "supply": 36,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 2264,
@@ -3365,7 +3365,7 @@
       "lastSalePrice": 100,
       "supply": 34,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 491,
@@ -3376,7 +3376,7 @@
       "name": "Queen Bee",
       "have_boost": 1,
       "boost_text": "+1 Honey Production Speed",
-      "image_extension": "png"
+      "image_extension": "webp"
     },
     {
       "id": 406,
@@ -3406,7 +3406,7 @@
       "lastSalePrice": 60,
       "supply": 80,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 821,
@@ -3414,7 +3414,7 @@
       "lastSalePrice": 320,
       "supply": 8,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 461,
@@ -3433,7 +3433,7 @@
       "lastSalePrice": 0,
       "supply": 39,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 495,
@@ -3485,7 +3485,7 @@
       "lastSalePrice": 450,
       "supply": 33,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 409,
@@ -3548,7 +3548,7 @@
       "lastSalePrice": 100,
       "supply": 60,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 820,
@@ -3556,7 +3556,7 @@
       "lastSalePrice": 0,
       "supply": 9,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 815,
@@ -3564,7 +3564,7 @@
       "lastSalePrice": 0,
       "supply": 23,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 817,
@@ -3572,7 +3572,7 @@
       "lastSalePrice": 225,
       "supply": 8,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 489,
@@ -3616,7 +3616,7 @@
       "name": "Farm Cat",
       "have_boost": 0,
       "boost_text": "",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 801,
@@ -3624,7 +3624,7 @@
       "lastSalePrice": 0,
       "supply": 23,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 2033,
@@ -3643,7 +3643,7 @@
       "lastSalePrice": 5,
       "supply": 5,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 804,
@@ -3651,7 +3651,7 @@
       "lastSalePrice": 50,
       "supply": 186,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 808,
@@ -3659,7 +3659,7 @@
       "lastSalePrice": 150,
       "supply": 7,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 809,
@@ -3667,7 +3667,7 @@
       "lastSalePrice": 333,
       "supply": 5,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 802,
@@ -3675,7 +3675,7 @@
       "lastSalePrice": 635,
       "supply": 15,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 805,
@@ -3683,7 +3683,7 @@
       "lastSalePrice": 0,
       "supply": 2,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 810,
@@ -3691,7 +3691,7 @@
       "lastSalePrice": 0,
       "supply": 1,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 811,
@@ -3699,7 +3699,7 @@
       "lastSalePrice": 0,
       "supply": 8,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 813,
@@ -3707,7 +3707,7 @@
       "lastSalePrice": 0,
       "supply": 11,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 814,
@@ -3715,7 +3715,7 @@
       "lastSalePrice": 0,
       "supply": 7,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 816,
@@ -3723,7 +3723,7 @@
       "lastSalePrice": 0,
       "supply": 6,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 819,
@@ -3731,7 +3731,7 @@
       "lastSalePrice": 0,
       "supply": 3,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 823,
@@ -3739,7 +3739,7 @@
       "lastSalePrice": 0,
       "supply": 3,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 827,
@@ -3747,7 +3747,7 @@
       "lastSalePrice": 0,
       "supply": 5,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 829,
@@ -3755,7 +3755,7 @@
       "lastSalePrice": 0,
       "supply": 1,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 830,
@@ -3763,7 +3763,7 @@
       "lastSalePrice": 0,
       "supply": 19,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 831,
@@ -3771,7 +3771,7 @@
       "lastSalePrice": 0,
       "supply": 1,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 832,
@@ -3779,7 +3779,7 @@
       "lastSalePrice": 0,
       "supply": 5,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 837,
@@ -3787,7 +3787,7 @@
       "lastSalePrice": 0,
       "supply": 8,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 838,
@@ -3795,7 +3795,7 @@
       "lastSalePrice": 0,
       "supply": 3,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 840,
@@ -3803,7 +3803,7 @@
       "lastSalePrice": 0,
       "supply": 1,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 841,
@@ -3811,7 +3811,7 @@
       "lastSalePrice": 0,
       "supply": 8,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 842,
@@ -3819,7 +3819,7 @@
       "lastSalePrice": 0,
       "supply": 5,
       "collection": "collectibles",
-      "image_extension": "png"
+      "image_extension": "gif"
     },
     {
       "id": 2022,

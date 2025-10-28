@@ -30,6 +30,11 @@ index: 2
 
 Всё, кроме тотема и ключей, является декором.
 
+# Видео гайд 
+<div style="text-align: center;">
+  <iframe width="90%" height="650" src="https://www.youtube.com/embed/aJVzi6kvW18" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## Cursed Dungeon
 Подземелье представляет собой, классический рогалик. 
 Ваша задача собрать релликвии. 

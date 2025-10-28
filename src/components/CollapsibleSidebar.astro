@@ -44,6 +44,15 @@ if (isDatabase) {
     databasePages.push({ url: page.url, title, filename, index });
   });
 } else {
+  // Определяем папки с вложенными страницами (не index)
+  const foldersWithSubpages = new Set<string>();
+  allPages.forEach((p) => {
+    if (!p.url) return;
+    const parts = p.url.split('/').filter(Boolean);
+    if (parts.length >= 3) {
+      foldersWithSubpages.add(parts[1]);
+    }
+  });
   allPages.forEach((page) => {
     if (!page.url) return;
 
@@ -53,7 +62,15 @@ if (isDatabase) {
 
     if (pathParts.length === 2) {
       // Файлы в корне guides (например, /guides/fraction.md)
-      rootPages.push({ url: page.url, title, filename: pathParts[1], index });
+      const folderName = pathParts[1];
+      if (foldersWithSubpages.has(folderName)) {
+        if (!pagesByFolder.has(folderName)) {
+          pagesByFolder.set(folderName, []);
+        }
+        pagesByFolder.get(folderName)?.push({ url: page.url, title, filename: 'index', index });
+      } else {
+        rootPages.push({ url: page.url, title, filename: pathParts[1], index });
+      }
     } else if (pathParts.length >= 3) {
       // Файлы в подпапках (например, /guides/lifehack/intro.md)
       const folderName = pathParts[1];
@@ -104,6 +121,14 @@ const sectionNames: Record<string, string> = {
   'other': 'Прочее',
   'temporary': 'Гайды по ивентам'
 };
+
+// Порядок известных секций + автодобавление неизвестных папок
+const knownOrder = ['main', 'lifehack', 'other', 'temporary'];
+const allFolders = Array.from(pagesByFolder.keys());
+const orderedFolders = [
+  ...knownOrder.filter((f) => pagesByFolder.has(f)),
+  ...allFolders.filter((f) => !knownOrder.includes(f)).sort((a, b) => a.localeCompare(b, 'ru')),
+];
 ---
 
 <aside class="collapsible-sidebar">
@@ -142,7 +167,7 @@ const sectionNames: Record<string, string> = {
           </ul>
 
           <!-- Сворачиваемые разделы -->
-          {['main', 'lifehack', 'other', 'temporary'].map(folderName => {
+{orderedFolders.map(folderName => {
             const pages = pagesByFolder.get(folderName);
             if (!pages) return null;
 
@@ -155,11 +180,11 @@ const sectionNames: Record<string, string> = {
               return cleanCurrent === cleanPage;
             });
             console.log('hasActivePage for folder', folderName, ':', hasActivePage);
-            const isCollapsed = !hasActivePage;
+            const isCollapsed = folderName === 'temporary' ? false : !hasActivePage;
             const iconSymbol = hasActivePage ? '▼' : '▶';
 
             return (
-              <div class="collapsible-section">
+              <div class="collapsible-section" data-folder={folderName} data-count={pages.length} data-pages={(pages.map(p => p.url).join(','))}>
                 <button class="section-toggle" data-folder={folderName}>
                   <span class="section-title">{sectionNames[folderName] || folderName}</span>
                   <span class="toggle-icon">{iconSymbol}</span>

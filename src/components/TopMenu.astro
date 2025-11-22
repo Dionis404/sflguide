@@ -10,12 +10,12 @@ const { currentPath = '' } = Astro.props;
 <header class="top-menu">
   <nav class="nav-container">
     <div class="nav-left">
-      <a href="/" class={`nav-link ${currentPath === '/' ? 'active' : ''}`}>Главная</a>
-      <a href="/guides/guides" class={`nav-link ${currentPath.startsWith('/guides') ? 'active' : ''}`}>Гайды</a>
-      <a href="/database" class={`nav-link ${currentPath === '/database' ? 'active' : ''}`}>База данных</a>
-      <a href="/links" class={`nav-link ${currentPath === '/links' ? 'active' : ''}`}>Полезные ссылки</a>
-      <a href="/contacts" class={`nav-link ${currentPath === '/contacts' ? 'active' : ''}`}>Контакты</a>
-    </div>
+       <a href="/" class={`nav-link ${currentPath === '/' ? 'active' : ''}`}>Главная</a>
+       <a href="/guides/guides" class={`nav-link ${currentPath.startsWith('/guides') ? 'active' : ''}`}>Гайды</a>
+       <a href="/database" class={`nav-link ${currentPath === '/database' ? 'active' : ''}`}>База данных</a>
+       <a href="/links" class={`nav-link ${currentPath === '/links' ? 'active' : ''}`}>Полезные ссылки</a>
+       <a href="/contacts" class={`nav-link ${currentPath === '/contacts' ? 'active' : ''}`}>Контакты</a>
+     </div>
     <div class="nav-right">
       <a href="/donate" class="nav-link donate-link">Поддержать проект</a>
     </div>

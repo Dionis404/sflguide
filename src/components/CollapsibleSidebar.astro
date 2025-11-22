@@ -117,13 +117,14 @@ if (isDatabase) {
 // Определяем названия разделов
 const sectionNames: Record<string, string> = {
   'main': 'Основные',
+  'chapter': 'Главы',
   'lifehack': 'Лайфхаки',
   'other': 'Прочее',
   'temporary': 'Гайды по ивентам'
 };
 
 // Порядок известных секций + автодобавление неизвестных папок
-const knownOrder = ['main', 'lifehack', 'other', 'temporary'];
+const knownOrder = ['main', 'chapter', 'lifehack', 'other', 'temporary'];
 const allFolders = Array.from(pagesByFolder.keys());
 const orderedFolders = [
   ...knownOrder.filter((f) => pagesByFolder.has(f)),

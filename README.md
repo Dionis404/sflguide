@@ -42,7 +42,6 @@
 ### Социальные сети и сообщества:
 - **Telegram канал**: [@URGSFL](https://t.me/URGSFL) - Наше сообщество в Telegram
 - **Telegram блог**: [@urg](https://teletype.in/@urg) - новости и обновления
-- **Discord**: [Sunflower Land Discord](https://discord.gg/sunflowerland) - официальный Discord сервер
 
 ### Поддержка проекта:
 - **Поддержать проект**: [Донат](http://sflguide.fun/donate/) - страница с информацией о поддержке

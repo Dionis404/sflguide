@@ -34,13 +34,12 @@ Luxury Key ×1
 
 ## Награда 7-го дня
 - **Weekly Mega Box**  
-Coins 5к  
-Coins 10к  
-Coins 50к   
+Coins 1000
+Coins 2500  
+Coins 5000   
 Fishing Lure ×5   
 Gem 100  
 Gem 500   
-Gem 1000 
 
 ## Остальные дни 
 - **Coin Stash** - монеты (пример найденый в коде: Math.floor(500 * (level / 25)) — масштабируются с уровнем)

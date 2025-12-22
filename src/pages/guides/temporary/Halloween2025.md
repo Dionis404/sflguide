@@ -1,7 +1,7 @@
 ---
 layout: layouts/GuidesLayout.astro
 title: Хэллоуин 2025
-index: 2
+index: 10
 ---
 
 ## Ивент проходит с 28 октября по 5 ноября

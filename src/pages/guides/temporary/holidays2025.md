@@ -7,7 +7,7 @@ index: 2
 
 # Видео гайд 
 <div style="text-align: center;">
-  <iframe width="90%" height="650" src="https://youtu.be/DNZFsIfIyXE" frameborder="0" allowfullscreen></iframe>
+  <iframe width="90%" height="650" src="https://www.youtube.com/embed/DNZFsIfIyXE" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Ивент проходит с 23 Декабря по 5 января 2025 года
